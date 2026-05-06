@@ -3,8 +3,6 @@
 [![Version](https://img.shields.io/badge/version-V2.0-blue)](./SKILL.md)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 [![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--06-orange)](./SKILL.md)
-[![Skill](https://img.shields.io/badge/type-Trae%20Skill-purple)]()
-
 > 面向制造业场景的 AI 提效分析 Skill。将制造问题拆解成可验证、可追溯、可落地的人机协同工作流，识别 AI 自动化与人决策权的最佳边界。
 
 ---
