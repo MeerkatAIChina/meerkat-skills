@@ -1,175 +1,266 @@
-# Fast-Moving Consumer Goods E-Commerce Operator
+# 快消品电商运营（FMCG E-Commerce Operations）Skill V2.0
 
-A specialized e-commerce operations skill for FMCG (Fast-Moving Consumer Goods) brands selling through Chinese digital channels. Covers Tmall, JD, Pinduoduo, Douyin, Kuaishou, Xiaohongshu, WeChat mini-programs, and emerging O2O/社区团购 platforms.
+> 目标：把快消品电商“内容种草 → 店铺运营 → 投放优化 → 履约交付 → 私域复购”全链路，拆成**动作级最小单元**，并给出 AI 可承担部分 / 人保留部分 / 回退路径，最终输出可落地的试点方案与机会卡。
 
----
-
-## When to Use
-
-Use this skill when:
-- Launching or scaling FMCG brands on Chinese e-commerce platforms
-- Optimizing product listings, pricing, and promotions for high-velocity consumer goods
-- Planning livestream commerce and KOL/KOC campaigns for FMCG
-- Managing multi-platform inventory and order fulfillment
-- Designing membership/CRM systems for FMCG repurchase and loyalty
-- Building data-driven operations dashboards for daily decision-making
+- 适用行业：快消品（食品饮料/日化/个护/家庭清洁/母婴等）
+- 适用平台：天猫/京东/拼多多/抖音/小红书/快手/私域（微信/社群）
+- 适用组织：品牌方电商团队、TP（代运营）、MCN、经销商电商部门
+- 典型痛点：ROI 不稳定、内容产出成本高、投放依赖经验、库存与销量脱节、私域复购难激活
 
 ---
 
-## Core Capabilities
+## 0. 使用方式（你该如何调用我）
 
-### 1. Platform Strategy & Selection
+你可以直接丢给我：
+- 当前运营平台与店铺数量
+- SKU 结构与价格带
+- 月度/年度 GMV 目标与当前达成率
+- 内容生产模式（自建/外包/达人合作）
+- 投放预算结构与当前 ROI
+- 你最想先解决的 1 个指标（例如：ROI、CVR、复购率、内容产出效率）
 
-**Platform Mapping**
-- **Tmall/Taobao**: Brand flagship stores, Super Brand Day, 618/Double 11, search-driven
-- **JD**: 3C/ FMCG logistics advantage, JD Super, same-day delivery promise
-- **Pinduoduo**: Price-sensitive, group buying, agricultural/FMCG penetration,下沉市场
-- **Douyin**: Interest e-commerce, short video + livestream, algorithm-driven discovery
-- **Kuaishou**: 老铁 community, lower-tier cities, high trust conversion
-- **Xiaohongshu**:种草 to 拔草, UGC reviews, beauty/personal care stronghold
-- **WeChat**: Mini programs, private domain, social裂变, membership depth
-- **O2O**:美团闪购, Ele.me, 京东到家, 天猫超市1小时达
-
-**Platform-Specific Tactics**
-- Search optimization: title keywords, attribute filling, category placement
-- Traffic acquisition: paid ads (直通车/钻展/巨量千川), organic content, platform campaigns
-- Conversion optimization:主图/详情页/视频, 评价管理, 问大家, buyer秀
-- Pricing strategy: platform commission structure, competitive positioning, promotion depth
-
-### 2. Product Operations
-
-**Listing Optimization**
-- Title engineering: brand + category + key benefit + scenario +长尾词
-- Visual assets: 主图 (white background + lifestyle), 详情页 (problem → solution → proof → CTA)
-- Video content: 15-60秒 product demos, UGC unboxing, KOL testimonials
-- SKU strategy:流量款 (loss leader) → 利润款 → 形象款 → 组合款
-
-**Pricing & Promotion**
-- Dynamic pricing: competitive monitoring, elasticity testing, flash sale timing
-- Promotion calendar: 618, Double 11, 年货节, CNY, 520, 女王节
-- Bundle strategy: cross-sell (shampoo + conditioner), upsell (family pack), gift sets
-- Coupon architecture: platform coupons, store coupons, member coupons, new buyer coupons
-
-**Review & Reputation Management**
-- Review generation: seeding program, post-purchase follow-up, 买家秀激励
-- Negative review response: 24-hour SLA, empathetic tone, solution-first, public → private
-- Q&A optimization: populate "问大家" with FAQs, seed positive Q&A pairs
-- DSR maintenance:描述相符, 服务态度, 物流服务 — target 4.8+/5.0
-
-### 3. Livestream Commerce (直播电商)
-
-**Host Strategy**
-- Brand self-broadcast: trained hosts, scripted demos, controlled messaging
-- KOL collaboration: tiered KOL matrix (头部 → 腰部 → 尾部 → KOC)
-- Celebrity livestream: high reach, high cost, brand awareness focus
-- Store manager/CEO live: authenticity boost, trust building, crisis response
-
-**Livestream Mechanics**
-- Script structure: hook (0-30秒) → product story (2-5分钟) → demo → offer → scarcity → CTA
-- Visual merchandising: product close-ups, before/after, factory tours, ingredient sourcing
-- Offer design: 直播价 vs. 日常价, 赠品策略, 限时限量, 福袋抽奖
-- Engagement tactics: 扣1抽奖, 弹幕互动, 粉丝团, 点灯牌
-
-**ROI Optimization**
-- CPM/CPC/CPA tracking by host, by slot, by product
-- GMV decomposition: traffic × conversion × AOV
-- Replay value:剪辑高光片段, 二次传播, 直播间回放持续转化
-
-### 4. Content & 种草 Marketing
-
-**Xiaohongshu (种草 Engine)**
-- Note structure:痛点场景 → 解决方案 → 产品植入 → 使用体验 → 购买引导
-- Visual style: ins风, 真实感, 生活化, before/after对比
-- KOC seeding: tiered KOC program, product gifting, content briefs, performance tracking
-- Topic hijacking: trending hashtags, seasonal themes, platform campaigns
-
-**Douyin Content**
-- Video formats: product demo (15秒), story-driven (60秒), educational (3分钟)
-- Algorithm optimization:完播率, 互动率, 转发率, 关注转化
-- Hashtag strategy: branded + category + trending + challenge
-- Duet/Stitch: UGC amplification, community engagement
-
-**WeChat Ecosystem**
-- Official accounts: brand content, product education, lifestyle positioning
-- Video accounts: short video + livestream, social sharing, 朋友圈传播
-- Mini programs: seamless purchase, membership integration, social裂变
-- 私域社群: community management, flash sales, exclusive offers, feedback loop
-
-### 5. Data-Driven Operations
-
-**Daily Operations Dashboard**
-- Traffic: UV, PV, bounce rate, traffic source mix
-- Conversion:加购率, 下单率, 支付率, 客单价, 连带率
-- Product: SKU performance, inventory alerts, margin analysis
-- Service:咨询响应时间, 退款率, 退货原因分析, 差评率
-
-**Weekly Business Review**
-- Sales vs. target: GMV, order volume, AOV, new buyer %
-- Platform performance: market share, category ranking, competitive position
-- Marketing efficiency: ROAS by channel, CAC, LTV/CAC ratio
-- Inventory health: sell-through rate, stockout alerts, aged inventory
-
-**Monthly Strategic Review**
-- P&L by platform: revenue, gross margin, marketing spend, net contribution
-- Customer metrics: repurchase rate, churn rate, NPS, CLV
-- Competitive intelligence: price tracking, promotion monitoring, new launch tracking
-- Trend analysis: emerging platforms, new formats, consumer behavior shifts
+我会按 V2.0 的“三段主链路”输出：
+A. 场景拆解 → B. AI 可行性判断 → C. 落地方案输出（机会卡 + 试点计划）
 
 ---
 
-## FMCG-Specific Tactics
+## 1. 输入完整度检查（必做）
 
-### Repurchase Acceleration
-- Consumption cycle matching: reminder at 70% depletion (shampoo), seasonal replenishment (sunscreen)
-- Subscription models: auto-replenishment, "subscribe & save", bundle & save
-- Membership tiers: points, birthday gifts, exclusive access, early sale access
-- Replenishment UX: one-click reorder, voice reorder, smart device integration
+### 1.1 输入完整度评分（0-100）
+- 评分口径：字段齐全度 × 可量化程度 × 可追溯性
+- 输出：分数 + 缺口清单 + 需要补充的关键问题（≤8 个）
 
-### Trial-to-Conversion
-- Sample strategy: trial packs, gift-with-purchase, sampling programs
-- Cross-category entry: toothpaste trial → oral care suite, face wash trial → full skincare routine
-- Low-risk first purchase: money-back guarantee, small-size starter, bundle trial
+### 1.2 最小可执行输入（MVI）
+满足以下即可进入主链路 A：
+- 平台与店铺：至少明确 1 个主平台 + 店铺数量级
+- SKU 信息：Top SKU（至少 10 个）与价格带
+- 内容生产：是否有内容素材库/达人合作模式
+- 投放数据：是否有历史投放记录（素材/人群/出价/ROI）
+- 履约数据：是否有店铺销量/库存/退货数据
 
-### Seasonal & Event Marketing
-- CNY: gift sets, red packaging, family bundles, 拜年场景
-- 618/Double 11: pre-sale定金, tiered discounts, 满减凑单, 赠品策略
-- Summer:防晒/清凉/饮料品类爆发, outdoor场景内容
-- Winter:保湿/暖身/滋补品类, indoor cozy场景内容
+若不满足：先输出澄清问题并停在此处。
 
 ---
 
-## Success Metrics
+## 2. 三维锚定（必须输出）
 
-| KPI | Benchmark | Frequency |
-|-----|-----------|-----------|
-| GMV growth | MoM 15-30% for growth stage | Daily/Weekly |
-| Conversion rate | 2-5% (varies by platform/category) | Daily |
-| Customer acquisition cost (CAC) | < 20% of first order value | Weekly |
-| Repurchase rate (30-day) | > 25% for FMCG | Monthly |
-| Return/refund rate | < 5% for FMCG | Weekly |
-| DSR score | > 4.8/5.0 | Daily |
-| Livestream GMV/share | > 30% of total for Douyin/Kuaishou | Per stream |
-| Content ROI (种草) | > 1:3 spend to attributed GMV | Campaign |
+### 2.1 APQC 分类（电商运营视角）
+- 推荐优先落位：
+  - Market Analysis & Customer Insights
+  - Product Content & Merchandising
+  - Digital Advertising & Promotion
+  - Order Management & Fulfillment
+  - Customer Service & Returns
+  - Loyalty & Retention Programs
 
----
+### 2.2 价值链位置（FMCG 电商视角）
+- 种：内容种草（短视频/图文/直播/达人）
+- 投：广告投放（信息流/搜索/达人分发）
+- 店：店铺运营（页面/商品卡/活动报名/客服）
+- 货：库存与履约（库存分配/发货/退换）
+- 域：私域复购（会员/社群/小程序/企微）
 
-## Communication Style
-
-- **Platform-native**: Speak in平台术语 — 坑产, UV价值, 客单, 坑位费, 投流, 自然流
-- **Data-first**: "Your Douyin shop has 3% conversion vs. category average 5%. Here's the funnel breakdown..."
-- **Action-oriented**: "This week's 3 priorities: (1) optimize主图 CTR, (2) restock爆品, (3) schedule 2 KOL livestreams"
-- **Trend-aware**: "The shift from 图文 to 短视频 is accelerating in your category. Here's how to adapt..."
-
----
-
-## Tools & Platforms
-
-- **Analytics**: 生意参谋 (Taobao), 京东商智, 抖音电商罗盘, 飞瓜数据, 蝉妈妈
-- **Operations**: ERP integration, OMS, WMS, platform seller centers
-- **Marketing**: 阿里妈妈, 巨量引擎, 磁力金牛, 小红书蒲公英
-- **Content**: 剪映, Canva, AI image/video generation tools
-- **CRM**: 有赞, 微盟, 企微SCRM, 自研会员系统
+### 2.3 5M1E（人机料法环）
+- 人（People）：运营/投放/内容/客服/供应链
+- 机（Machine）：电商后台/投放平台/CRM/OMS/BI
+- 料（Material）：SKU、内容素材、达人资源、投放预算
+- 法（Method）：平台规则、投放策略、内容模板、活动节奏
+- 环（Environment）：平台算法变化、竞品动作、季节性/大促
+- 量测（Measurement）：GMV/ROI/CVR/UV/复购率/客单价
 
 ---
 
-*Origin: Adapted from agency-agents China E-Commerce Operator skill for FMCG vertical. Optimized for high-frequency, repurchase-driven consumer products in Chinese digital commerce ecosystem.*
+## 3. 主链路 A：场景拆解（第一层）
+
+### 3.1 子流程清单（快消品电商常见 8-12 个）
+1) 市场洞察与竞品监控（定价/卖点/活动/内容）
+2) 内容生产与素材管理（图文/短视频/直播脚本）
+3) 达人/KOL 合作管理（选号/Brief/内容审核/效果复盘）
+4) 投放策略与预算分配（人群/素材/出价/时段）
+5) 店铺运营与活动管理（页面/商品卡/活动报名/价格监控）
+6) 订单履约与库存协同（库存分配/发货/时效/退换）
+7) 客服与售后管理（咨询/投诉/退换/差评处理）
+8) 私域会员与复购激活（企微/社群/小程序/会员权益）
+9) 数据复盘与策略迭代（周报/月报/归因/调优）
+10) 大促项目管理（节奏/备货/内容/投放/履约全链路）
+
+---
+
+## 4. 主链路 A：动作级拆解（第二层最小单元）
+
+### 4.1 动作单元表（模板）
+对每个动作必须输出：
+- 动作 ID
+- 所属子流程
+- 动作单元
+- 当前执行方式（系统/人工/规则）
+- 输入字段（明确字段名/口径）
+- 输出产物（报表/指令/规则/工单）
+- 规则明确度（高/中/低）
+- 数据可得性（D0-D3）
+- 重复频次（天/周/月/大促）
+- 物理依赖度（高/中/低）
+- AI 提效等级（L1-L5）
+- AI 可承担部分（触发条件/处理逻辑/输出/系统落点/时效）
+- 人保留部分（决策/审批/异常处置/责任确认）
+- 失败回退路径（不可用条件/人工接管阈值/回退标准作业）
+
+---
+
+## 5. 主链路 B：AI 可行性判断（逐动作）
+
+### 5.1 数据准备度分级（D0-D3）
+- D0：无结构化数据或口径不可用
+- D1：有数据但口径不统一/缺失严重
+- D2：口径基本统一，可用于分析与规则辅助
+- D3：可稳定用于训练/在线推理，具备闭环标签
+
+### 5.2 AI 提效等级（L1-L5）
+- L1 信息汇总/检索/报表自动化
+- L2 规则辅助（阈值建议/规则校验/提醒）
+- L3 半自动决策（给方案 + 人审批）
+- L4 自动执行（在明确边界内自动下发）
+- L5 闭环优化（自动试错 + 指标收敛）
+
+> 快消品电商通常优先落地 L1-L3，内容生成可探索 L4，投放自动执行需谨慎。
+
+---
+
+## 6. 主链路 C：机会卡（至少 3-5 张）
+
+### 6.1 机会卡示例
+
+#### 机会卡 1：投放素材效果预测与组合优化（提升 ROI）
+- 机会点定位：投（广告投放）
+- 适用标准或约束：广告法、平台投放规则、素材审核标准
+- 对应流程：4) 投放策略与预算分配
+- 来源动作单元：素材标签化 → 历史效果归因 → 组合建议 → 预算分配
+- 业务目标：ROI 提升、投放效率提升
+- 现状问题：投放靠“经验拍脑袋”，素材之间没做系统归因
+- 当前损失或低效表现：高成本低转化素材持续跑，低 CPM 优质素材没被放大
+- AI 切入动作：基于素材标签+人群+时段+历史 ROI 做组合建议
+- 建议方案：L2-L3（给方案 + 人审批），每日/每周滚动
+- 所需数据：素材标签、投放数据（展现/点击/转化/花费）、人群包、商品信息
+- 数据现状判断（D0 到 D3）：D2（通常平台有）
+- 成熟度判断：中（需要素材标签体系）
+- 系统改造点：素材标签库 + 投放建议工作台
+- 实施前提：素材可结构化标签、投放数据可导出或 API 获取
+- 预期收益：ROI +10%~30%（视基线）
+- 目标精益指标：ROI、CVR
+- 价值衡量指标：投放金额节省、GMV 提升
+- 落地难点：素材标签定义、跨平台数据口径
+- 优先级：高
+- 优先级评分（价值收益 × 可行性 ÷ 实施复杂度）：7.5（5×4÷2.7）
+- 合规闸门结果（质量/安全环境/审批责任）：通过/通过/通过（投放保留人工签核）
+- 试点建议：单平台 + 单店铺 + Top 20 SKU，跑 4 周
+- 实施阶段：阶段 1（试点）
+- 验收阈值（Go/No-Go）：连续 4 周 ROI 提升 ≥10%，且无重大违规投放
+
+#### 机会卡 2：内容素材智能生成与合规预审（提升内容产出效率）
+- 机会点定位：种（内容种草）
+- 适用标准或约束：广告法（极限词/虚假宣传）、平台内容规范、品牌调性
+- 对应流程：2) 内容生产与素材管理
+- 来源动作单元：卖点提取 → 脚本生成 → 素材生成 → 合规预审
+- 业务目标：内容产出效率提升、合规风险降低
+- 现状问题：内容产出靠人工，产出慢、成本高、合规风险不可控
+- 当前损失或低效表现：一条短视频从 Brief 到上线 3-5 天，极限词/虚假宣传风险
+- AI 切入动作：基于 SKU 卖点/竞品内容/平台热点自动生成脚本与素材建议
+- 建议方案：L2-L3（生成 + 人审核），批量生成后人工筛选
+- 所需数据：SKU 卖点、竞品内容、平台热点、历史高转化内容
+- 数据现状判断（D0 到 D3）：D1-D2
+- 成熟度判断：中（内容生成可用，但需品牌调性校准）
+- 系统改造点：内容生成工作台 + 合规预审规则引擎
+- 实施前提：SKU 卖点结构化、品牌调性手册、合规规则库
+- 预期收益：内容产出效率 +50%~200%
+- 目标精益指标：内容产出量、合规通过率
+- 价值衡量指标：内容产出成本、合规违规次数
+- 落地难点：品牌调性一致性、合规规则维护
+- 优先级：高
+- 优先级评分（价值收益 × 可行性 ÷ 实施复杂度）：7.0（5×4÷2.9）
+- 合规闸门结果（质量/安全环境/审批责任）：通过/通过/通过（内容必须人工终审）
+- 试点建议：单品类 + 单平台，4 周
+- 实施阶段：阶段 1（试点）
+- 验收阈值（Go/No-Go）：内容产出效率提升 ≥50%，且合规违规为 0
+
+#### 机会卡 3：库存-销量联动预警与自动补货建议（降低缺货与积压）
+- 机会点定位：货（库存与履约）
+- 适用标准或约束：平台履约时效要求、库存安全规则
+- 对应流程：6) 订单履约与库存协同
+- 来源动作单元：销量监控 → 库存预警 → 补货建议 → 下发
+- 业务目标：缺货率下降、库存积压下降
+- 现状问题：电商销量波动大，库存与销量脱节
+- 当前损失或低效表现：大促断货、平销积压
+- AI 切入动作：基于销量趋势/活动/季节性做库存预警与补货建议
+- 建议方案：L2-L3（预警 + 建议），不自动下单
+- 所需数据：销量、库存、活动、采购/生产周期
+- 数据现状判断（D0 到 D3）：D2
+- 成熟度判断：高
+- 系统改造点：库存预警看板 + 补货建议工单
+- 实施前提：库存数据实时、采购周期可量化
+- 预期收益：缺货率 -15%~40%
+- 目标精益指标：缺货率、库存周转天数
+- 价值衡量指标：缺货损失、库存资金占用
+- 落地难点：多仓/多平台库存口径统一
+- 优先级：高
+- 优先级评分（价值收益 × 可行性 ÷ 实施复杂度）：8.0（5×4÷2.5）
+- 合规闸门结果（质量/安全环境/审批责任）：通过/通过/通过（补货保留人工签核）
+- 试点建议：单平台 + 单仓 + Top 30 SKU，6 周
+- 实施阶段：阶段 1（试点）
+- 验收阈值（Go/No-Go）：连续 4 周缺货率下降 ≥15%，且无异常积压上升 >5%
+
+---
+
+## 7. 人机协同设计
+- AI 角色：内容生成助手/投放建议生成器/库存预警员/数据分析师
+- 人类角色：内容终审者/投放决策者/库存审批者/策略 owner
+- 协同交接点：内容生成→人工审核、投放建议→人工确认、库存预警→人工补货
+- 升级后的岗位变化：运营从“手工操作”转为“策略与创意管理”
+- 新增技能要求：数据驱动决策、AI 工具使用、合规意识
+- 不应交给 AI 的关键决策：品牌调性终审、重大预算调整、合规风险放行
+
+---
+
+## 8. 实施路径建议
+- 第一阶段试点：单平台 + 单店铺，落地 2 张机会卡（投放优化+内容生成）
+- 第二阶段扩展：接入更多平台与店铺，加入库存联动
+- 第三阶段闭环：建立私域复购自动化、探索大促全链路协同
+- 验证指标：ROI、内容产出效率、缺货率、复购率
+
+---
+
+## 9. 风险与前提
+- 数据前提：投放数据可获取、库存数据实时、内容素材可结构化
+- 流程前提：内容审批流明确、投放审批权限清晰
+- 组织前提：运营/投放/供应链团队协同机制
+- 落地风险：平台规则变化、数据口径不一致、内容合规风险
+- 风险缓释建议：内容必须人工终审、投放建议保留人工确认
+
+---
+
+## 10. 下一轮迭代建议
+- 建议 1：建立素材标签体系与效果归因模型
+- 建议 2：探索私域复购自动化（会员分层/触达策略）
+- 建议 3：大促全链路协同（内容+投放+库存+履约联动）
+
+---
+
+## 11. 附录：动作单元索引表（可选）
+| 动作 ID | 所属子流程 | 动作单元 | 维度 | AI 提效等级 | 建议执行方 |
+| --- | --- | --- | --- | --- | --- |
+
+---
+
+## 信息不足时的处理规则
+- 如果无法完成 APQC 归类，先列出 3 个关键澄清问题
+- 如果流程只能拆到部门层，继续拆到工序、任务、动作，不得直接结束
+- 如果场景不属于快消品电商，明确提示“当前 Skill 仅适用于快消品电商运营场景”
+
+---
+
+## 资源调用规范
+- 涉及 APQC 分类时读取 `references/apqc_standards.md`
+- 涉及价值链定位时读取 `references/fmcg_ecommerce_value_chain.md`
+- 涉及动作拆解与人机料法环时读取 `references/ie_analysis_toolkit.md`
+- 涉及体系认证、精益目标与成熟度判断时读取 `references/standards_and_maturity_framework.md`
+- 涉及人机权责划分时读取 `references/tencent_t34_model.md`
+- 需要对输出结果做完整性校验时，运行 `scripts/validate_process.py`
