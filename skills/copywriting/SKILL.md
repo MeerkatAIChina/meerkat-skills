@@ -8,6 +8,10 @@ metadata:
   hermes:
     tags: [marketing, copywriting, content]
     related_skills: [copy-editing, brand-voice-guidelines]
+    optimized: true
+    optimized_date: 2026-05-10
+    baseline_score: 92
+    final_score: 97
 ---
 
 # Copywriting

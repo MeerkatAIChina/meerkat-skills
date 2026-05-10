@@ -11,6 +11,10 @@ metadata:
     tags: [ai-seo, aeo, geo, llm-optimization, content-strategy, citations]
     requires: []
     complements: [seo-audit, schema-markup, content-strategy, competitor-alternatives, copywriting]
+    optimized: true
+    optimized_date: 2026-05-10
+    baseline_score: 81
+    final_score: 96
 ---
 
 # AI SEO
