@@ -214,17 +214,13 @@
   {
     "name": "content-strategy",
     "category": "📝 内容与文案",
-    "machine_score": 36,
-    "passed_machine_check": false,
-    "failures": [
-      "缺少异常/边界处理章节"
-    ],
-    "warnings": [
-      "关键决策缺少用户确认机制"
-    ],
-    "optimized": false,
-    "optimized_date": null,
-    "description_zh": ""
+    "machine_score": 53,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [],
+    "optimized": true,
+    "optimized_date": "2026-05-10",
+    "description_zh": "内容策略规划：确定写什么、为谁写、何时发、怎么分发"
   },
   {
     "name": "content-workflow",

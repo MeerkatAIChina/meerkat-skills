@@ -27,7 +27,7 @@ cp -r skills/copywriting ~/.hermes/skills/
 
 每个 Skill 通过机器检查（6 维度 60 分制）确保基础质量：Frontmatter 规范、工作流清晰、异常处理、用户确认点、指令具体性、引用完整性。
 
-当前通过率：29/105（28%）
+当前通过率：30/105（29%）
 
 ---
 
@@ -39,7 +39,7 @@ cp -r skills/copywriting ~/.hermes/skills/
 | `copywriting` | 58/60 | ✅ 已加工 |
 | `copywriting-frameworks` | 38/60 | ⏳ 待加工 |
 | `content-idea-generator` | 36/60 | ⏳ 待加工 |
-| `content-strategy` | 36/60 | ⏳ 待加工 |
+| `content-strategy` | 53/60 | ✅ 已加工 |
 | `content-workflow` | 36/60 | ⏳ 待加工 |
 | `content-creator` | 33/60 | ⏳ 待加工 |
 | `content-pipeline` | 33/60 | ⏳ 待加工 |
