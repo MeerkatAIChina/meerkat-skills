@@ -1322,9 +1322,9 @@
     "warnings": [
       "关键决策缺少用户确认机制"
     ],
-    "optimized": false,
-    "optimized_date": null,
-    "description_zh": ""
+    "optimized": true,
+    "optimized_date": "2026-05-10",
+    "description_zh": "营销心理学：运用认知偏差和行为科学优化营销决策和转化"
   },
   {
     "name": "page-cro",
