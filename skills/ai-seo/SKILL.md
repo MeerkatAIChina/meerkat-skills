@@ -1,6 +1,6 @@
 ---
 name: ai-seo
-description: Optimize content to get cited by AI search engines (ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini). Triggers on: "AI SEO", "AEO", "GEO", "LLM optimization", "get cited by AI", "appear in AI answers", "AI visibility", "optimize for ChatGPT/Perplexity". For traditional SEO see seo-audit, for structured data see schema-markup.
+description: "Optimize content to get cited by AI search engines (ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini). Triggers on: AI SEO, AEO, GEO, LLM optimization, get cited by AI, appear in AI answers, AI visibility, optimize for ChatGPT/Perplexity. For traditional SEO see seo-audit, for structured data see schema-markup."
 metadata:
   version: 2.0.0
   author: Hermes Agent Skill Pipeline

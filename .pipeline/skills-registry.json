@@ -1,0 +1,1587 @@
+[
+  {
+    "name": "account-structure-review",
+    "category": "📊 广告与付费媒体",
+    "machine_score": 44,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "cross-platform-audit",
+    "category": "📊 广告与付费媒体",
+    "machine_score": 38,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "linkedin-ads",
+    "category": "📊 广告与付费媒体",
+    "machine_score": 38,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "ad-creative",
+    "category": "📊 广告与付费媒体",
+    "machine_score": 37,
+    "passed_machine_check": false,
+    "failures": [
+      "多个文件引用不存在 (5/7)"
+    ],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "paid-ads",
+    "category": "📊 广告与付费媒体",
+    "machine_score": 37,
+    "passed_machine_check": false,
+    "failures": [
+      "多个文件引用不存在 (7/12)"
+    ],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "competitor-ads-analyst",
+    "category": "📊 广告与付费媒体",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制",
+      "1 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "wasted-spend-finder",
+    "category": "📊 广告与付费媒体",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制",
+      "1 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "tiktok-ads",
+    "category": "📊 广告与付费媒体",
+    "machine_score": 33,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "facebook-ads",
+    "category": "📊 广告与付费媒体",
+    "machine_score": 31,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制",
+      "1 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "google-ads",
+    "category": "📊 广告与付费媒体",
+    "machine_score": 31,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制",
+      "1 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "microsoft-ads",
+    "category": "📊 广告与付费媒体",
+    "machine_score": 31,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制",
+      "1 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "copywriting",
+    "category": "📝 内容与文案",
+    "machine_score": 58,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [],
+    "optimized": true,
+    "optimized_date": "2026-05-10",
+    "description_zh": ""
+  },
+  {
+    "name": "copywriting-frameworks",
+    "category": "📝 内容与文案",
+    "machine_score": 38,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "content-idea-generator",
+    "category": "📝 内容与文案",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "content-strategy",
+    "category": "📝 内容与文案",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "content-workflow",
+    "category": "📝 内容与文案",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制",
+      "1 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "content-creator",
+    "category": "📝 内容与文案",
+    "machine_score": 33,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "content-pipeline",
+    "category": "📝 内容与文案",
+    "machine_score": 33,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "工作流步骤偏少 (3)",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "copy-editing",
+    "category": "📝 内容与文案",
+    "machine_score": 31,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "last30days",
+    "category": "📦 其他",
+    "machine_score": 49,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "newsletter-creation-curation",
+    "category": "📦 其他",
+    "machine_score": 48,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "确认检查点偏少"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "image",
+    "category": "📦 其他",
+    "machine_score": 47,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "klaviyo-developer",
+    "category": "📦 其他",
+    "machine_score": 47,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制",
+      "2 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "community-marketing",
+    "category": "📦 其他",
+    "machine_score": 44,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "plan-my-day",
+    "category": "📦 其他",
+    "machine_score": 44,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "sync-repos",
+    "category": "📦 其他",
+    "machine_score": 44,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "utm-attribution-strategy",
+    "category": "📦 其他",
+    "machine_score": 44,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "de-ai-ify",
+    "category": "📦 其他",
+    "machine_score": 43,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "github-readme",
+    "category": "📦 其他",
+    "machine_score": 43,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "ab-test-setup",
+    "category": "📦 其他",
+    "machine_score": 42,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "cold-email",
+    "category": "📦 其他",
+    "machine_score": 42,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "go-mode",
+    "category": "📦 其他",
+    "machine_score": 42,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "确认检查点偏少"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "klaviyo-analyst",
+    "category": "📦 其他",
+    "machine_score": 42,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制",
+      "2 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "linkedin-profile-optimizer",
+    "category": "📦 其他",
+    "machine_score": 42,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "looker-studio",
+    "category": "📦 其他",
+    "machine_score": 42,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制",
+      "2 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "reddit-insights",
+    "category": "📦 其他",
+    "machine_score": 42,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "shopify",
+    "category": "📦 其他",
+    "machine_score": 42,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制",
+      "2 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "social-content",
+    "category": "📦 其他",
+    "machine_score": 42,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "aso-audit",
+    "category": "📦 其他",
+    "machine_score": 41,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "pro-report-builder",
+    "category": "📦 其他",
+    "machine_score": 41,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制",
+      "2 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "social-card-gen",
+    "category": "📦 其他",
+    "machine_score": 41,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "voice-extractor",
+    "category": "📦 其他",
+    "machine_score": 41,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "video",
+    "category": "📦 其他",
+    "machine_score": 40,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制",
+      "2 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "ab-testing-framework",
+    "category": "📦 其他",
+    "machine_score": 39,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "co-marketing",
+    "category": "📦 其他",
+    "machine_score": 39,
+    "passed_machine_check": false,
+    "failures": [
+      "多个文件引用不存在 (4/4)"
+    ],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "brand-dna",
+    "category": "📦 其他",
+    "machine_score": 38,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "brand-voice-guidelines",
+    "category": "📦 其他",
+    "machine_score": 38,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "cold-email-outreach",
+    "category": "📦 其他",
+    "machine_score": 38,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "cro-auditor",
+    "category": "📦 其他",
+    "machine_score": 38,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "repo-health",
+    "category": "📦 其他",
+    "machine_score": 38,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "social-media-strategy",
+    "category": "📦 其他",
+    "machine_score": 38,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "social-preview",
+    "category": "📦 其他",
+    "machine_score": 38,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "youtube-summarizer",
+    "category": "📦 其他",
+    "machine_score": 38,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "braze",
+    "category": "📦 其他",
+    "machine_score": 37,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制",
+      "1 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "google-analytics",
+    "category": "📦 其他",
+    "machine_score": 37,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "工作流步骤偏少 (4)",
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制",
+      "2 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "referral-program",
+    "category": "📦 其他",
+    "machine_score": 37,
+    "passed_machine_check": false,
+    "failures": [
+      "多个文件引用不存在 (8/10)"
+    ],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "case-study-builder",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "工作流步骤偏少 (4)",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "cold-outreach-sequence",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "工作流步骤偏少 (4)",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "competitor-alternatives",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "competitor-profiling",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "customer-research",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "daily-briefing-builder",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "data-viz-deck",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制",
+      "1 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "dep-audit",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制",
+      "2 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "email-composer",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制",
+      "1 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "form-cro",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "google-tag-manager",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制",
+      "2 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "homepage-audit",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "icp-research",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制",
+      "1 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "linkedin-authority-builder",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "marketing-principles",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "positioning-basics",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "product-marketing-context",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "research-digest",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制",
+      "1 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "testimonial-collector",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "tweet-draft-reviewer",
+    "category": "📦 其他",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "churn-prevention",
+    "category": "📦 其他",
+    "machine_score": 35,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "工作流步骤偏少 (3)",
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制",
+      "2 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "sales-enablement",
+    "category": "📦 其他",
+    "machine_score": 35,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制",
+      "2 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "pro-deck-builder",
+    "category": "📦 其他",
+    "machine_score": 33,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节",
+      "多个文件引用不存在 (3/3)"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "release-notes",
+    "category": "📦 其他",
+    "machine_score": 33,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "repo-scaffold",
+    "category": "📦 其他",
+    "machine_score": 33,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节",
+      "多个文件引用不存在 (3/3)"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "revops",
+    "category": "📦 其他",
+    "machine_score": 32,
+    "passed_machine_check": false,
+    "failures": [
+      "多个文件引用不存在 (11/15)"
+    ],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "analytics-tracking",
+    "category": "📦 其他",
+    "machine_score": 31,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节",
+      "多个文件引用不存在 (6/10)"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "email-sequence",
+    "category": "📦 其他",
+    "machine_score": 31,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节",
+      "多个文件引用不存在 (7/10)"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "frontend-design",
+    "category": "📦 其他",
+    "machine_score": 31,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制",
+      "1 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "html-report-builder",
+    "category": "📦 其他",
+    "machine_score": 31,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制",
+      "2 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "lead-magnets",
+    "category": "📦 其他",
+    "machine_score": 31,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "marketing-psychology",
+    "category": "📦 其他",
+    "machine_score": 31,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "page-cro",
+    "category": "📦 其他",
+    "machine_score": 31,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "popup-cro",
+    "category": "📦 其他",
+    "machine_score": 31,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "signup-flow-cro",
+    "category": "📦 其他",
+    "machine_score": 31,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "launch-strategy",
+    "category": "📦 其他",
+    "machine_score": 29,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制",
+      "1 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "customer-journey-mapping",
+    "category": "📦 其他",
+    "machine_score": 28,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "工作流步骤偏少 (3)",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "safe-push",
+    "category": "📦 其他",
+    "machine_score": 23,
+    "passed_machine_check": false,
+    "failures": [
+      "无结构化工作流步骤",
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "site-architecture",
+    "category": "🔍 SEO与搜索优化",
+    "machine_score": 45,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制",
+      "1 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "schema-markup-generator",
+    "category": "🔍 SEO与搜索优化",
+    "machine_score": 44,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "ai-seo",
+    "category": "🔍 SEO与搜索优化",
+    "machine_score": 43,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [],
+    "optimized": true,
+    "optimized_date": "2026-05-10",
+    "description_zh": ""
+  },
+  {
+    "name": "llms-txt",
+    "category": "🔍 SEO与搜索优化",
+    "machine_score": 42,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制",
+      "1 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "ai-discoverability-audit",
+    "category": "🔍 SEO与搜索优化",
+    "machine_score": 41,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "aeo-geo-optimizer",
+    "category": "🔍 SEO与搜索优化",
+    "machine_score": 39,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "programmatic-seo",
+    "category": "🔍 SEO与搜索优化",
+    "machine_score": 38,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "technical-seo-audit",
+    "category": "🔍 SEO与搜索优化",
+    "machine_score": 38,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "seo-audit",
+    "category": "🔍 SEO与搜索优化",
+    "machine_score": 37,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [
+      "异常处理覆盖偏少",
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "directory-submissions",
+    "category": "🔍 SEO与搜索优化",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  },
+  {
+    "name": "seo-content-writer",
+    "category": "🔍 SEO与搜索优化",
+    "machine_score": 36,
+    "passed_machine_check": false,
+    "failures": [
+      "缺少异常/边界处理章节"
+    ],
+    "warnings": [
+      "关键决策缺少用户确认机制",
+      "1 个文件引用不存在"
+    ],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": ""
+  }
+]

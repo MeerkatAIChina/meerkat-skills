@@ -1,6 +1,6 @@
 ---
 name: copywriting
-description: Write or improve marketing copy for web pages (homepage, landing, pricing, feature, about, product). Triggers on: "write copy for", "improve this copy", "rewrite this page", "headline help", "CTA copy", "value proposition", "tagline", "marketing copy". For email copy see email-sequence, for popups see popup-cro, for editing see copy-editing.
+description: "Write or improve marketing copy for web pages (homepage, landing, pricing, feature, about, product). Triggers on: write copy for, improve this copy, rewrite this page, headline help, CTA copy, value proposition, tagline, marketing copy. For email copy see email-sequence, for popups see popup-cro, for editing see copy-editing."
 metadata:
   version: 1.0.0
   author: MeerkatAIChina
