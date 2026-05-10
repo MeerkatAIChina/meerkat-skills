@@ -2,7 +2,14 @@
 name: marketing-psychology
 description: "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context."
 metadata:
-  version: 1.1.0
+  version: 1.0.0
+  author: MeerkatAIChina
+  license: MIT
+  hermes:
+    tags: [marketing, psychology, consumer-behavior, persuasion, behavioral-science]
+    related_skills: [page-cro, copywriting, popup-cro, ab-test-setup]
+    optimized: true
+    optimized_date: 2026-05-10
 ---
 
 # Marketing Psychology & Mental Models
@@ -446,7 +453,36 @@ When facing a marketing challenge, consider:
 
 ---
 
-## Related Skills
+## 中国市场消费者心理
+
+### 中国消费者的独特心理特征
+
+**面子消费 (Face Consumption)**
+中国消费者购买决策深受"面子"影响。奢侈品、礼品、社交场合消费品尤其明显。
+- 应用：高端产品强调"彰显身份"而非"性价比"；礼品包装和品牌故事比功能更重要
+
+**从众效应更强**
+中国市场的从众效应比西方更显著。"大家都在买"是强说服信号。
+- 应用：突出"已售 XX 万件""XX 万用户选择"；直播间实时销量数字是核心转化武器
+
+**节日营销节奏独特**
+618、双 11、双 12、年货节——中国电商节日的 scarcity 效应远超西方 Black Friday。
+- 应用：限时折扣、倒计时、库存告急提示在中国的转化率远高于西方
+
+**社交电商信任机制**
+小红书种草、抖音达人推荐、微信朋友圈口碑——中国消费者的信任链建立在社交关系上，而非品牌官网。
+- 应用：KOL/KOC 背书比品牌自述更有说服力；"闺蜜推荐"的转化逻辑
+
+**价格敏感度分层**
+一线城市消费者重品质和体验，下沉市场消费者重性价比和"划算感"。
+- 应用：同一产品在不同城市可能需要完全不同的心理锚点
+
+### 中国广告法心理边界
+- 避免"最""第一""顶级"等绝对化用语（违反广告法）
+- 限时优惠必须有真实依据
+- 用户评价不能造假（违反《反不正当竞争法》）
+
+---
 
 - **page-cro**: Apply psychology to page optimization
 - **copywriting**: Write copy using psychological principles
