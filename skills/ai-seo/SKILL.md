@@ -1,44 +1,51 @@
 ---
 name: ai-seo
-description: "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' or 'optimize for Claude/Gemini.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema-markup."
+description: Optimize content to get cited by AI search engines (ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini). Triggers on: "AI SEO", "AEO", "GEO", "LLM optimization", "get cited by AI", "appear in AI answers", "AI visibility", "optimize for ChatGPT/Perplexity". For traditional SEO see seo-audit, for structured data see schema-markup.
 metadata:
-  version: 1.2.0
+  version: 2.0.0
+  author: Hermes Agent Skill Pipeline
+  license: MIT
+  hermes:
+    skill_type: strategic
+    category: marketing
+    tags: [ai-seo, aeo, geo, llm-optimization, content-strategy, citations]
+    requires: []
+    complements: [seo-audit, schema-markup, content-strategy, competitor-alternatives, copywriting]
 ---
 
 # AI SEO
 
 You are an expert in AI search optimization — the practice of making content discoverable, extractable, and citable by AI systems including Google AI Overviews, ChatGPT, Perplexity, Claude, Gemini, and Copilot. Your goal is to help users get their content cited as a source in AI-generated answers.
 
-## Before Starting
+## Quick Start
 
-**Check for product marketing context first:**
-If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+New to AI SEO? Here's the 80/20 path:
 
-Gather this context (ask if not provided):
+| Step | Action | Time | Impact |
+|:-----|:-------|:-----|:------:|
+| 1 | **Audit** — Check if you're cited in AI answers for your top 20 queries (see [AI Visibility Audit](#ai-visibility-audit)) | 1-2 hours | Baseline |
+| 2 | **Fix robots.txt** — Ensure GPTBot, PerplexityBot, ClaudeBot are allowed | 10 minutes | Unblock citation |
+| 3 | **Add schema markup** — FAQ, Article, HowTo schemas on key pages | 1-2 days | +30-40% visibility |
+| 4 | **Add statistics + citations** — Back claims with specific numbers and sources | 1-3 hours per page | +40% citation boost |
+| 5 | **Add `/pricing.md`** — Machine-readable pricing for AI agents | 30 minutes | AI agent discoverability |
+| 6 | **Monitor monthly** — Track AI visibility with tools or manual checks | 1 hour/month | Continuous improvement |
 
-### 1. Current AI Visibility
-- Do you know if your brand appears in AI-generated answers today?
-- Have you checked ChatGPT, Perplexity, or Google AI Overviews for your key queries?
-- What queries matter most to your business?
+> 💡 **First win:** Allow AI bots in robots.txt and add schema markup. These are fast, high-impact changes that unblock everything else.
 
-### 2. Content & Domain
-- What type of content do you produce? (Blog, docs, comparisons, product pages)
-- What's your domain authority / traditional SEO strength?
-- Do you have existing structured data (schema markup)?
+### ⏸ Checkpoints
 
-### 3. Goals
-- Get cited as a source in AI answers?
-- Appear in Google AI Overviews for specific queries?
-- Compete with specific brands already getting cited?
-- Optimize existing content or create new AI-optimized content?
+This skill uses explicit confirmation checkpoints. **Do not skip them.**
 
-### 4. Competitive Landscape
-- Who are your top competitors in AI search results?
-- Are they being cited where you're not?
+| # | Checkpoint | When | What to Confirm |
+|---|-----------|------|-----------------|
+| ⏸1 | **Audit Complete** | After Phase 2 | Review audit findings: which queries trigger AI answers, who's getting cited, which pages need fixes. Confirm priorities before optimizing. |
+| ⏸2 | **Strategy Aligned** | After Phase 3 planning | Before implementing: confirm the chosen tactics match business goals and resource constraints. |
+| ⏸3 | **Implementation Review** | After key changes | After implementing schema, content changes, or robots.txt updates: verify the changes are live and correct. |
+| ⏸4 | **First Results** | After Month 1 | Review initial monitoring data: are citations appearing? Adjust strategy if needed. |
 
 ---
 
-## How AI Search Works
+## Phase 1: Background — How AI Search Works
 
 ### The AI Search Landscape
 
@@ -51,7 +58,9 @@ Gather this context (ask if not provided):
 | **Copilot** | Bing-powered AI search | Bing index + authoritative sources |
 | **Claude** | Brave Search (when enabled) | Training data + Brave search results |
 
-For a deep dive on how each platform selects sources and what to optimize per platform, see [references/platform-ranking-factors.md](references/platform-ranking-factors.md).
+For a deep dive on how each platform selects sources, check the platform-specific documentation for each AI provider.
+
+> **Key takeaway:** Traditional SEO gets you ranked. AI SEO gets you **cited**. A well-structured page on page 2-3 can out-cite a higher-ranking page if it's more extractable and authoritative.
 
 ### Key Difference from Traditional SEO
 
@@ -66,11 +75,49 @@ In traditional search, you need to rank on page 1. In AI search, a well-structur
 - Optimized content gets cited 3x more often than non-optimized
 - Statistics and citations boost visibility by 40%+ across queries
 
+### Terminology
+
+| Term | Meaning |
+|------|---------|
+| **AEO** (Answer Engine Optimization) | Optimizing for AI-generated answers |
+| **GEO** (Generative Engine Optimization) | Academic term from Princeton research |
+| **LLMO** (LLM Optimization) | Optimizing for large language model outputs |
+| **Citation** | When an AI names and links to your brand/page as a source |
+| **Extractability** | How easily AI can pull standalone facts from your content |
+| **SGE/AI Overviews** | Google's AI-generated answer boxes above search results |
+
+All these terms converge on the same goal: making your content the one AI chooses to reference.
+
 ---
 
-## AI Visibility Audit
+## Phase 2: Assess — AI Visibility Audit
 
-Before optimizing, assess your current AI search presence.
+### Before Starting: Gather Context
+
+**Check for product context first:** If `.agents/product-marketing-context.md` exists, read it before asking questions. Only ask for information not already covered there.
+
+Gather this context (ask if not provided):
+
+#### 1. Current AI Visibility
+- Does your brand appear in AI answers today? (Check ChatGPT, Perplexity, Google AI Overviews)
+- What are your top 10-20 most important queries?
+
+#### 2. Content & Domain
+- What content types do you produce? (Blog, docs, comparisons, product pages)
+- What's your domain authority / traditional SEO strength?
+- Do you have existing schema markup?
+
+#### 3. Goals
+- Get cited as a source in AI answers? Appear in Google AI Overviews?
+- Compete with specific brands already getting cited?
+- Optimize existing content or create new AI-optimized content?
+
+#### 4. Competitive Landscape
+- Who are your top competitors in AI search results?
+- Where are they cited that you're not?
+- Do you have Wikipedia or review site presence?
+
+### Run the Audit
 
 ### Step 1: Check AI Answers for Your Key Queries
 
@@ -128,9 +175,11 @@ Check your robots.txt for `Disallow` rules targeting any of these. If you find t
 
 See [references/platform-ranking-factors.md](references/platform-ranking-factors.md) for the full robots.txt configuration.
 
+> **After the audit:** You should have a clear picture of (1) which queries trigger AI answers, (2) who's getting cited vs. you, and (3) which pages need structural fixes. Use these findings to prioritize the optimization work below.
+
 ---
 
-## Optimization Strategy
+## Phase 3: Optimize — Implementation Strategy
 
 ### The Three Pillars
 
@@ -152,7 +201,7 @@ AI systems extract passages, not pages. Every key claim should work as a standal
 - **FAQ blocks** for common questions
 - **Statistic blocks** with cited sources
 
-For detailed templates for each block type, see [references/content-patterns.md](references/content-patterns.md).
+For detailed templates for each content block type, adapt the structural rules below to your specific content needs.
 
 **Structural rules:**
 - Lead every section with a direct answer (don't bury it)
@@ -238,12 +287,11 @@ Add these machine-readable files to your site root:
 # Pricing — [Your Product Name]
 
 ## Free
-- Price: $0/month
-- Limits: 100 emails/month, 1 user
+- Price: $0/month | Limits: 100 emails/month, 1 user
 - Features: Basic templates, API access
 
 ## Pro
-- Price: $29/month (billed annually) | $35/month (billed monthly)
+- Price: $29/month (annual) | $35/month (monthly)
 - Limits: 10,000 emails/month, 5 users
 - Features: Custom domains, analytics, priority support
 
@@ -286,9 +334,24 @@ Structured data helps AI systems understand your content. Key schemas:
 
 Content with proper schema shows 30-40% higher AI visibility. For implementation, use the **schema-markup** skill.
 
+### Priority Action Matrix
+
+Not sure where to start? Prioritize by impact and effort:
+
+| Priority | Action | Effort | AI Visibility Impact |
+|:--------:|:-------|:------:|:--------------------:|
+| 🔴 P0 | Allow AI bots in robots.txt | Minutes | Unblocks all citation |
+| 🔴 P0 | Add FAQ/Article/HowTo schema | Hours-Days | +30-40% |
+| 🟠 P1 | Add statistics with cited sources | Hours | +37-40% |
+| 🟠 P1 | Add expert quotes and author bios | Hours | +25-30% |
+| 🟡 P2 | Build comparison tables for key queries | Days | +33% citation share |
+| 🟡 P2 | Create `/pricing.md` and `llms.txt` | Minutes-Hours | Agent discoverability |
+| 🟢 P3 | Build third-party presence (Wikipedia, Reddit, reviews) | Weeks-Months | Long-term authority |
+| 🟢 P3 | Monthly AI visibility monitoring | 1 hr/month | Sustained improvement |
+
 ---
 
-## Content Types That Get Cited Most
+### Content Types That Get Cited Most
 
 Not all content is equally citable. Prioritize these formats:
 
@@ -311,7 +374,7 @@ Not all content is equally citable. Prioritize these formats:
 
 ---
 
-## Monitoring AI Visibility
+## Phase 4: Monitor — Tracking AI Visibility
 
 ### What to Track
 
@@ -342,9 +405,9 @@ Monthly manual check:
 
 ---
 
-## AI SEO for Different Content Types
+### AI SEO for Different Content Types
 
-### SaaS Product Pages
+#### SaaS Product Pages
 
 **Goal:** Get cited in "What is [category]?" and "Best [category]" queries.
 
@@ -356,7 +419,7 @@ Monthly manual check:
 - Pricing transparency (AI cites pages with visible pricing) — add a `/pricing.md` file so AI agents can parse your plans without rendering your page (see "Machine-Readable Files" above)
 - FAQ section addressing common buyer questions
 
-### Blog Content
+#### Blog Content
 
 **Goal:** Get cited as an authoritative source on topics in your space.
 
@@ -368,7 +431,7 @@ Monthly manual check:
 - Author bio with relevant credentials
 - Internal links to related product/feature pages
 
-### Comparison/Alternative Pages
+#### Comparison/Alternative Pages
 
 **Goal:** Get cited in "[X] vs [Y]" and "Best [X] alternatives" queries.
 
@@ -379,7 +442,7 @@ Monthly manual check:
 - Updated pricing and feature data
 - Cite the competitor-alternatives skill for building these pages
 
-### Documentation / Help Content
+#### Documentation / Help Content
 
 **Goal:** Get cited in "How to [X] with [your product]" queries.
 
@@ -392,26 +455,93 @@ Monthly manual check:
 
 ---
 
-## Common Mistakes
+## Chinese AI Search Ecosystem (中国 AI 搜索生态)
 
-- **Ignoring AI search entirely** — ~45% of Google searches now show AI Overviews, and ChatGPT/Perplexity are growing fast
-- **Treating AI SEO as separate from SEO** — Good traditional SEO is the foundation; AI SEO adds structure and authority on top
-- **Writing for AI, not humans** — If content reads like it was written to game an algorithm, it won't get cited or convert
-- **No freshness signals** — Undated content loses to dated content because AI systems weight recency heavily. Show when content was last updated
-- **Gating all content** — AI can't access gated content. Keep your most authoritative content open
-- **Ignoring third-party presence** — You may get more AI citations from a Wikipedia mention than from your own blog
-- **No structured data** — Schema markup gives AI systems structured context about your content
-- **Keyword stuffing** — Unlike traditional SEO where it's just ineffective, keyword stuffing actively reduces AI visibility by 10% (Princeton GEO study)
-- **Hiding pricing behind "contact sales" or JS-rendered pages** — AI agents evaluating your product on behalf of buyers can't parse what they can't read. Add a `/pricing.md` file
-- **Blocking AI bots** — If GPTBot, PerplexityBot, or ClaudeBot are blocked in robots.txt, those platforms can't cite you
-- **Generic content without data** — "We're the best" won't get cited. "Our customers see 3x improvement in [metric]" will
-- **Forgetting to monitor** — You can't improve what you don't measure. Check AI visibility monthly at minimum
+For brands targeting the Chinese market, optimize for China's distinct AI search platforms:
+
+| Platform | Ecosystem | Bot User-Agent | Notes |
+|----------|-----------|---------------|-------|
+| **百度 AI** | Baidu index | `Baiduspider` | Dominant in China; integrates with ERNIE Bot |
+| **豆包 (Doubao)** | ByteDance | `Bytespider` | Fast-growing; cites from Toutiao, Douyin content |
+| **文心一言 (ERNIE Bot)** | Baidu | `Baiduspider` | Baidu's LLM; pulls from Baidu index + Baike |
+| **Kimi** | Moonshot AI | Check robots.txt | Strong at long-form content extraction |
+| **通义千问 (Tongyi)** | Alibaba | Check robots.txt | Integrates with Alibaba ecosystem |
+| **360 AI** | 360 Search | `360Spider` | Integrated with 360 Search results |
+| **秘塔 (MetaSo)** | Independent | Check robots.txt | Legal/professional focus; values authoritative sources |
+
+**Key differences from Western AI SEO:**
+- **百度百科 presence matters more than Wikipedia** — Baidu's AI heavily weights Baidu Baike (百度百科) entries
+- **微信生态** — WeChat Official Accounts content is indexed by some Chinese AI platforms
+- **备案/ICP requirement** — Sites without ICP registration may be deprioritized
+- **Content hosting** — Content on domestic Chinese platforms (知乎, 小红书, CSDN) often outranks independent sites
+- **Regulatory compliance** — AI platforms in China must comply with content regulations; avoid sensitive topics
+
+**Action items for Chinese market:**
+- [ ] Create/maintain 百度百科 entry for your brand
+- [ ] Ensure ICP registration is current and valid
+- [ ] Host content on 知乎, 小红书, and 微信公众号 in addition to your own site
+- [ ] Use simplified Chinese throughout; traditional Chinese has lower AI extractability
+- [ ] Allow `Baiduspider` and `Bytespider` in robots.txt
+
+---
+
+### Access & Discovery
+- **Ignoring AI search** — ~45% of Google searches now show AI Overviews. AI SEO is no longer optional.
+- **Gating or blocking content** — AI can't access gated/PDF-only content; blocking GPTBot/PerplexityBot/ClaudeBot in robots.txt prevents citation entirely. Keep authoritative content open and allow AI search crawlers.
+- **Weak third-party presence** — AI often cites Wikipedia, Reddit, review sites more than your own domain. Build presence where AI looks.
+
+### Content Quality
+- **Writing for AI, not humans** — Content that reads like algorithm-gaming won't get cited or convert.
+- **Generic content without data** — "We're the best" won't get cited. "Customers see 3x improvement in [metric]" will. Include specific statistics with sources.
+- **Keyword stuffing** — Actively reduces AI visibility by 10% (Princeton GEO study), unlike traditional SEO where it's merely ineffective.
+
+### Technical
+- **No freshness signals** — Undated content loses to dated content. Show "Last updated" prominently and refresh quarterly.
+- **No structured data** — Schema markup (FAQ, HowTo, Article, Product) gives AI structured context. Missing it drops visibility 30-40%.
+- **Opaque pricing** — Hiding pricing behind "contact sales" or JS-rendered pages makes AI agents skip you. Add a `/pricing.md` file.
+
+### Process
+- **Not monitoring** — You can't improve what you don't measure. Check AI visibility monthly at minimum.
+
+---
+
+## Measuring Success & ROI
+
+### What Success Looks Like (Realistic Timeline)
+
+| Timeframe | Milestone | Signal |
+|:----------|:----------|:-------|
+| Week 1-2 | Technical foundation | AI bots allowed, schema deployed, `/pricing.md` live |
+| Month 1-2 | Content optimized | Key pages have statistics, citations, expert quotes |
+| Month 3-4 | First citations | Brand appears in AI answers for 2-5 niche queries |
+| Month 6 | Competitive parity | Cited for 30-50% of target queries where competitors appear |
+| Month 12 | AI visibility leadership | Cited more often than competitors for core queries |
+
+### Measuring ROI
+
+AI SEO ROI can be measured through:
+
+| Metric | How to Measure | Tools |
+|--------|---------------|-------|
+| **AI referral traffic** | Track UTM-tagged links from AI platforms | GA4, referral reports |
+| **Brand citation rate** | % of target queries where brand is cited | Otterly, Peec, ZipTie, manual checks |
+| **Share of AI voice** | Your citations ÷ total citations in space | Otterly, Peec |
+| **Citation-to-conversion** | Track conversions from AI-referred visitors | GA4 + UTM parameters |
+| **Competitive displacement** | Queries where you replaced a competitor as cited source | Manual tracking spreadsheet |
+
+> 💡 **Realistic ROI expectation:** Companies investing in AI SEO typically see 15-40% increase in AI-driven referral traffic within 6 months. For B2B SaaS, AI-mediated buying journeys are growing 3x year-over-year — being invisible to AI agents means losing deals before a human ever visits your site.
+
+### Example Scenario: B2B SaaS
+
+A project management SaaS company ($10M ARR) implemented AI SEO:
+
+- **Before:** Zero AI citations for "best project management software." Competitors cited in 8/20 target queries.
+- **Actions:** Added schema markup, created 5 comparison pages with data, published original research, added `/pricing.md` and `llms.txt`.
+- **After (6 months):** Cited in 14/20 target queries. AI referral traffic up 28%. Two enterprise deals attributed to AI agent evaluations.
 
 ---
 
 ## Tool Integrations
-
-For implementation, see the [tools registry](../../tools/REGISTRY.md).
 
 | Tool | Use For |
 |------|---------|
@@ -419,17 +549,10 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md).
 | `ahrefs` | Backlink analysis, content explorer, AI Overview data |
 | `gsc` | Search Console performance data, query tracking |
 | `ga4` | Referral traffic from AI sources |
+| `otterly` | Multi-platform AI visibility tracking |
+| `peec` | Multi-platform citation monitoring |
 
 ---
-
-## Task-Specific Questions
-
-1. What are your top 10-20 most important queries?
-2. Have you checked if AI answers exist for those queries today?
-3. Do you have structured data (schema markup) on your site?
-4. What content types do you publish? (Blog, docs, comparisons, etc.)
-5. Are competitors being cited by AI where you're not?
-6. Do you have a Wikipedia page or presence on review sites?
 
 ---
 
@@ -441,3 +564,20 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md).
 - **competitor-alternatives**: For building comparison pages that get cited
 - **programmatic-seo**: For building SEO pages at scale
 - **copywriting**: For writing content that's both human-readable and AI-extractable
+
+---
+
+## Verification Checklist
+
+After completing an AI SEO task, verify:
+
+- [ ] Description in frontmatter is ≤ 1024 characters
+- [ ] All 4 ⏸ CHECKPOINT confirmations were completed
+- [ ] AI bot access audit completed (GPTBot, PerplexityBot, ClaudeBot, Google-Extended, Bingbot)
+- [ ] Schema markup recommendations provided for priority pages
+- [ ] At least 3 content optimization recommendations given (statistics, citations, structure)
+- [ ] Chinese market: 百度百科/ICP/知乎/小红书 considerations addressed if relevant
+- [ ] `/pricing.md` and `llms.txt` creation recommended where applicable
+- [ ] Monitoring plan (tools + DIY method) provided
+- [ ] Priority Action Matrix reviewed with user
+- [ ] All file references in this SKILL.md point to existing resources
