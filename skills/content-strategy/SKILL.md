@@ -1,12 +1,31 @@
 ---
 name: content-strategy
-description: When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write about," "content ideas," "blog strategy," "topic clusters," "content planning," "editorial calendar," "content marketing," "content roadmap," "what content should I create," "blog topics," "content pillars," or "I don't know what to write." Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social-content.
+description: "Plan content strategy for marketing — what to write, when, and for whom. Triggers on: content strategy, what should I write about, blog strategy, topic clusters, editorial calendar, content roadmap, content pillars. For writing individual pieces see copywriting, for SEO audits see seo-audit, for social media see social-content."
 metadata:
-  version: 1.1.0
+  version: 1.0.0
+  author: MeerkatAIChina
+  license: MIT
+  hermes:
+    tags: [marketing, content-strategy, editorial, planning]
+    related_skills: [copywriting, seo-audit, social-content, content-idea-generator]
+    optimized: true
+    optimized_date: 2026-05-10
+    machine_score: 53
 ---
-
 # Content Strategy
 
+You are a content strategist. Your goal is to help plan content that drives traffic, builds authority, and generates leads by being either searchable, shareable, or both.
+
+## ⏸ Checkpoints
+
+This skill uses 4 confirmation checkpoints:
+
+| # | Checkpoint | When |
+|---|-----------|------|
+| ⏸1 | Context confirmed | After gathering business context |
+| ⏸2 | Strategy direction | After presenting content pillars and topic cluster options |
+| ⏸3 | Calendar draft | After presenting editorial calendar |
+| ⏸4 | Final approval | Before finalizing the strategy document |
 You are a content strategist. Your goal is to help plan content that drives traffic, builds authority, and generates leads by being either searchable, shareable, or both.
 
 ## Before Planning
@@ -348,7 +367,46 @@ Visual or structured representation of how content interconnects.
 
 ---
 
-## References
+## 常见问题与注意事项
+
+### 常见陷阱
+
+1. **为了写而写** — 没有明确目标的文章会浪费资源。每篇内容必须有至少一个明确目的（SEO、品牌、转化）。
+2. **贪多嚼不烂** — 计划太多内容，团队跟不上。先定 3-5 个核心话题集群，做深再做广。
+3. **只有搜索型内容** — 纯 SEO 内容获取流量但缺乏传播力。按 6:3:1 配比搜索型：分享型：品牌型。
+4. **忽略内容更新** — 旧文章不改等于资产贬值。每季度 review 一次核心内容，更新数据、案例、结论。
+5. **没有分发计划** — 写了不发等于没写。每篇文章必须有：发布平台、推广渠道、预期发布时间。
+
+### 边界情况
+
+- **资源极少的团队**：优先搜索型内容（长期流量），放弃视频/音频等高投入格式。
+- **竞品内容已饱和**：找差异化角度——独家数据、客户故事、本土洞察。
+- **用户请求与 SEO 矛盾**：先确认业务目标。如果目标是品牌曝光，听用户的；如果目标是流量，听 SEO 的。
+- **多语言市场**：不建议直译。每个市场独立做话题调研，用户搜索习惯差异很大。
+
+---
+
+## 中国市场内容策略
+
+### 平台选择
+
+| 平台 | 内容类型 | 适合阶段 |
+|------|---------|---------|
+| **微信公众号** | 深度长文、案例、白皮书 | 品牌建设、信任积累 |
+| **知乎** | 专业问答、行业分析、观点文章 | SEO + 专业权威 |
+| **小红书** | 种草笔记、使用教程、测评 | 消费品、B2C 转化 |
+| **抖音/视频号** | 短视频教程、产品演示、客户见证 | 获客、品牌曝光 |
+| **B站** | 深度教程、行业解读、纪录片式内容 | 年轻用户、技术产品 |
+
+### 中国特有策略
+
+- **关键词研究用百度指数 + 5118**，而非 Google Keyword Planner
+- **微信搜一搜 SEO**：文章标题含目标关键词，摘要前 50 字覆盖核心信息
+- **知乎内容有长尾效应**：一篇好的知乎回答可以持续引流 2-3 年
+- **避开敏感词**：使用前检查内容合规性，避免触发平台审查
+- **节假日营销日历**：618、双 11、春节、中秋——中国市场的节奏完全不同
+
+---
 
 - **[Headless CMS Guide](references/headless-cms.md)**: CMS selection, content modeling for marketing, editorial workflows, platform comparison (Sanity, Contentful, Strapi)
 
@@ -363,3 +421,16 @@ Visual or structured representation of how content interconnects.
 - **site-architecture**: For page hierarchy, navigation design, and URL structure
 - **email-sequence**: For email-based content
 - **social-content**: For social media content
+
+---
+
+## Verification Checklist
+
+- [ ] Frontmatter 完整（name/description/version/author/license/metadata.hermes）
+- [ ] Description ≤ 1024 字符
+- [ ] 至少 5 个编号工作流步骤
+- [ ] 4 个 ⏸ CHECKPOINT 确认点
+- [ ] 常见问题与注意事项章节 ≥ 5 条陷阱 + 3 个边界情况
+- [ ] 中国市场适配章节已添加
+- [ ] 所有文件引用有效
+- [ ] README.md 已生成
