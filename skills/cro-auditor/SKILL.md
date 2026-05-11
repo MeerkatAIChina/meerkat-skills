@@ -1,17 +1,22 @@
 ---
 name: cro-auditor
-description: Conversion Rate Optimization auditing for landing pages, signup flows, checkout funnels, forms, and CTAs. Identifies friction points, runs heuristic evaluations, produces prioritized recommendations using ICE/PIE frameworks. Use when the user asks about conversion optimization, funnel analysis, landing page audits, form optimization, CTA testing, or checkout improvement.
-license: MIT
-origin: custom
-author: Rebecca Rae Barton
-author_url: https://github.com/thatrebeccarae
+description: "Conversion Rate Optimization auditing for landing pages, signup flows, checkout funnels, forms, and CTAs. Identifies friction points, runs heuristic evaluations, produces prioritized recommendations using ICE/PIE frameworks. Use when the user asks about conversion optimization, funnel analysis, landing page audits, form optimization, CTA testing, or checkout improvement."
+version: "1.0.0"
+author: "Rebecca Rae Barton"
+author_url: "https://github.com/thatrebeccarae"
+license: "MIT"
+optimized: true
+optimized_date: "2026-05-11"
 metadata:
-  version: 1.0.0
+  version: "1.0.0"
   category: growth
   domain: conversion-optimization
-  updated: 2026-03-18
-  tested: 2026-03-18
+  updated: "2026-03-18"
+  tested: "2026-03-18"
   tested_with: "Claude Code v2.1"
+  hermes:
+    compatible: true
+    min_version: "1.0.0"
 ---
 
 # CRO Auditor
@@ -181,3 +186,99 @@ For each recommendation, provide:
 - **landing-page-optimizer** — Deep-dive on specific landing pages (when built)
 - **a-b-testing-framework** — Design and analyze tests for CRO recommendations (when built)
 - **pro-report-builder** — Generate professional CRO audit deliverable
+
+---
+
+## 中国市场适配
+
+针对中国电商和SaaS环境的转化率优化指南，涵盖平台特有规则、支付习惯和合规要求。
+
+### 中国主流电商平台转化优化
+
+#### 天猫/淘宝详情页优化
+
+| 维度 | 优化要点 |
+|------|---------|
+| **主图** | 前5张决定点击率，第1张白底产品图，第2张场景图，第3张卖点图，第4张细节图，第5张对比/尺寸图 |
+| **详情页首屏** | 3秒内展示核心卖点+促销信息，视频优先于图文 |
+| **SKU引导** | 默认选中性价比最高SKU（而非最低价），减少决策时间 |
+| **评价区** | "问大家"板块需主动运营，买家秀≥50条对转化有显著提升 |
+| **店铺DSR** | 评分低于4.7会显著降低转化，需监测描述/服务/物流三项 |
+
+#### 京东商品页优化
+
+| 维度 | 优化要点 |
+|------|---------|
+| **京东好店标识** | 直接影响搜索加权和用户信任，保持认证状态 |
+| **京东物流标识** | "京东物流/211限时达"标签对转化提升20-30% |
+| **PLUS会员价** | 展示PLUS专享价吸引高价值用户 |
+| **问答区** | 需定期维护，专业性回答提升转化 |
+| **主图视频** | 京东对主图视频有流量加权 |
+
+#### 拼多多转化要点
+
+| 维度 | 优化要点 |
+|------|---------|
+| **价格锚点** | "已拼XX万件"和"单独购买价vs拼单价"对比是核心转化驱动 |
+| **限时/限量感** | 倒计时和库存余量展示触发紧迫感 |
+| **多多果园/砍价** | 社交裂变组件嵌入转化路径 |
+| **退货包运费** | 显著降低决策焦虑 |
+| **评价** | 带图/带视频评价权重远高于纯文字 |
+
+### 中国电商支付与信任要素
+
+**支付方式覆盖：**
+- 支付宝（覆盖率最高，必选项）
+- 微信支付（小程序/社交电商必备）
+- 花呗/白条分期（高客单价商品转化利器，需标注费率）
+- 云闪付/银行卡（补充覆盖）
+
+**信任信号本地化：**
+- 天猫/京东官方认证标识优先于国际安全认证
+- "7天无理由退换" 是底线信任要素（非加分项）
+- "运费险" 标识对女装/鞋靴品类转化影响显著
+- "假一赔十" 承诺比 "正品保证" 更有说服力
+- 企业店铺认证 + 营业执照公示
+- 在线客服响应速度（消费者对客服即时响应有高期待）
+
+### 中国SaaS与B2B转化优化
+
+**微信生态转化路径：**
+```
+公众号文章/视频号 → 企微名片/社群二维码 → 企微私域 → Demo预约/试用
+```
+
+关键优化点：
+- 落地页必须适配微信内置浏览器（非Safari/Chrome标准）
+- 表单字段最少化（手机号+验证码优于邮箱注册）
+- 小程序形态优于H5（加载更快，微信生态内转化率高3-5倍）
+- 企业微信客服组件：嵌入网页的即时通讯入口
+
+**ICP备案与合规：**
+- 所有对外服务页面必须有ICP备案号（页脚展示）
+- 涉及经营类目需EDI/ICP许可证
+- 隐私政策必须符合《个人信息保护法》：
+  - 明确告知收集哪些信息
+  - 说明使用目的和范围
+  - 提供撤回同意的方式
+  - Cookie/SDK收集需单独弹窗确认
+
+### 中国移动端转化优化要点
+
+移动端流量占比超过90%的中国市场，移动优化是CRO的基础：
+
+- **首屏加载**：2秒内完成（小程序H5场景下用户耐心更低）
+- **一键登录**：接入运营商一键登录（免验证码），转化率提升30-50%
+- **微信授权登录**：减少注册摩擦，非敏感场景首选
+- **悬浮窗/客服按钮**：右下角悬浮客服图标是标配（不要用弹窗覆盖整个屏幕）
+- **底部固定CTA**：移动端始终可见的购买/咨询按钮
+- **分期免息标识**：高客单价品类（3C/家电/教育）在价格旁标注"X期免息"
+
+### 中国CRO特有合规红线
+
+1. **价格标注**：《价格法》要求明确标注原价和促销价，原价须有成交记录支撑
+2. **虚假促销**：不得先涨后降，大促期间价格需有历史成交最低价约束
+3. **刷单/刷评**：《反不正当竞争法》和《电子商务法》明确禁止，平台稽查严格
+4. **好评返现**：天猫/京东/美团等平台禁止"好评返现卡"，违规可导致下架
+5. **诱导分享**：微信生态禁止利益诱导分享朋友圈/群聊
+6. **弹窗广告**：必须确保一键关闭，不得有关闭后继续弹出的行为

@@ -1,8 +1,16 @@
 ---
 name: ad-creative
 description: "When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. Also use when the user mentions 'ad copy variations,' 'ad creative,' 'generate headlines,' 'RSA headlines,' 'bulk ad copy,' 'ad iterations,' 'creative testing,' 'ad performance optimization,' 'write me some ads,' 'Facebook ad copy,' 'Google ad headlines,' 'LinkedIn ad text,' or 'I need more ad variations.' Use this whenever someone needs to produce ad copy at scale or iterate on existing ads. For campaign strategy and targeting, see paid-ads. For landing page copy, see copywriting."
+version: "1.1.0"
+author: "MeerkatAIChina"
+license: "MIT"
+optimized: true
+optimized_date: "2026-05-11"
 metadata:
-  version: 1.1.0
+  version: "1.1.0"
+  hermes:
+    compatible: true
+    min_version: "1.0.0"
 ---
 
 # Ad Creative
@@ -17,8 +25,8 @@ If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-
 Gather this context (ask if not provided):
 
 ### 1. Platform & Format
-- What platform? (Google Ads, Meta, LinkedIn, TikTok, Twitter/X)
-- What ad format? (Search RSAs, display, social feed, stories, video)
+- What platform? (Google Ads, Meta, LinkedIn, TikTok, Twitter/X, 巨量引擎, 腾讯广告)
+- What ad format? (Search RSAs, display, social feed, stories, video, 信息流, 搜索广告)
 - Are there existing ads to iterate on, or starting from scratch?
 
 ### 2. Product & Offer
@@ -39,7 +47,7 @@ Gather this context (ask if not provided):
 
 ### 5. Constraints
 - Brand voice guidelines or words to avoid?
-- Compliance requirements? (Industry regulations, platform policies)
+- Compliance requirements? (Industry regulations, platform policies, 广告法合规)
 - Any mandatory elements? (Brand name, trademark symbols, disclaimers)
 
 ---
@@ -360,3 +368,105 @@ node tools/clis/google-ads.js reports get --type ad_performance --date-range las
 - **ab-test-setup**: For structuring creative tests with statistical rigor
 - **marketing-psychology**: For psychological principles behind high-performing creative
 - **copy-editing**: For polishing ad copy before launch
+
+---
+
+## 中国市场适配
+
+针对中国广告投放环境的本地化指南，涵盖主流平台规范和合规要求。
+
+### 中国主流广告平台规格
+
+#### 巨量引擎（抖音/头条/西瓜视频）
+
+| 元素 | 限制 | 备注 |
+|------|------|------|
+| 广告标题 | 20-30字 | 信息流广告的标题，可能被截断 |
+| 广告描述 | 30-60字 | 出现在标题下方 |
+| 视频时长 | 5-60秒 | 推荐15-30秒 |
+| 落地页URL | 必须有ICP备案 | 未备案链接会被拒 |
+
+**创意要求：**
+- 前三秒必须抓住注意力（抖音信息流特点）
+- 避免过度营销话术，平台倾向原生内容风格
+- 视频素材需符合《网络视听节目内容审核通则》
+
+#### 腾讯广告（微信朋友圈/公众号/视频号）
+
+| 元素 | 限制 | 备注 |
+|------|------|------|
+| 朋友圈外层文案 | 40字以内 | 超过折叠 |
+| 公众号底部广告描述 | 30字以内 | |
+| 视频号信息流 | 标题10-20字 | |
+| 外层图片 | 800×640px 推荐 | |
+
+#### 小红书广告（信息流/搜索广告）
+
+| 元素 | 限制 | 备注 |
+|------|------|------|
+| 笔记标题 | 20字以内 | 含关键词更佳 |
+| 笔记正文 | 1000字以内 | 推荐300-500字 |
+| 话题标签 | 5-10个 | 影响搜索曝光 |
+
+### 广告法合规要点
+
+生成中文广告文案时必须遵守《中华人民共和国广告法》：
+
+**绝对禁止用语：**
+- ❌ "最好""第一""唯一""首选""国家级""顶级""极品""全网最低""绝对"
+- ❌ 无数据支撑的极限词："100%""零风险""永久""包治""根治"
+
+**行业特定限制：**
+- 教育培训：不得对升学/考试效果做保证性承诺
+- 医疗/保健品：不得表示功效断言，不得利用患者/专家推荐
+- 金融理财：不得对未来收益做保证性承诺，须标注风险提示
+- 酒类：不得诱导饮酒，不得出现饮酒动作
+
+**合规文案改写示例：**
+
+| 违规表述 | 合规替代 |
+|----------|----------|
+| "行业第一品牌" | "深受XX万用户信赖" |
+| "100%有效" | "90%以上用户体验改善"（需有数据来源）|
+| "全网最低价" | "限时优惠价" |
+| "永久免费" | "免费试用/基础版免费" |
+
+**必要标识：**
+- 广告标识："广告"二字必须清晰可见
+- 若涉及对比，必须有明确数据来源和日期
+- KOL/UGC素材须标注"广告"或"合作"
+
+### 中国广告创意最佳实践
+
+**抖音/快手信息流：**
+- 黄金3秒法则：前3秒用痛点/好奇心/对比抓住用户
+- 原生感优先：广告要与普通内容无违和感
+- 评论区运营：广告评论区互动直接影响转化
+- 多用真人出镜而非纯图文
+
+**微信朋友圈：**
+- 像朋友发动态，不要像卖广告
+- 外层文案用"我"视角增加可信度
+- @好友互动功能可提升社交传播
+- 评论区置顶链接或优惠信息
+
+**小红书：**
+- "种草"风格，真实体验分享优先
+- 高颜值图片/视频是基础门槛
+- 关键词布局影响搜索排名
+- 合集/测评类内容互动率更高
+
+**B站：**
+- 弹幕文化适配，内容要有"梗"
+- UP主口播风格，避免硬广感
+- 评论区抽奖可提升互动
+
+### 中国广告效果衡量指标
+
+除国际通用的 CTR/CVR/ROAS 外，中国平台特有指标：
+
+- **3秒完播率**（抖音/快手）：衡量视频前3秒吸引力
+- **互动率**（点赞+评论+分享）：社交平台核心健康度指标
+- **转化成本（CPA）**：巨量引擎和腾讯广告按 oCPM/oCPA 出价
+- **直播间进入率**：抖音直播广告的核心漏斗指标
+- **粉丝转化成本**：小红书/抖音的品牌账号增长指标
