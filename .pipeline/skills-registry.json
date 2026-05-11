@@ -1579,5 +1579,38 @@
     "optimized": false,
     "optimized_date": null,
     "description_zh": ""
+  },
+  {
+    "name": "pricing-strategy",
+    "category": "📦 其他",
+    "machine_score": 44,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": "SaaS定价与商业化策略专家，涵盖价值导向定价、套餐结构设计、定价研究、提价策略和定价页面优化"
+  },
+  {
+    "name": "market-research",
+    "category": "📦 其他",
+    "machine_score": 42,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": "咨询级市场研究报告生成，整合Porter五力、PESTLE、SWOT、TAM/SAM/SOM等战略分析框架，含中国市场数据源与合规适配"
+  },
+  {
+    "name": "landing-page-optimizer",
+    "category": "📦 其他",
+    "machine_score": 43,
+    "passed_machine_check": true,
+    "failures": [],
+    "warnings": [],
+    "optimized": false,
+    "optimized_date": null,
+    "description_zh": "落地页审计与优化，覆盖首屏设计、价值主张、CTA优化、社交证明、表单设计和移动端优化，含微信/百度/抖音等中国市场平台适配"
   }
 ]

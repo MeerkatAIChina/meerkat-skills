@@ -1,8 +1,8 @@
 # MeerkatAIChina — AI Agent 营销技能库
 
-[![Skills](https://img.shields.io/badge/skills-105-blue)](./skills/)
+[![Skills](https://img.shields.io/badge/skills-108-blue)](./skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
-[![Updated](https://img.shields.io/badge/updated-2026-05-10-orange)](./CHANGELOG.md)
+[![Updated](https://img.shields.io/badge/updated-2026-05-11-orange)](./CHANGELOG.md)
 
 > 🚀 面向快消品、消费品、营销、咨询行业的 AI Agent Skill 开源集合。每个 Skill 可被 Claude Code、OpenClaw、Cursor、Codex、Hermes 等 AI Agent 直接加载使用。
 
@@ -10,7 +10,7 @@
 
 ## 📖 简介
 
-本仓库是 **MeerkatAIChina** 开源的 AI Agent 营销技能库，收录 105 个营销相关 Skill，覆盖从内容创作、SEO、广告投放到数据分析的全链路场景。
+本仓库是 **MeerkatAIChina** 开源的 AI Agent 营销技能库，收录 108 个营销相关 Skill，覆盖从内容创作、SEO、广告投放到数据分析的全链路场景。
 
 ### 如何使用
 
@@ -27,7 +27,7 @@ cp -r skills/copywriting ~/.hermes/skills/
 
 每个 Skill 通过机器检查（6 维度 60 分制）确保基础质量：Frontmatter 规范、工作流清晰、异常处理、用户确认点、指令具体性、引用完整性。
 
-当前通过率：30/105（29%）
+当前通过率：33/108（31%）
 
 ---
 
@@ -75,7 +75,7 @@ cp -r skills/copywriting ~/.hermes/skills/
 | `google-ads` | 31/60 | ⏳ 待加工 |
 | `microsoft-ads` | 31/60 | ⏳ 待加工 |
 
-### 📦 其他（75 个）
+### 📦 其他（78 个）
 | Skill | 机器检查 | 状态 |
 |-------|---------|------|
 | `last30days` | 49/60 | ✅ 通过 |
@@ -153,6 +153,9 @@ cp -r skills/copywriting ~/.hermes/skills/
 | `launch-strategy` | 29/60 | ⏳ 待加工 |
 | `customer-journey-mapping` | 28/60 | ⏳ 待加工 |
 | `safe-push` | 23/60 | ⏳ 待加工 |
+| `pricing-strategy` | 44/60 | ✅ 通过 |
+| `market-research` | 42/60 | ✅ 通过 |
+| `landing-page-optimizer` | 43/60 | ✅ 通过 |
 
 
 ---
