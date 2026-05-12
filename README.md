@@ -48,7 +48,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 
 ---
 
-## 📊 技能全景（101 个 Skill / 12 大类）
+## 📊 技能全景（105 个 Skill / 12 大类）
 
 ### 📢 广告投放（10 个）
 > 从单平台投放审计到跨平台预算分配，覆盖 Google / Meta / LinkedIn / Microsoft / TikTok 全渠道
@@ -82,7 +82,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `site-architecture` | 网站架构规划——页面层级、导航、URL 结构、内链策略 | [→](./skills/site-architecture/) |
 | `llms-txt` | llms.txt 生成——为 AI 引擎创建结构化内容地图 | [→](./skills/llms-txt/) |
 
-### 📈 转化率优化 / CRO（12 个）
+### 📈 转化率优化 / CRO（14 个）
 > 从首页到注册、从表单到弹窗、从新用户上手到付费升级，全漏斗转化率诊断和优化
 
 | Skill | 一句话说明 | 直达 |
@@ -146,7 +146,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `klaviyo-developer` | Klaviyo 技术集成——API/SDK/Webhook/OAuth/目录同步 | [→](./skills/klaviyo-developer/) |
 | `braze` | Braze 客户互动平台——Canvas 审计、多渠道协同、数据架构 | [→](./skills/braze/) |
 
-### 🎯 市场策略（16 个）
+### 🎯 市场策略（18 个）
 > 定位、定价、竞品分析、客户研究、品牌策略、营销创意、获客工具——市场营销的「战略层」
 
 | Skill | 一句话说明 | 直达 |
