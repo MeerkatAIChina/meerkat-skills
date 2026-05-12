@@ -1,10 +1,10 @@
 # 🐱 猫鼬AI — 营销行业 AI Agent 技能库
 
-[![Skills](https://img.shields.io/badge/skills-105-blue)](./skills/)
+[![Skills](https://img.shields.io/badge/skills-101-blue)](./skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Claude%20Code%20%7C%20Hermes%20%7C%20OpenClaw%20%7C%20Codex-purple)](./skills/)
 
-> 🚀 **面向快消品、消费品、营销、咨询行业的 AI Agent Skill 开源集合。105 个即装即用的营销技能——从广告投放到 SEO、从内容策略到数据分析、从客户研究到销售赋能，全链路覆盖。**
+> 🚀 **面向快消品、消费品、营销、咨询行业的 AI Agent Skill 开源集合。101 个即装即用的营销技能——从广告投放到 SEO、从内容策略到数据分析、从客户研究到销售赋能，全链路覆盖。**
 
 ---
 
