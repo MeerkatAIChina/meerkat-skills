@@ -38,4 +38,4 @@
 
 > **案例的核心不是「我们多厉害」，而是「客户以前多痛苦，现在多轻松」。让客户当英雄——你只是那个递了武器的向导。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

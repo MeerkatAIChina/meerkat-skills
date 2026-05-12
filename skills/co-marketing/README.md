@@ -38,4 +38,4 @@
 
 > **好的合作伙伴关系不是「你的东西不错，我的也不错，我们一起宣传」——而是「我们的受众都面临同一个问题，你的产品解决前半段，我解决后半段，组合起来不需要任何替代品」。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

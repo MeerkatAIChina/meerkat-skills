@@ -160,3 +160,7 @@ CTA：具体行动 + 减少顾虑的微文案
 **许可证**: MIT
 **版本**: 1.0.0
 **分类**: growth / landing-pages
+
+---
+
+*猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI*

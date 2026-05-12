@@ -82,4 +82,4 @@ Google Analytics 4 是每个营销人的标配——但 80% 的用户只停留�
 
 ---
 
-*猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用*
+*猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI*

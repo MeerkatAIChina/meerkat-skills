@@ -81,4 +81,4 @@
 
 > **投放不是玄学。每个「感觉不对」背后，都有可量化的原因。这个 Skill 帮你在烧钱之前，先把逻辑摆正。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

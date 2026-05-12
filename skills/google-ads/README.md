@@ -103,4 +103,4 @@
 
 > **你的 Google Ads 账户可能正在悄悄漏钱。不是因为你不会优化——而是你缺一套系统化的诊断流程。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

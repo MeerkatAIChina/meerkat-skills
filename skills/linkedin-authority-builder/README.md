@@ -43,4 +43,4 @@
 
 > **LinkedIn 不需要你每天一篇「干货」。它需要你持续出现在正确的人面前，说正确的事。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

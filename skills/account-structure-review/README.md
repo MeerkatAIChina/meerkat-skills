@@ -95,4 +95,4 @@
 
 > **别让一个 2019 年的账户结构，拖着 2026 年的预算在跑。结构不修，优化白做。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

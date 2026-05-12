@@ -226,3 +226,7 @@ DocuFlow 为需要实时协作速度和严格权限控制的团队打造。
 ---
 
 *本技能由 Hermes Agent Skill Pipeline 维护，欢迎贡献和改进建议。*
+
+---
+
+*猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI*

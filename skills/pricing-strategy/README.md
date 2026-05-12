@@ -190,3 +190,7 @@ Pricing Strategy 是一个专注于SaaS产品定价与商业化策略的AI技能
 - **作者**：MeerkatAIChina
 - **许可证**：MIT
 - **标签**：pricing, monetization, saas, strategy, conversion-rate
+
+---
+
+*猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI*

@@ -49,3 +49,7 @@ cp -r skills/marketing-psychology ~/.claude/skills/
 - 不替代用户研究和 A/B 测试
 - 心理学原理需要结合具体产品和受众
 - 中国市场心理洞察基于通用研究，具体行业可能有差异
+
+---
+
+*猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI*

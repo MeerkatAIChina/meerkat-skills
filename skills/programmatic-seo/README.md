@@ -113,4 +113,4 @@ Agent 会先和你对齐：**你想覆盖什么数据实体？每个实体有什
 
 > **别和对手拼写手数量。用数据驱动页面——你的每一个数据实体，都值得一个自己的 Landing Page。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

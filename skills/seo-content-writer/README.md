@@ -107,4 +107,4 @@ Agent 会先确认品牌声音（首次使用）、关键词、内容类型，�
 
 > **别让你的好内容，因为结构不优化而死在第二页。给搜索引擎一张看得懂的路线图，流量会自己找上门。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

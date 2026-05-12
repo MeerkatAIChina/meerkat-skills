@@ -114,4 +114,4 @@ Agent 会问你页面的具体内容（标题、作者、日期、价格等）�
 
 > **第一页是入场券，Rich Result 是 VIP 通道。差 3 行 JSON-LD，点击率能差出一个量级。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

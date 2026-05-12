@@ -38,4 +38,4 @@
 
 > **好的证言不是「他们服务真好」——是「我们之前每周花10小时做报表，现在30秒自动生成，团队多做了3个项目。」数字是证言的灵魂。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

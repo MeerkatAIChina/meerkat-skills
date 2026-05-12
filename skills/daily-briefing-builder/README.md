@@ -114,4 +114,4 @@ Claude Code 会按照你的描述调整 Phase 2 中的 Shell 命令。
 
 ---
 
-*猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用*
+*猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI*

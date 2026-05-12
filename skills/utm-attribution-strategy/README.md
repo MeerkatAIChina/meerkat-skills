@@ -105,4 +105,4 @@ UTM & Attribution Strategy 技能帮你建立一套**从命名到模型到审计
 
 ---
 
-*猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用*
+*猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI*

@@ -107,4 +107,4 @@ Agent 会按 7 个阶段逐项检查，对每个问题输出：**问题描述 �
 
 > **地基歪了，装修再好也没用。技术 SEO 不是锦上添花——它是你所有内容和关键词优化的前提条件。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

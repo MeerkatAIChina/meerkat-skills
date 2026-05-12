@@ -81,4 +81,4 @@ LinkedIn 是全球唯一的职业身份定向广告平台。你可以精确到�
 
 > **LinkedIn 广告的坑，每个坑都值几千美元。别用真金白银去踩——先用这个 Skill 审计你的账户。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

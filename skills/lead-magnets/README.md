@@ -39,4 +39,4 @@
 
 > **好的引流磁石满足三个条件：解决一个具体问题、看起来值得付费、在10分钟内能消化完。最好的磁石——就是让人看完后觉得「没有你们的产品，我自己做不了」。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

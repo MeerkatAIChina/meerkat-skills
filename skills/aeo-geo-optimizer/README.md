@@ -110,4 +110,4 @@ Agent 会先用核心查询做 AI 可见度测试 → 输出记分卡 + 差距�
 
 > **AI 搜索不是"未来"——它已经来了。你的竞品已经在优化，你还要等多久？**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

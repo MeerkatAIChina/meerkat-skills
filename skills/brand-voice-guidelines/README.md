@@ -170,3 +170,7 @@ cp -r claude-marketing/skills/brand-voice-guidelines ~/.claude/skills/
 ## 📄 许可证
 
 MIT License © Rebecca Rae Barton
+
+---
+
+*猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI*

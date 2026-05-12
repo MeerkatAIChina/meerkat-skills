@@ -154,3 +154,7 @@ cp -r skills/content-idea-generator ~/.claude/skills/
 ## 📄 许可证
 
 MIT License © Brian Wagner, AI Marketing Architect
+
+---
+
+*猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI*

@@ -123,3 +123,7 @@ python scripts/seo_optimizer.py blog_post.md "主关键词" "次要,关键词,�
 ## 📄 许可证
 
 MIT License © Rebecca Rae Barton
+
+---
+
+*猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI*

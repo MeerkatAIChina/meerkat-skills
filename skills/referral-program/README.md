@@ -40,4 +40,4 @@
 
 > **推荐不是「帮我们推广」——是「帮你的朋友解决一个你也曾遇到的问题」。把推荐框架设计成价值的传递，而不是营销的请求。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

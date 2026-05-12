@@ -81,4 +81,4 @@
 
 > **CPC 低 30-40% 不是让你省预算，是让你用同样的钱获取更多的点击。但前提是——你得做对优化。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

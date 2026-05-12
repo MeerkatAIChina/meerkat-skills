@@ -119,4 +119,4 @@ cp -r skills/ai-discoverability-audit ~/.claude/skills/
 
 > **如果 AI 说不清楚你是谁，那对 AI 时代的高价值用户来说——你就是不存在。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

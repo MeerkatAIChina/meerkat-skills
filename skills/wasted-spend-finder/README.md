@@ -89,4 +89,4 @@
 
 > **你不需要更好的素材。你可能只需要把 30% 浪费的预算，重新分配给已经跑赢的 Campaign。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

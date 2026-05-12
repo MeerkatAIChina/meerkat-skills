@@ -48,4 +48,4 @@
 
 > **Braze 不是买了就自动生效。它的能力上限取决于你 Canvas 设计水平的下限。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

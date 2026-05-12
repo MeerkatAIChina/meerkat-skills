@@ -175,3 +175,7 @@ cp -r de-ai-ify ~/.openclaw/skills/
 ## 📄 许可证
 
 Built by theflohart | 基于 1,000+ AI vs 人类内容样本分析
+
+---
+
+*猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI*

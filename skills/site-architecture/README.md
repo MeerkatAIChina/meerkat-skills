@@ -125,4 +125,4 @@ Agent 会先了解你的站点类型、页面数量、核心页面，然后输�
 
 > **用户在你的网站上迷路，其实只有两种可能：要么你根本没想过他们要去哪，要么你把路标藏起来了。好架构把这两种可能都消灭掉。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

@@ -48,4 +48,4 @@
 
 > **不要为每个平台单独写内容——学会「裂变」。一篇好内容应该活在 5 个平台上。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

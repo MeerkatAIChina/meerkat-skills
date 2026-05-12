@@ -52,4 +52,4 @@ Shopify 给了你一个能上线的店铺，但没给你一个能赚钱的漏斗
 
 ---
 
-*猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用*
+*猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI*

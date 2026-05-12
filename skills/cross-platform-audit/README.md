@@ -74,4 +74,4 @@
 
 > **你花了几万刀在三个平台上投广告，但从来没人告诉过你它们合在一起到底效率如何。现在有了。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

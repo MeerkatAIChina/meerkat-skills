@@ -120,4 +120,4 @@ AI 会自动扫描你的仓库结构，按优先级提取内容，生成符合�
 
 ---
 
-*猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用*
+*猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI*

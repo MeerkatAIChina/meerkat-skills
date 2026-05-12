@@ -148,3 +148,7 @@ AI Overviews 出现率：85%（17/20 查询）
 ## 📄 许可证
 
 MIT License © 2026 MeerkatAIChina
+
+---
+
+*猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI*

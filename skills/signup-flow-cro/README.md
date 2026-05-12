@@ -77,4 +77,4 @@ Signup Flow CRO 把注册流程拆解为几个核心优化维度：
 
 ---
 
-*猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用*
+*猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI*

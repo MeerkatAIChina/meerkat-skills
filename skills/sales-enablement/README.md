@@ -39,4 +39,4 @@
 
 > **好材料的标准只有一条：销售用了没有。如果销售发出去之前要自己改一遍——那是你写错了，不是销售的问题。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

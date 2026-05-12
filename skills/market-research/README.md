@@ -127,3 +127,7 @@ git clone https://github.com/thatrebeccarae/claude-marketing.git && cp -r claude
 ---
 
 *更多分析模板、LaTeX格式说明与数据模式，参见 [REFERENCE.md](REFERENCE.md)。*
+
+---
+
+*猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI*

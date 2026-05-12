@@ -91,4 +91,4 @@ Hook（0-3秒） → 价值/故事（3-15秒） → CTA（最后3秒）
 
 > **TikTok 广告最大的敌人不是竞争对手，是用户的拇指。3 秒内抓不住，你的预算就白花了。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

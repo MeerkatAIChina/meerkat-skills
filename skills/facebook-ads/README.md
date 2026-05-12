@@ -109,4 +109,4 @@
 
 > **Meta 广告不是玄学。你缺的不是「更好的出价策略」，而是一套能告诉你「问题出在哪儿、先改哪一个」的系统化诊断工具。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

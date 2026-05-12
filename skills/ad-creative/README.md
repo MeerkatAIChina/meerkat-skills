@@ -77,3 +77,7 @@
 ---
 
 > 版本 1.1.0 | 许可 MIT | 优化日期 2026-05-11
+
+---
+
+*猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI*

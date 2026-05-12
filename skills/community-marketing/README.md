@@ -35,4 +35,4 @@
 
 > **社区的本质不是「人聚在一起」，而是「人为了一个共同的目标互相帮助」。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI

@@ -45,4 +45,4 @@
 
 > **你的 App 做得再好，App Store 里看起来不行——用户连下载的机会都不会给你。**
 
-> 猫鼬AI × 开源社区联合打磨 | Claude Code / Hermes Agent 通用
+> 猫鼬AI × 开源社区联合打磨 | 兼容 Claude Code · Hermes Agent · OpenClaw · Codex CLI
