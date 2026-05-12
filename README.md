@@ -1,10 +1,10 @@
 # 🐱 猫鼬AI — 营销行业 AI Agent 技能库
 
-[![Skills](https://img.shields.io/badge/skills-97-blue)](./skills/)
+[![Skills](https://img.shields.io/badge/skills-105-blue)](./skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Claude%20Code%20%7C%20Hermes%20%7C%20OpenClaw%20%7C%20Codex-purple)](./skills/)
 
-> 🚀 **面向快消品、消费品、营销、咨询行业的 AI Agent Skill 开源集合。97 个即装即用的营销技能——从广告投放到 SEO、从内容策略到数据分析、从客户研究到销售赋能，全链路覆盖。**
+> 🚀 **面向快消品、消费品、营销、咨询行业的 AI Agent Skill 开源集合。105 个即装即用的营销技能——从广告投放到 SEO、从内容策略到数据分析、从客户研究到销售赋能，全链路覆盖。**
 
 ---
 
@@ -48,7 +48,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 
 ---
 
-## 📊 技能全景（97 个 Skill / 12 大类）
+## 📊 技能全景（101 个 Skill / 12 大类）
 
 ### 📢 广告投放（10 个）
 > 从单平台投放审计到跨平台预算分配，覆盖 Google / Meta / LinkedIn / Microsoft / TikTok 全渠道
@@ -82,8 +82,8 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `site-architecture` | 网站架构规划——页面层级、导航、URL 结构、内链策略 | [→](./skills/site-architecture/) |
 | `llms-txt` | llms.txt 生成——为 AI 引擎创建结构化内容地图 | [→](./skills/llms-txt/) |
 
-### 📈 转化率优化 / CRO（10 个）
-> 从首页到注册、从表单到弹窗，全漏斗转化率诊断和优化
+### 📈 转化率优化 / CRO（12 个）
+> 从首页到注册、从表单到弹窗、从新用户上手到付费升级，全漏斗转化率诊断和优化
 
 | Skill | 一句话说明 | 直达 |
 |-------|-----------|------|
@@ -97,6 +97,8 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `ab-test-setup` | A/B 测试设计——假设框架、样本量计算、ICE 优先级、增长实验引擎 | [→](./skills/ab-test-setup/) |
 | `ab-testing-framework` | A/B 测试方法论——频率派/贝叶斯、Z 检验、10 大陷阱 | [→](./skills/ab-testing-framework/) |
 | `churn-prevention` | 流失预防——取消流程设计、动态挽留、支付追回、健康度评分 | [→](./skills/churn-prevention/) |
+| `onboarding-cro` | 新用户上手优化——从注册到Aha Moment的完整激活方法论 | [→](./skills/onboarding-cro/) |
+| `paywall-upgrade-cro` | 付费墙与升级转化——在恰当的时机用恰当的方式让用户付费 | [→](./skills/paywall-upgrade-cro/) |
 
 ### ✍️ 内容与文案（11 个）
 > 从品牌声音提取到文案框架、从内容策略到全流程流水线
@@ -144,8 +146,8 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `klaviyo-developer` | Klaviyo 技术集成——API/SDK/Webhook/OAuth/目录同步 | [→](./skills/klaviyo-developer/) |
 | `braze` | Braze 客户互动平台——Canvas 审计、多渠道协同、数据架构 | [→](./skills/braze/) |
 
-### 🎯 市场策略（14 个）
-> 定位、定价、竞品分析、客户研究、品牌策略——市场营销的「战略层」
+### 🎯 市场策略（16 个）
+> 定位、定价、竞品分析、客户研究、品牌策略、营销创意、获客工具——市场营销的「战略层」
 
 | Skill | 一句话说明 | 直达 |
 |-------|-----------|------|
@@ -163,6 +165,8 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `competitor-ads-analyst` | 竞品广告分析——从 Facebook/Google/TikTok/LinkedIn 广告库提取竞品策略 | [→](./skills/competitor-ads-analyst/) |
 | `competitor-alternatives` | 竞品对比页——SEO 优化的竞品对比和替代品页面 4 种格式 | [→](./skills/competitor-alternatives/) |
 | `launch-strategy` | 发布策略——产品发布/功能公告/Product Hunt/GTM 全流程 | [→](./skills/launch-strategy/) |
+| `marketing-ideas` | 营销创意引擎——139条已验证增长策略，按阶段/预算/时间线筛选 | [→](./skills/marketing-ideas/) |
+| `free-tool-strategy` | 免费工具获客策略——Engineering as Marketing 全流程：构思→评估→获客→SEO | [→](./skills/free-tool-strategy/) |
 
 ### 📊 数据分析（8 个）
 > Google Analytics / GTM / Looker Studio / UTM / 数据可视化 / RevOps
