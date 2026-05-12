@@ -35,7 +35,7 @@
 
 ## 🔗 配合使用
 
-生成的 profile 直接喂给 `seo-content-writer`（语气匹配）、`email-composer`（语调校准）、`frontend-design`（视觉一致）、`pro-deck-builder`（品牌色彩/字体）、`cross-platform-audit`（多渠道一致性检查）。一次提取，全栈复用。
+生成的 profile 直接喂给 `seo-content-writer`（语气匹配）、`email-composer`（语调校准）、`image`（视觉一致）、`pro-deck-builder`（品牌色彩/字体）、`cross-platform-audit`（多渠道一致性检查）。一次提取，全栈复用。
 
 **输入**：网站 URL
 **输出**：brand-profile.json（色彩、字体、语气评分、价值观、目标人群画像）

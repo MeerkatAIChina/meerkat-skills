@@ -31,7 +31,7 @@
 
 - **`brand-dna`**：用品牌 DNA 生成自定义调色板替代内置选项。
 - **`html-report-builder`** / **`pro-report-builder`**：如果交付物是报告文档而非演示文稿，用这两个。
-- **`frontend-design`**：如果需要 web 交互界面而非静态幻灯片。
+- **`image`**：如果需要 web 交互界面而非静态幻灯片。
 
 > **"PowerPoint 不是设计工具。让代码替你设计——你只需要决定讲什么故事。"**
 

@@ -98,7 +98,7 @@ CTA：具体行动 + 减少顾虑的微文案
 - **cro-auditor（CRO审计器）** — 更广泛的CRO审计框架；本技能深入分析单页面
 - **ab-testing-framework（A/B测试框架）** — 测试本技能推荐的优化方案
 - **copywriting-frameworks（文案框架）** — 将PAS/AIDA应用于落地页文案
-- **frontend-design（前端设计）** — 实现优化后的页面设计
+- **image（前端设计）** — 实现优化后的页面设计
 - **technical-seo-audit（技术SEO审计）** — 页面速度和技术优化
 
 ## 中国市场适配

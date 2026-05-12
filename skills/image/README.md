@@ -63,7 +63,7 @@
 - SEO → `seo-audit` 检查 alt 文本和图片文件名
 - 转化优化 → `page-cro` 评估图片在落地页的位置和效果
 - 目录提交 → `directory-submissions` 生成 G2/Product Hunt 所需规格图片
-- 社交预览 → `social-preview` 专注 GitHub OG 图生成
+- 社交预览 → `social-card-gen` 专注 GitHub OG 图生成
 
 **输入**：图片用途 + 平台/尺寸 + 品牌资产（可选）
 **输出**：工具推荐 + Prompt + 输出规格 + 优化指令
