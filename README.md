@@ -1,10 +1,10 @@
 # 🐱 猫鼬AI — 营销行业 AI Agent 技能库
 
-[![Skills](https://img.shields.io/badge/skills-101-blue)](./skills/)
+[![Skills](https://img.shields.io/badge/skills-106-blue)](./skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Claude%20Code%20%7C%20Hermes%20%7C%20OpenClaw%20%7C%20Codex-purple)](./skills/)
 
-> 🚀 **面向快消品、消费品、营销、咨询行业的 AI Agent Skill 开源集合。101 个即装即用的营销技能——从广告投放到 SEO、从内容策略到数据分析、从客户研究到销售赋能，全链路覆盖。**
+> 🚀 **面向快消品、消费品、营销、咨询行业的 AI Agent Skill 开源集合。106 个即装即用的营销技能——从广告投放到 SEO、从内容策略到数据分析、从客户研究到销售赋能，全链路覆盖。**
 
 ---
 
@@ -48,7 +48,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 
 ---
 
-## 📊 技能全景（105 个 Skill / 12 大类）
+## 📊 技能全景（110 个 Skill / 13 大类）
 
 ### 📢 广告投放（10 个）
 > 从单平台投放审计到跨平台预算分配，覆盖 Google / Meta / LinkedIn / Microsoft / TikTok 全渠道
@@ -100,7 +100,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `onboarding-cro` | 新用户上手优化——从注册到Aha Moment的完整激活方法论 | [→](./skills/onboarding-cro/) |
 | `paywall-upgrade-cro` | 付费墙与升级转化——在恰当的时机用恰当的方式让用户付费 | [→](./skills/paywall-upgrade-cro/) |
 
-### ✍️ 内容与文案（11 个）
+### ✍️ 内容与文案（12 个）
 > 从品牌声音提取到文案框架、从内容策略到全流程流水线
 
 | Skill | 一句话说明 | 直达 |
@@ -113,11 +113,12 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `content-workflow` | 内容生产流水线——研究→起草→编辑→社交分发三阶段 | [→](./skills/content-workflow/) |
 | `content-pipeline` | 端到端内容管道——研究→编辑审查→社交分发代理编排 | [→](./skills/content-pipeline/) |
 | `content-idea-generator` | 内容创意生成——基于定位的高质量选题，告别灵感枯竭 | [→](./skills/content-idea-generator/) |
+| `content-research-writer` | 研究型内容创作搭档——大纲协作→研究标注→逐段反馈→Hook 优化 | [→](./skills/content-research-writer/) |
 | `de-ai-ify` | 去 AI 味——分析 1000+ 篇 AI vs 人类内容，还原真实人声 | [→](./skills/de-ai-ify/) |
 | `brand-voice-guidelines` | 品牌声音指南——语调矩阵、消息框架、品牌手册 | [→](./skills/brand-voice-guidelines/) |
 | `voice-extractor` | 写作声音提取——从样本中捕捉写作 DNA，训练 AI 模仿你的风格 | [→](./skills/voice-extractor/) |
 
-### 📱 社交媒体（8 个）
+### 📱 社交媒体（9 个）
 > LinkedIn / Twitter / Instagram / TikTok / Reddit 全平台内容创作和策略
 
 | Skill | 一句话说明 | 直达 |
@@ -125,6 +126,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `social-content` | 社交媒体内容创作——5 平台适配+内容裂变+短脚本公式 | [→](./skills/social-content/) |
 | `social-media-strategy` | 社交媒体策略——平台选择、内容日历、互动机制、KPI 体系 | [→](./skills/social-media-strategy/) |
 | `social-card-gen` | 社交卡片生成——一篇内容生成 Twitter/LinkedIn/Reddit 多平台变体 | [→](./skills/social-card-gen/) |
+| `twitter-algorithm-optimizer` | Twitter 算法优化——基于开源算法（Real-graph/SimClusters/TwHIN）提升推文分发 | [→](./skills/twitter-algorithm-optimizer/) |
 | `linkedin-authority-builder` | LinkedIn 影响力建设——定位对齐→内容支柱→90 天日历 | [→](./skills/linkedin-authority-builder/) |
 | `linkedin-profile-optimizer` | LinkedIn 资料优化——15 分钟评分+重写+AI 可见度检查 | [→](./skills/linkedin-profile-optimizer/) |
 | `tweet-draft-reviewer` | Tweet 草稿审查——8 条声音规则评分，低于 7 分自动重写 | [→](./skills/tweet-draft-reviewer/) |
@@ -182,8 +184,8 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `revops` | RevOps 收入运营——线索生命周期/线索评分/市场到销售交接 | [→](./skills/revops/) |
 | `daily-briefing-builder` | 每日简报生成——从知识库拉取今日优先事项和待发内容 | [→](./skills/daily-briefing-builder/) |
 
-### 💰 销售赋能（7 个）
-> 案例研究、客户证言、Lead Magnet、推荐裂变、联合营销
+### 💰 销售赋能（8 个）
+> 案例研究、客户证言、Lead Magnet、推荐裂变、联合营销、线索研究
 
 | Skill | 一句话说明 | 直达 |
 |-------|-----------|------|
@@ -191,6 +193,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `case-study-builder` | 案例研究构建——客户成果→结构化案例→可复用的信任资产 | [→](./skills/case-study-builder/) |
 | `testimonial-collector` | 客户证言收集——系统化收集/评分/格式化客户好评 | [→](./skills/testimonial-collector/) |
 | `lead-magnets` | 引流磁石——邮件获取的 Lead Magnet 规划/设计/优化 | [→](./skills/lead-magnets/) |
+| `lead-research-assistant` | 销售线索研究——AI 匹配潜在客户、打分排序、决策人定位、接触策略 | [→](./skills/lead-research-assistant/) |
 | `referral-program` | 推荐裂变引擎——推荐计划/联盟营销/口碑策略 | [→](./skills/referral-program/) |
 | `co-marketing` | 联合营销——找合作伙伴/策划联合 Campaign/资源互换 | [→](./skills/co-marketing/) |
 | `directory-submissions` | 目录提交——创业/SaaS/AI/MCP/No-Code 目录的 Backlink 获取 | [→](./skills/directory-submissions/) |
@@ -203,6 +206,14 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `html-report-builder` | HTML 技术报告——深色封面+暖白内容页、Switzer+Cartograph 字体 | [→](./skills/html-report-builder/) |
 | `pro-deck-builder` | 专业 PPT——RRBC 设计系统、深色封面+浅色内容、Lora+Inter 字体 | [→](./skills/pro-deck-builder/) |
 | `pro-report-builder` | 专业报告——8.5×11 竖版、可定制设计系统、图表+表格+行动方案 | [→](./skills/pro-report-builder/) |
+
+### 🤝 团队协作与沟通（2 个）
+> 内部沟通撰写、会议洞察分析——提升团队信息流转和个人沟通效能
+
+| Skill | 一句话说明 | 直达 |
+|-------|-----------|------|
+| `internal-comms` | 内部沟通大师——3P 周报/全员 Newsletter/FAQ/事故报告/领导层简报 | [→](./skills/internal-comms/) |
+| `meeting-insights-analyzer` | 会议洞察分析——从转录文本诊断冲突回避/说话占比/填充词/倾听质量 | [→](./skills/meeting-insights-analyzer/) |
 
 ### 🛒 平台与多媒体（5 个）
 > Shopify、ASO、视频/图片内容创作、YouTube 情报
