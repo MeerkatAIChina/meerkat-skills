@@ -1,0 +1,33 @@
+<!-- Framework -->
+<section class="section" id="framework">
+  <div class="container">
+    <h2>{{framework.title}}</h2>
+    <p class="framework-subtitle">{{framework.subtitle}}</p>
+    <div class="framework-timeline">
+      {{#each framework.steps}}
+      <div class="framework-step" data-step="{{step}}">
+        <div class="step-number">{{step}}</div>
+        <div class="step-content">
+          <h3>{{title}}</h3>
+          <p class="step-desc">{{description}}</p>
+          <div class="step-details">
+            <div class="detail-row">
+              <span class="detail-label">核心动作</span>
+              <span class="detail-value">{{action}}</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">输出成果</span>
+              <span class="detail-value">{{output}}</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">AI 介入点</span>
+              <span class="detail-value highlight">{{ai_point}}</span>
+            </div>
+          </div>
+          <span class="framework-tag">{{tag}}</span>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,21 @@
+{
+  "product_name": "",
+  "product_url": "",
+  "analysis_framework": "manufacturing-ai-efficiency-pro",
+  "output_format": "landscape",
+  "theme": "dark-industrial",
+  "language": "zh-CN",
+  "duration_target": 60,
+  
+  "tts": {
+    "provider": "siliconflow",
+    "siliconflow_api_key": "",
+    "model": "FunAudioLLM/CosyVoice2-0.5B",
+    "voice": "FunAudioLLM/CosyVoice2-0.5B:alex",
+    "fallback_provider": "edge-tts",
+    "fallback_voice": "zh-CN-XiaoxiaoNeural"
+  },
+  
+  "ffmpeg_path": "D:/tools/ffmpeg/ffmpeg-8.1.1-essentials_build/bin/ffmpeg.exe",
+  "ffprobe_path": "D:/tools/ffmpeg/ffmpeg-8.1.1-essentials_build/bin/ffprobe.exe"
+}

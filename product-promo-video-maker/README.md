@@ -73,25 +73,6 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 ├── whimsy-injector-optimization/         # 趣味注入者优化
 │   └── SKILL.md
 │
-├── product-promo-video-maker/            # 📹 产品宣发视频生成（V1.1，新增）
-│   ├── SKILL.md                            #   Skill 核心定义
-│   ├── README.md                           #   项目说明
-│   ├── config.template.json                #   配置模板
-│   ├── assets/                             #   模板与主题资源
-│   │   ├── templates/
-│   │   └── themes/
-│   ├── references/                         #   参考文档
-│   │   ├── analysis-frameworks.md
-│   │   ├── pipeline-guide.md
-│   │   ├── subtitle-guide.md
-│   │   ├── template-guide.md
-│   │   └── template-variables.md
-│   └── scripts/                            #   执行脚本
-│       ├── capture.py
-│       ├── pipeline.py
-│       ├── render.py
-│       └── voice.py
-│
 └── references/                             # 各 Skill 原始来源参考资料
     ├── backend-architecture-source.md
     ├── brand-guardian-optimization-source.md
@@ -155,12 +136,6 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 | Skill | 定位 | 来源 |
 |-------|------|------|
 | `whimsy-injector-optimization` | 趣味性创意注入与优化 | agency-agents |
-
-### 📹 宣发内容类（1 个 ⭐ 新增）
-
-| Skill | 定位 | 版本 |
-|-------|------|------|
-| `product-promo-video-maker` | 产品页分析→网页渲染→录屏→语音合成→视频合成 | **V1.1** |
 
 ---
 
@@ -339,7 +314,6 @@ response = ai.chat(
 | Skill | 版本 | 状态 | 备注 |
 |-------|------|------|------|
 | `manufacturing-ai-efficiency-pro` | **V2.0** | ✅ 稳定 | 旗舰 Skill，三层流程图 + 评分闸门 |
-| `product-promo-video-maker` | **V1.1** | ✅ 新增 | 产品宣发视频全自动生成 |
 | 其他 17 个 Skill | V1.0 | ✅ 可用 | 基于 agency-agents 标准化包装 |
 
 ---

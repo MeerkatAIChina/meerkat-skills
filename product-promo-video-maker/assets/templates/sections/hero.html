@@ -1,0 +1,28 @@
+<!-- Hero -->
+<section class="section" id="hero">
+  <canvas id="particle-canvas"></canvas>
+  <div class="container" style="position:relative;z-index:1">
+    <div class="hero-product-showcase">
+      <div class="product-image-area float-anim">
+        <div class="product-placeholder">
+          {{#if hero.hero_image}}
+          <img src="{{hero.hero_image}}" alt="{{product.name}}" />
+          {{/if}}
+          <p style="color:var(--text-muted);font-size:12px;margin-top:8px">{{product.name}} · {{product.brand}}</p>
+        </div>
+        <div class="pulse-ring" style="width:120px;height:120px;top:50%;left:50%;margin:-60px 0 0 -60px"></div>
+      </div>
+    </div>
+    <div class="product-name glow-text">{{hero.product_name}}</div>
+    <div class="tagline">{{hero.tagline}}</div>
+    <div class="framework-badge">{{hero.framework_badge}}</div>
+    <div class="stats">
+      {{#each hero.stats}}
+      <div class="stat-item">
+        <span class="stat-number">{{number}}</span>
+        <div class="stat-label">{{label}}</div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>

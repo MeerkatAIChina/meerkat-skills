@@ -1,0 +1,58 @@
+<!-- Opportunities -->
+<section class="section" id="opportunities">
+  <div class="container">
+    <h2>{{opportunities.title}}</h2>
+    <p class="section-desc">{{opportunities.desc}}</p>
+
+    {{#each opportunities.list}}
+    <div class="opportunity-card">
+      <div class="opportunity-header">
+        <div class="opportunity-title">
+          <span class="icon">{{icon}}</span>
+          <h3>{{title}}</h3>
+        </div>
+        <span class="opportunity-priority priority-{{priority}}">{{priority}} 核心</span>
+      </div>
+      <div class="opportunity-body">
+        <div class="opportunity-field">
+          <div class="field-label">业务目标</div>
+          <div class="field-value highlight">{{business_goal}}</div>
+        </div>
+        <div class="opportunity-field">
+          <div class="field-label">现状痛点</div>
+          <div class="field-value">{{pain_point}}</div>
+        </div>
+        <div class="opportunity-field">
+          <div class="field-label">切入动作</div>
+          <div class="field-value">{{entry_action}}</div>
+        </div>
+        <div class="opportunity-field">
+          <div class="field-label">方案</div>
+          <div class="field-value">{{solution}}</div>
+        </div>
+        <div class="opportunity-field">
+          <div class="field-label">数据支撑</div>
+          <div class="field-value">{{data_support}}</div>
+        </div>
+        <div class="opportunity-field">
+          <div class="field-label">预期收益</div>
+          <div class="field-value highlight">{{expected_benefit}}</div>
+        </div>
+        <div class="opportunity-field">
+          <div class="field-label">落地难点</div>
+          <div class="field-value">{{difficulty}}</div>
+        </div>
+        <div class="opportunity-field">
+          <div class="field-label">系统落点</div>
+          <div class="field-value">{{system_target}}</div>
+        </div>
+      </div>
+      {{#if feature_image}}
+      <div class="opportunity-image">
+        <img src="{{feature_image}}" alt="{{title}}" />
+      </div>
+      {{/if}}
+    </div>
+    {{/each}}
+  </div>
+</section>

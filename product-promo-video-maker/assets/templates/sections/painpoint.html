@@ -1,0 +1,33 @@
+<!-- Painpoint -->
+<section class="section" id="painpoint">
+  <div class="container">
+    <h2>{{painpoint.title}}</h2>
+    <p class="section-desc">{{painpoint.desc}}</p>
+    <div class="comparison">
+      <div class="before-box">
+        <h3>❌ {{painpoint.before_label}}</h3>
+        <ul>
+          {{#each painpoint.before_list}}
+          <li>{{this}}</li>
+          {{/each}}
+        </ul>
+      </div>
+      <div class="after-box">
+        <h3>✅ {{painpoint.after_label}}</h3>
+        <ul>
+          {{#each painpoint.after_list}}
+          <li>{{this}}</li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+    <div class="impact-metrics">
+      {{#each painpoint.metrics}}
+      <div class="impact-metric">
+        <div class="value">{{value}}</div>
+        <div class="label">{{label}}</div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>

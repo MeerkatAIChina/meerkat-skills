@@ -1,0 +1,15 @@
+<!-- Value Chain -->
+<section class="section" id="valuechain">
+  <div class="container">
+    <h2>{{valuechain.title}}</h2>
+    <div class="value-chain">
+      {{#each valuechain.nodes}}
+      <div class="chain-node">
+        <div class="node-icon">{{icon}}</div>
+        <div class="node-title">{{title}}</div>
+        <div class="node-desc">{{desc}}</div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
