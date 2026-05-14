@@ -1,10 +1,10 @@
 # 🐱 猫鼬AI — 营销行业 AI Agent 技能库
 
-[![Skills](https://img.shields.io/badge/skills-106-blue)](./skills/)
+[![Skills](https://img.shields.io/badge/skills-111-blue)](./skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Claude%20Code%20%7C%20Hermes%20%7C%20OpenClaw%20%7C%20Codex-purple)](./skills/)
 
-> 🚀 **面向快消品、消费品、营销、咨询行业的 AI Agent Skill 开源集合。106 个即装即用的营销技能——从广告投放到 SEO、从内容策略到数据分析、从客户研究到销售赋能，全链路覆盖。**
+> 🚀 **面向快消品、消费品、营销、咨询行业的 AI Agent Skill 开源集合。111 个即装即用的营销技能——从广告投放到 SEO、从内容策略到数据分析、从客户研究到销售赋能，全链路覆盖。**
 
 ---
 
@@ -48,9 +48,9 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 
 ---
 
-## 📊 技能全景（110 个 Skill / 13 大类）
+## 📊 技能全景（111 个 Skill / 13 大类）
 
-### 📢 广告投放（10 个）
+### 📢 广告投放（11 个）
 > 从单平台投放审计到跨平台预算分配，覆盖 Google / Meta / LinkedIn / Microsoft / TikTok 全渠道
 
 | Skill | 一句话说明 | 直达 |
@@ -65,6 +65,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `wasted-spend-finder` | 浪费预算猎手——扫描搜索词/展示位/受众/素材，输出可上传的排除清单 CSV | [→](./skills/wasted-spend-finder/) |
 | `account-structure-review` | 账户结构审计——检测过度细分、预算碎片、受众重叠，输出合并方案 | [→](./skills/account-structure-review/) |
 | `ad-creative` | 广告素材批量生成——多平台适配的标题、描述、完整广告变体 | [→](./skills/ad-creative/) |
+| `competitive-ads-extractor` | 竞品广告提取——从 Facebook/LinkedIn 广告库抓取+分析竞品广告文案和创意策略 | [→](./skills/competitive-ads-extractor/) |
 
 ### 🔍 SEO 与 AI 搜索（10 个）
 > 从传统 SEO 到 AI 搜索可见度（AEO/GEO），覆盖 Google、ChatGPT、Perplexity、Claude
@@ -100,7 +101,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `onboarding-cro` | 新用户上手优化——从注册到Aha Moment的完整激活方法论 | [→](./skills/onboarding-cro/) |
 | `paywall-upgrade-cro` | 付费墙与升级转化——在恰当的时机用恰当的方式让用户付费 | [→](./skills/paywall-upgrade-cro/) |
 
-### ✍️ 内容与文案（12 个）
+### ✍️ 内容与文案（13 个）
 > 从品牌声音提取到文案框架、从内容策略到全流程流水线
 
 | Skill | 一句话说明 | 直达 |
@@ -117,6 +118,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `de-ai-ify` | 去 AI 味——分析 1000+ 篇 AI vs 人类内容，还原真实人声 | [→](./skills/de-ai-ify/) |
 | `brand-voice-guidelines` | 品牌声音指南——语调矩阵、消息框架、品牌手册 | [→](./skills/brand-voice-guidelines/) |
 | `voice-extractor` | 写作声音提取——从样本中捕捉写作 DNA，训练 AI 模仿你的风格 | [→](./skills/voice-extractor/) |
+| `release-notes` | 发布说明生成——Git 提交→用户能看懂的 Changelog，自动分类+版本号建议 | [→](./skills/release-notes/) |
 
 ### 📱 社交媒体（9 个）
 > LinkedIn / Twitter / Instagram / TikTok / Reddit 全平台内容创作和策略
@@ -184,8 +186,8 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `revops` | RevOps 收入运营——线索生命周期/线索评分/市场到销售交接 | [→](./skills/revops/) |
 | `daily-briefing-builder` | 每日简报生成——从知识库拉取今日优先事项和待发内容 | [→](./skills/daily-briefing-builder/) |
 
-### 💰 销售赋能（8 个）
-> 案例研究、客户证言、Lead Magnet、推荐裂变、联合营销、线索研究
+### 💰 销售赋能（9 个）
+> 案例研究、客户证言、Lead Magnet、推荐裂变、联合营销、线索研究、会前准备
 
 | Skill | 一句话说明 | 直达 |
 |-------|-----------|------|
@@ -197,6 +199,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `referral-program` | 推荐裂变引擎——推荐计划/联盟营销/口碑策略 | [→](./skills/referral-program/) |
 | `co-marketing` | 联合营销——找合作伙伴/策划联合 Campaign/资源互换 | [→](./skills/co-marketing/) |
 | `directory-submissions` | 目录提交——创业/SaaS/AI/MCP/No-Code 目录的 Backlink 获取 | [→](./skills/directory-submissions/) |
+| `meeting-prep` | 会前准备引擎——搜索历史笔记+过往承诺+生成议程+尖锐问题，带着情报进会议室 | [→](./skills/meeting-prep/) |
 
 ### 📄 咨询输出（3 个）
 > 面向咨询顾问的专业交付物——HTML 报告、PPT 演示、多页文档
@@ -215,8 +218,8 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `internal-comms` | 内部沟通大师——3P 周报/全员 Newsletter/FAQ/事故报告/领导层简报 | [→](./skills/internal-comms/) |
 | `meeting-insights-analyzer` | 会议洞察分析——从转录文本诊断冲突回避/说话占比/填充词/倾听质量 | [→](./skills/meeting-insights-analyzer/) |
 
-### 🛒 平台与多媒体（5 个）
-> Shopify、ASO、视频/图片内容创作、YouTube 情报
+### 🛒 平台与多媒体（7 个）
+> Shopify、ASO、视频/图片内容创作、YouTube 情报、前端设计、Web 测试
 
 | Skill | 一句话说明 | 直达 |
 |-------|-----------|------|
@@ -225,6 +228,8 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `video` | 视频内容——AI 视频制作/Remotion/Hyperframes/短视频脚本 | [→](./skills/video/) |
 | `image` | 图片内容——营销用图生成/编辑/优化（Blog 主图/社媒素材/产品图） | [→](./skills/image/) |
 | `youtube-summarizer` | YouTube 摘要——自动获取字幕→结构化摘要→多平台推送 | [→](./skills/youtube-summarizer/) |
+| `frontend-design` | 前端设计引擎——审美方向→字体搭配→配色→动画→代码，打造有记忆点的营销页面 | [→](./skills/frontend-design/) |
+| `webapp-testing` | Web 应用测试——Playwright 自动化测试落地页/注册流程/表单，上线前消灭 Bug | [→](./skills/webapp-testing/) |
 
 ### 🔎 情报与研究（2 个）
 > 快速研究工具——30 天全网扫描、RSS 情报聚合
