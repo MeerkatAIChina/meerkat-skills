@@ -1,10 +1,10 @@
 # 🐱 猫鼬AI — 营销行业 AI Agent 技能库
 
-[![Skills](https://img.shields.io/badge/skills-111-blue)](./skills/)
+[![Skills](https://img.shields.io/badge/skills-114-blue)](./skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Claude%20Code%20%7C%20Hermes%20%7C%20OpenClaw%20%7C%20Codex-purple)](./skills/)
 
-> 🚀 **面向快消品、消费品、营销、咨询行业的 AI Agent Skill 开源集合。111 个即装即用的营销技能——从广告投放到 SEO、从内容策略到数据分析、从客户研究到销售赋能，全链路覆盖。**
+> 🚀 **面向快消品、消费品、营销、咨询行业的 AI Agent Skill 开源集合。114 个即装即用的营销技能——从广告投放到 SEO、从内容策略到数据分析、从客户研究到销售赋能，全链路覆盖。**
 
 ---
 
@@ -48,7 +48,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 
 ---
 
-## 📊 技能全景（111 个 Skill / 13 大类）
+## 📊 技能全景（114 个 Skill / 13 大类）
 
 ### 📢 广告投放（11 个）
 > 从单平台投放审计到跨平台预算分配，覆盖 Google / Meta / LinkedIn / Microsoft / TikTok 全渠道
@@ -150,13 +150,14 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `klaviyo-developer` | Klaviyo 技术集成——API/SDK/Webhook/OAuth/目录同步 | [→](./skills/klaviyo-developer/) |
 | `braze` | Braze 客户互动平台——Canvas 审计、多渠道协同、数据架构 | [→](./skills/braze/) |
 
-### 🎯 市场策略（18 个）
+### 🎯 市场策略（19 个）
 > 定位、定价、竞品分析、客户研究、品牌策略、营销创意、获客工具——市场营销的「战略层」
 
 | Skill | 一句话说明 | 直达 |
 |-------|-----------|------|
 | `positioning-basics` | 定位基本功——五问定位法、竞争地图、5 项定位测试 | [→](./skills/positioning-basics/) |
 | `brand-dna` | 品牌基因提取——从 URL 抓取品牌调性/色彩/字体/受众 | [→](./skills/brand-dna/) |
+| `domain-name-brainstormer` | 品牌域名创意生成——批量提案+跨 TLD 可用性检查+命名策略分析 | [→](./skills/domain-name-brainstormer/) |
 | `market-research` | 市场研究报告——McKinsey/BCG 风格、50+ 页、Porter 五力/SWOT | [→](./skills/market-research/) |
 | `marketing-principles` | 市场营销原理——15 条永恒原则+逆向推演决策引擎 | [→](./skills/marketing-principles/) |
 | `marketing-psychology` | 营销心理学——认知偏差/心理模型/行为科学在营销中的应用 | [→](./skills/marketing-psychology/) |
@@ -201,14 +202,15 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `directory-submissions` | 目录提交——创业/SaaS/AI/MCP/No-Code 目录的 Backlink 获取 | [→](./skills/directory-submissions/) |
 | `meeting-prep` | 会前准备引擎——搜索历史笔记+过往承诺+生成议程+尖锐问题，带着情报进会议室 | [→](./skills/meeting-prep/) |
 
-### 📄 咨询输出（3 个）
-> 面向咨询顾问的专业交付物——HTML 报告、PPT 演示、多页文档
+### 📄 咨询输出（4 个）
+> 面向咨询顾问的专业交付物——HTML 报告、PPT 演示、多页文档、技术架构图
 
 | Skill | 一句话说明 | 直达 |
 |-------|-----------|------|
 | `html-report-builder` | HTML 技术报告——深色封面+暖白内容页、Switzer+Cartograph 字体 | [→](./skills/html-report-builder/) |
 | `pro-deck-builder` | 专业 PPT——RRBC 设计系统、深色封面+浅色内容、Lora+Inter 字体 | [→](./skills/pro-deck-builder/) |
 | `pro-report-builder` | 专业报告——8.5×11 竖版、可定制设计系统、图表+表格+行动方案 | [→](./skills/pro-report-builder/) |
+| `tech-diagram` | 技术架构图生成——管道流/分层堆栈/组件图/时间线，HTML 内嵌 SVG，B2B 营销利器 | [→](./skills/tech-diagram/) |
 
 ### 🤝 团队协作与沟通（2 个）
 > 内部沟通撰写、会议洞察分析——提升团队信息流转和个人沟通效能
@@ -218,7 +220,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `internal-comms` | 内部沟通大师——3P 周报/全员 Newsletter/FAQ/事故报告/领导层简报 | [→](./skills/internal-comms/) |
 | `meeting-insights-analyzer` | 会议洞察分析——从转录文本诊断冲突回避/说话占比/填充词/倾听质量 | [→](./skills/meeting-insights-analyzer/) |
 
-### 🛒 平台与多媒体（7 个）
+### 🛒 平台与多媒体（8 个）
 > Shopify、ASO、视频/图片内容创作、YouTube 情报、前端设计、Web 测试
 
 | Skill | 一句话说明 | 直达 |
@@ -226,6 +228,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `shopify` | Shopify 电商——店铺审计/转化漏斗/追踪配置/营销工具集成 | [→](./skills/shopify/) |
 | `aso-audit` | App Store 优化——Apple App Store + Google Play 列表审计评分 | [→](./skills/aso-audit/) |
 | `video` | 视频内容——AI 视频制作/Remotion/Hyperframes/短视频脚本 | [→](./skills/video/) |
+| `remotion-video` | Remotion 程序化视频——用代码批量生产营销视频，弹性动画/图表动画/场景转场 | [→](./skills/remotion-video/) |
 | `image` | 图片内容——营销用图生成/编辑/优化（Blog 主图/社媒素材/产品图） | [→](./skills/image/) |
 | `youtube-summarizer` | YouTube 摘要——自动获取字幕→结构化摘要→多平台推送 | [→](./skills/youtube-summarizer/) |
 | `frontend-design` | 前端设计引擎——审美方向→字体搭配→配色→动画→代码，打造有记忆点的营销页面 | [→](./skills/frontend-design/) |
