@@ -1,10 +1,10 @@
 # 🐱 猫鼬AI — 营销行业 AI Agent 技能库
 
-[![Skills](https://img.shields.io/badge/skills-114-blue)](./skills/)
+[![Skills](https://img.shields.io/badge/skills-119-blue)](./skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Claude%20Code%20%7C%20Hermes%20%7C%20OpenClaw%20%7C%20Codex-purple)](./skills/)
 
-> 🚀 **面向快消品、消费品、营销、咨询行业的 AI Agent Skill 开源集合。114 个即装即用的营销技能——从广告投放到 SEO、从内容策略到数据分析、从客户研究到销售赋能，全链路覆盖。**
+> 🚀 **面向快消品、消费品、营销、咨询行业的 AI Agent Skill 开源集合。119 个即装即用的营销技能——从广告投放到 SEO、从内容策略到数据分析、从客户研究到销售赋能，全链路覆盖。**
 
 ---
 
@@ -48,7 +48,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 
 ---
 
-## 📊 技能全景（114 个 Skill / 13 大类）
+## 📊 技能全景（119 个 Skill / 14 大类）
 
 ### 📢 广告投放（11 个）
 > 从单平台投放审计到跨平台预算分配，覆盖 Google / Meta / LinkedIn / Microsoft / TikTok 全渠道
@@ -202,8 +202,8 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `directory-submissions` | 目录提交——创业/SaaS/AI/MCP/No-Code 目录的 Backlink 获取 | [→](./skills/directory-submissions/) |
 | `meeting-prep` | 会前准备引擎——搜索历史笔记+过往承诺+生成议程+尖锐问题，带着情报进会议室 | [→](./skills/meeting-prep/) |
 
-### 📄 咨询输出（4 个）
-> 面向咨询顾问的专业交付物——HTML 报告、PPT 演示、多页文档、技术架构图
+### 📄 咨询输出（5 个）
+> 面向咨询顾问的专业交付物——HTML 报告、PPT 演示、多页文档、技术架构图、概念示意图
 
 | Skill | 一句话说明 | 直达 |
 |-------|-----------|------|
@@ -211,14 +211,16 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `pro-deck-builder` | 专业 PPT——RRBC 设计系统、深色封面+浅色内容、Lora+Inter 字体 | [→](./skills/pro-deck-builder/) |
 | `pro-report-builder` | 专业报告——8.5×11 竖版、可定制设计系统、图表+表格+行动方案 | [→](./skills/pro-report-builder/) |
 | `tech-diagram` | 技术架构图生成——管道流/分层堆栈/组件图/时间线，HTML 内嵌 SVG，B2B 营销利器 | [→](./skills/tech-diagram/) |
+| `concept-diagrams` | 概念图解引擎——8 种 SVG 图类型、9 色语义调色板、明暗双模、15 个示例模板 | [→](./skills/concept-diagrams/) |
 
-### 🤝 团队协作与沟通（2 个）
-> 内部沟通撰写、会议洞察分析——提升团队信息流转和个人沟通效能
+### 🤝 团队协作与沟通（3 个）
+> 内部沟通撰写、会议洞察分析、结构化决策框架——提升团队信息流转和个人沟通效能
 
 | Skill | 一句话说明 | 直达 |
 |-------|-----------|------|
 | `internal-comms` | 内部沟通大师——3P 周报/全员 Newsletter/FAQ/事故报告/领导层简报 | [→](./skills/internal-comms/) |
 | `meeting-insights-analyzer` | 会议洞察分析——从转录文本诊断冲突回避/说话占比/填充词/倾听质量 | [→](./skills/meeting-insights-analyzer/) |
+| `one-three-one-rule` | 1-3-1 决策框架——1个问题→3个选项→1个推荐→完成标准→执行计划，终结「你觉得呢」 | [→](./skills/one-three-one-rule/) |
 
 ### 🛒 平台与多媒体（8 个）
 > Shopify、ASO、视频/图片内容创作、YouTube 情报、前端设计、Web 测试
@@ -241,6 +243,15 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 |-------|-----------|------|
 | `last30days` | 30 天全网扫描——Reddit+X+Web 同步、7 分钟替代 2 小时手动研究 | [→](./skills/last30days/) |
 | `research-digest` | 研究文摘——RSS+Web 多源情报合成、关键发现+数据点+专家视角 | [→](./skills/research-digest/) |
+
+### 🧑‍💻 开发者营销与技术资产（3 个）
+> 面向开源项目运营、开发者社区营销和技术资产治理——从 GitHub README 优化到依赖安全审计
+
+| Skill | 一句话说明 | 直达 |
+|-------|-----------|------|
+| `github-readme` | GitHub README 三模式引擎——生成/审计/更新，项目类型感知+SEO/AEO优化+安全擦洗 | [→](./skills/github-readme/) |
+| `dep-audit` | 依赖审计——跨仓库安全漏洞扫描+版本冲突检测+许可证合规审计+分级更新计划 | [→](./skills/dep-audit/) |
+| `repo-health` | 仓库健康体检——11项标准文件+6项GitHub配置+代码卫生+社区建设五维评分 | [→](./skills/repo-health/) |
 
 ---
 
