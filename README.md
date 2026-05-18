@@ -49,7 +49,10 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 ├── brand-guardian-optimization/            # 品牌守护者优化
 │   └── SKILL.md
 ├── content-monetization-pipeline/        # 【新增】内容变现分发管线
-│   └── SKILL.md
+│   ├── README.md                           #   使用文档（快速开始/命令参考/故障排查）
+│   ├── SKILL.md                            #   Skill 核心定义
+│   └── scripts/                            #   执行脚本
+│       └── video_adapter.py                #     多平台视频格式转换（ffmpeg）
 ├── devops_automator/                       # DevOps 自动化
 │   └── SKILL.md
 ├── fast-moving-consumer-goods-ecommerce-operator/   # 快消电商运营
