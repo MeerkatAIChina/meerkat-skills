@@ -42,6 +42,8 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 │
 ├── ai_engineer/                            # AI 工程师（ML/LLM 开发部署）
 │   └── SKILL.md
+├── autonomous_optimization_architect/      # 【新增】自主优化架构师
+│   └── SKILL.md
 ├── backend-architecture/                   # 后端架构设计
 │   └── SKILL.md
 ├── brand-guardian-optimization/            # 品牌守护者优化
@@ -51,6 +53,8 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 ├── fast-moving-consumer-goods-ecommerce-operator/   # 快消电商运营
 │   └── SKILL.md
 ├── fast-moving-consumer-goods-supply-chain/           # 快消供应链
+│   └── SKILL.md
+├── filament_optimization_specialist/       # 【新增】耗材优化专家
 │   └── SKILL.md
 ├── frontend-development/                   # 前端开发
 │   └── SKILL.md
@@ -107,17 +111,21 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 
 ---
 
-## Skill 清单（18 个）
+## Skill 清单（22 个）
 
-### 🔧 工程研发类（5 个）
+### 🔧 工程研发类（9 个）
 
 | Skill | 定位 | 来源 |
 |-------|------|------|
 | `ai_engineer` | ML 模型开发、LLM 集成、MLOps、生产部署 | agency-agents |
+| `autonomous_optimization_architect` | 系统性能与成本自主优化架构 | agency-agents |
 | `backend-architecture` | 后端架构设计与系统架构 | agency-agents |
 | `devops_automator` | DevOps 流程自动化与 CI/CD | agency-agents |
+| `filament_optimization_specialist` | 3D 打印耗材优化与参数调优 | agency-agents |
 | `frontend-development` | 前端开发与技术实现 | agency-agents |
 | `rapid_prototyper` | 3 天内出 MVP 的快速原型开发 | agency-agents |
+| `security_engineer` | 安全审计、漏洞修复与防护策略 | agency-agents |
+| `senior_developer` | 高级开发工程师全栈技术决策 | agency-agents |
 
 ### 🎨 设计创意类（6 个）
 
@@ -340,7 +348,7 @@ response = ai.chat(
 |-------|------|------|------|
 | `manufacturing-ai-efficiency-pro` | **V2.0** | ✅ 稳定 | 旗舰 Skill，三层流程图 + 评分闸门 |
 | `product-promo-video-maker` | **V1.1** | ✅ 新增 | 产品宣发视频全自动生成 |
-| 其他 17 个 Skill | V1.0 | ✅ 可用 | 基于 agency-agents 标准化包装 |
+| 其他 21 个 Skill | V1.0 | ✅ 可用 | 基于 agency-agents 标准化包装 |
 
 ---
 
@@ -388,6 +396,11 @@ response = ai.chat(
 - **Skill 规范参考**：[OpenClaw AgentSkills 文档](https://docs.openclaw.ai)
 - **原始来源**：[agency-agents](https://github.com/msitarzewski/agency-agents)（部分 Skill 基于此改编）
 - **旗舰 Skill 详细文档**：见 `manufacturing-ai-efficiency-pro/SKILL.md`
+
+---
+
+**Made with ❤️ for AI Agent Skill Standardization**
+�� `manufacturing-ai-efficiency-pro/SKILL.md`
 
 ---
 
