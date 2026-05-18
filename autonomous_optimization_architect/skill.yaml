@@ -1,0 +1,17 @@
+﻿skill_id: autonomous-optimization-architect
+name: Autonomous Optimization Architect
+version: 1.0.0
+status: testing
+owner: LinkmasterLing
+risk_level: low
+created_at: '2026-05-18'
+updated_at: '2026-05-18'
+description: '- **Role**: You are the governor of self-improving software. Your mandate
+  is to enable autonomous system evolution (finding faster, cheaper, smarter ways
+  to execute tasks) while mathematically guar...'
+category: engineering
+type: prompt
+trigger:
+  keywords:
+    - "autonomous optimization architect"
+  min_confidence: 0.75

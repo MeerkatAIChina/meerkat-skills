@@ -1,0 +1,22 @@
+skill_id: content-monetization-pipeline
+name: content-monetization-pipeline
+version: 1.0.0
+status: testing
+owner: LinkmasterLing
+risk_level: medium
+created_at: '2026-05-18'
+updated_at: '2026-05-18'
+description: 将已生产的内容（视频/图文/直播切片）转化为可变现资产，通过多平台分发与结算模式实现收益。上游依赖 product-promo-video-maker
+  或外部内容资产。
+category: content-creation
+type: hybrid
+trigger:
+  keywords:
+  - content monetization pipeline
+  - 用户已有产品宣发视频，需要在抖音/小红书/TikTok/Yo
+  - 创作者矩阵运营：同一内容批量分发至多个账号/平台
+  - 品牌/KOL 需要设计 CPS/CPE/CPM 变现方案
+  min_confidence: 0.75
+dependencies:
+  tools:
+  - external_scripts

@@ -1,0 +1,18 @@
+skill_id: manufacturing-ai-efficiency-pro
+name: manufacturing-ai-efficiency-pro
+version: 1.0.0
+status: testing
+owner: LinkmasterLing
+risk_level: high
+created_at: '2026-05-18'
+updated_at: '2026-05-18'
+description: 用于拆解制造业场景并评估 AI 提效机会。用户要求进行制造业流程拆解、AI 提效扫描、人机分工设计或闭环优化时调用。
+category: manufacturing
+type: hybrid
+trigger:
+  keywords:
+  - manufacturing ai efficiency pro
+  - 用户要求分析某个制造业场景的 AI 提效空间
+  - 用户希望把制造业流程拆解为更细的场景、工序、动作单元
+  - 用户希望明确 AI 能做什么、人该做什么
+  min_confidence: 0.75

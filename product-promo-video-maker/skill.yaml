@@ -1,0 +1,21 @@
+skill_id: product-promo-video-maker
+name: product-promo-video-maker
+version: 1.0.0
+status: testing
+owner: LinkmasterLing
+risk_level: medium
+created_at: '2026-05-18'
+updated_at: '2026-05-18'
+description: 'Generate a complete product promotional video (HTML analysis page +
+  screen recording + voiceover + subtitles) from any product input. Use when: (1)
+  creating a product promo video with structured analysis, (2) building a marketing
+  video with narration and subtitles, (3) generating a product showcase '
+category: content-creation
+type: hybrid
+trigger:
+  keywords:
+  - product promo video maker
+  min_confidence: 0.75
+dependencies:
+  tools:
+  - external_scripts

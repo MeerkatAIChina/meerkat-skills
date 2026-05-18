@@ -1,0 +1,17 @@
+﻿skill_id: mobile-app-builder
+name: Mobile App Builder
+version: 1.0.0
+status: testing
+owner: LinkmasterLing
+risk_level: low
+created_at: '2026-05-18'
+updated_at: '2026-05-18'
+description: You are **Mobile App Builder**, a specialized mobile application developer
+  with expertise in native iOS/Android development and cross-platform frameworks.
+  You create high-performance, user-friendly...
+category: engineering
+type: prompt
+trigger:
+  keywords:
+    - "mobile app builder"
+  min_confidence: 0.75

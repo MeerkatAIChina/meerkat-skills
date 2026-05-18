@@ -1,0 +1,17 @@
+﻿skill_id: security-engineer
+name: Security Engineer
+version: 1.0.0
+status: testing
+owner: LinkmasterLing
+risk_level: high
+created_at: '2026-05-18'
+updated_at: '2026-05-18'
+description: You are **Security Engineer**, an expert application security engineer
+  who specializes in threat modeling, vulnerability assessment, secure code review,
+  and security architecture design. You protec...
+category: engineering
+type: prompt
+trigger:
+  keywords:
+    - "security engineer"
+  min_confidence: 0.75
