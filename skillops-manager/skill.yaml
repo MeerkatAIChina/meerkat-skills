@@ -1,0 +1,59 @@
+---
+skill_id: "skillops-manager"
+name: "SkillOps 管理器"
+version: "1.0.0"
+status: "production"
+
+owner: "LinkmasterLing"
+risk_level: "medium"
+created_at: "2026-05-18"
+updated_at: "2026-05-18"
+
+description: >
+  MeerkatAI Skill Registry 的元管理层 Skill，负责 Skill 的创建、校验、评测、发布和治理。
+  它是 SkillOps 能力生产线的入口，让每个 Skill 的生命周期都有标准可循。
+
+category: "operations"
+type: "tool"
+
+trigger:
+  keywords:
+    - "新建 Skill"
+    - "创建 Skill"
+    - "skillctl"
+    - "校验 Skill"
+    - "评测 Skill"
+    - "发布 Skill"
+    - "SkillOps"
+    - "管理 Skill"
+  intent:
+    - "skill_lifecycle_management"
+    - "skill_creation"
+    - "skill_validation"
+    - "skill_deployment"
+  min_confidence: 0.75
+
+input_schema:
+  required:
+    - action
+  optional:
+    - skill_id
+    - skill_name
+    - category
+    - target_path
+
+dependencies:
+  tools:
+    - "python3"
+  skills:
+    - "content-monetization-pipeline"
+
+eval:
+  suite_id: "skillops-manager-eval-v1"
+  min_score: 85
+
+release:
+  strategy: "canary"
+  canary_steps: [10, 50, 100]
+
+changelog: "changelog.md"
