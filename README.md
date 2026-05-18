@@ -48,6 +48,8 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 │   └── SKILL.md
 ├── brand-guardian-optimization/            # 品牌守护者优化
 │   └── SKILL.md
+├── content-monetization-pipeline/        # 【新增】内容变现分发管线
+│   └── SKILL.md
 ├── devops_automator/                       # DevOps 自动化
 │   └── SKILL.md
 ├── fast-moving-consumer-goods-ecommerce-operator/   # 快消电商运营
@@ -111,7 +113,7 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 
 ---
 
-## Skill 清单（22 个）
+## Skill 清单（23 个）
 
 ### 🔧 工程研发类（9 个）
 
@@ -164,11 +166,12 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 |-------|------|------|
 | `whimsy-injector-optimization` | 趣味性创意注入与优化 | agency-agents |
 
-### 📹 宣发内容类（1 个 ⭐ 新增）
+### 📹 宣发内容类（2 个 ⭐ 新增）
 
 | Skill | 定位 | 版本 |
 |-------|------|------|
 | `product-promo-video-maker` | 产品页分析→网页渲染→录屏→语音合成→视频合成 | **V1.1** |
+| `content-monetization-pipeline` | 内容资产→多平台分发→变现结算全链路 | **V1.0** |
 
 ---
 
@@ -347,6 +350,7 @@ response = ai.chat(
 | Skill | 版本 | 状态 | 备注 |
 |-------|------|------|------|
 | `manufacturing-ai-efficiency-pro` | **V2.0** | ✅ 稳定 | 旗舰 Skill，三层流程图 + 评分闸门 |
+| `content-monetization-pipeline` | **V1.0** | ✅ 新增 | 内容资产→多平台分发→变现结算全链路 |
 | `product-promo-video-maker` | **V1.1** | ✅ 新增 | 产品宣发视频全自动生成 |
 | 其他 21 个 Skill | V1.0 | ✅ 可用 | 基于 agency-agents 标准化包装 |
 
