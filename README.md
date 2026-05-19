@@ -261,7 +261,7 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 │   ├── 质量检查清单
 │   └── 附录：原始 Skill 内容（保留来源追溯）
 │
-├── references/                 # 【可选】Skill 专用参考资料
+├── references/                 # 【可选】原始来源追溯、专用参考资料
 │   └── *.md
 │
 ├── examples/                   # 【可选】输入/输出示例
@@ -385,7 +385,7 @@ response = ai.chat(
 2. 新建目录 `<skill-name>/`
 3. 按**Skill 目录结构规范**编写 `SKILL.md`
 4. 如有需要，添加 `references/`、`examples/`、`scripts/`
-5. 在 `references/` 根目录添加 `*-source.md`（追溯原始来源）
+5. 在 Skill 目录下添加 `references/*-source.md`（追溯原始来源）
 6. 更新本 README 的 Skill 清单
 7. 提交 PR 到 `ling` 分支
 
