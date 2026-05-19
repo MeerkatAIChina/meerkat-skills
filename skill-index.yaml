@@ -12,7 +12,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: content/content-monetization-pipeline/
+  path: skills/content/content-monetization-pipeline/
 - skill_id: ppt-master
   name: PPT Master — AI 原生可编辑 PPTX 生成
   version: 2.7.0
@@ -22,7 +22,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: content/ppt-master/
+  path: skills/content/ppt-master/
 - skill_id: product-promo-video-maker
   name: 产品宣发视频生成器
   version: 1.1.0
@@ -32,7 +32,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: content/product-promo-video-maker/
+  path: skills/content/product-promo-video-maker/
 - skill_id: whimsy-injector
   name: 趣味注入师
   version: 1.0.0
@@ -42,7 +42,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: creative/whimsy-injector/
+  path: skills/creative/whimsy-injector/
 - skill_id: brand-guardian
   name: 品牌守护者
   version: 1.0.0
@@ -52,7 +52,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: design/brand-guardian/
+  path: skills/design/brand-guardian/
 - skill_id: image-prompt-engineer
   name: 图像提示工程师
   version: 1.0.0
@@ -62,7 +62,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: design/image-prompt-engineer/
+  path: skills/design/image-prompt-engineer/
 - skill_id: inclusive-visuals-specialist
   name: 包容性视觉设计
   version: 1.0.0
@@ -72,7 +72,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: design/inclusive-visuals-specialist/
+  path: skills/design/inclusive-visuals-specialist/
 - skill_id: ui-design
   name: UI 设计
   version: 1.0.0
@@ -82,7 +82,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: design/ui-design/
+  path: skills/design/ui-design/
 - skill_id: ux-architect
   name: UX 架构师
   version: 1.0.0
@@ -92,7 +92,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: design/ux-architect/
+  path: skills/design/ux-architect/
 - skill_id: ux-research
   name: UX 研究
   version: 1.0.0
@@ -102,7 +102,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: design/ux-research/
+  path: skills/design/ux-research/
 - skill_id: visual-storyteller
   name: 视觉叙事师
   version: 1.0.0
@@ -112,7 +112,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: design/visual-storyteller/
+  path: skills/design/visual-storyteller/
 - skill_id: fast-moving-consumer-goods-ecommerce-operator
   name: 快消品电商运营
   version: 1.0.0
@@ -122,7 +122,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: commercial/fast-moving-consumer-goods-ecommerce-operator/
+  path: skills/commercial/fast-moving-consumer-goods-ecommerce-operator/
 - skill_id: fast-moving-consumer-goods-supply-chain
   name: 快消品供应链优化
   version: 1.0.0
@@ -132,7 +132,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: commercial/fast-moving-consumer-goods-supply-chain/
+  path: skills/commercial/fast-moving-consumer-goods-supply-chain/
 - skill_id: ai-engineer
   name: AI 工程师
   version: 1.0.0
@@ -142,7 +142,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: engineering/ai-engineer/
+  path: skills/engineering/ai-engineer/
 - skill_id: autonomous-optimization-architect
   name: 自主优化架构师
   version: 1.0.0
@@ -152,7 +152,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: engineering/autonomous-optimization-architect/
+  path: skills/engineering/autonomous-optimization-architect/
 - skill_id: backend-architecture
   name: 后端架构设计
   version: 1.0.0
@@ -162,7 +162,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: engineering/backend-architecture/
+  path: skills/engineering/backend-architecture/
 - skill_id: devops-automator
   name: DevOps 自动化
   version: 1.0.0
@@ -172,7 +172,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: engineering/devops-automator/
+  path: skills/engineering/devops-automator/
 - skill_id: embedded-firmware-engineer
   name: 嵌入式固件工程师
   version: 1.0.0
@@ -182,7 +182,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: engineering/embedded-firmware-engineer/
+  path: skills/engineering/embedded-firmware-engineer/
 - skill_id: frontend-development
   name: 前端开发
   version: 1.0.0
@@ -192,7 +192,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: engineering/frontend-development/
+  path: skills/engineering/frontend-development/
 - skill_id: rapid-prototyper
   name: 快速原型开发
   version: 1.0.0
@@ -202,7 +202,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: engineering/rapid-prototyper/
+  path: skills/engineering/rapid-prototyper/
 - skill_id: security-engineer
   name: 安全工程师
   version: 1.0.0
@@ -212,7 +212,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: engineering/security-engineer/
+  path: skills/engineering/security-engineer/
 - skill_id: senior-developer
   name: 高级开发工程师
   version: 1.0.0
@@ -222,7 +222,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: engineering/senior-developer/
+  path: skills/engineering/senior-developer/
 - skill_id: manufacturing-ai-efficiency-pro
   name: 制造业 AI 提效分析
   version: 2.1.0
@@ -232,7 +232,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: manufacturing/manufacturing-ai-efficiency-pro/
+  path: skills/manufacturing/manufacturing-ai-efficiency-pro/
 - skill_id: skillops-manager
   name: SkillOps 管理器
   version: 1.0.0
@@ -242,7 +242,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: operations/skillops-manager/
+  path: skills/operations/skillops-manager/
 - skill_id: filament-optimization-specialist
   name: 耗材优化专家
   version: 1.0.0
@@ -252,7 +252,7 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: product/filament-optimization-specialist/
+  path: skills/product/filament-optimization-specialist/
 - skill_id: mobile-app-builder
   name: 移动应用构建
   version: 1.0.0
@@ -262,4 +262,4 @@ skills:
   risk_level: medium
   has_readme: true
   has_changelog: true
-  path: product/mobile-app-builder/
+  path: skills/product/mobile-app-builder/

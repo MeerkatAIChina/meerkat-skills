@@ -27,11 +27,11 @@ manufacturing-ai-efficiency-Skill/          # Registry 根
 ├── SKILL-REGISTRY.md                       # 【本文件】Registry 索引与使用指南
 ├── skill-index.yaml                        # 聚合索引 (26 skills 元数据)
 │
-├── commercial/                             # 🛒 商业运营 (2)
+├── skills/commercial/                             # 🛒 商业运营 (2)
 │   ├── fast-moving-consumer-goods-ecommerce-operator/
 │   └── fast-moving-consumer-goods-supply-chain/
 │
-├── content/                                # 📱 内容宣发 (3)
+├── skills/content/                                # 📱 内容宣发 (3)
 │   ├── content-monetization-pipeline/      # V1.0, hybrid
 │   ├── ppt-master/                         # V2.7, production, 旗舰
 │   │   ├── SKILL.md
@@ -43,10 +43,10 @@ manufacturing-ai-efficiency-Skill/          # Registry 根
 │   │   └── workflows/
 │   └── product-promo-video-maker/          # V1.1
 │
-├── creative/                               # ✨ 创意增强 (1)
+├── skills/creative/                               # ✨ 创意增强 (1)
 │   └── whimsy-injector/
 │
-├── design/                                 # 🎨 设计创意 (7)
+├── skills/design/                                 # 🎨 设计创意 (7)
 │   ├── brand-guardian/
 │   ├── image-prompt-engineer/
 │   ├── inclusive-visuals-specialist/
@@ -59,7 +59,7 @@ manufacturing-ai-efficiency-Skill/          # Registry 根
 │   ├── skill-yaml-spec.md                  #   YAML 元数据规范 v1.0
 │   └── skillops-architecture.md            #   SkillOps CI/CD 架构
 │
-├── engineering/                            # 🔧 工程研发 (9)
+├── skills/engineering/                            # 🔧 工程研发 (9)
 │   ├── ai-engineer/
 │   ├── autonomous-optimization-architect/
 │   ├── backend-architecture/
@@ -70,16 +70,16 @@ manufacturing-ai-efficiency-Skill/          # Registry 根
 │   ├── security-engineer/
 │   └── senior-developer/
 │
-├── manufacturing/                          # 🏭 制造业 (1 旗舰)
+├── skills/manufacturing/                          # 🏭 制造业 (1 旗舰)
 │   └── manufacturing-ai-efficiency-pro/      # V2.0, 49KB SKILL.md
 │       └── references/                     #   APQC / 5M1E / T34
 │
-├── operations/                             # ⚙️ 运维管理 (1)
+├── skills/operations/                             # ⚙️ 运维管理 (1)
 │   └── skillops-manager/                   # V1.0, production
 │       └── scripts/
 │           └── skillctl.py                   # Skill 生命周期 CLI
 │
-├── product/                                # 📦 产品应用 (2)
+├── skills/product/                                # 📦 产品应用 (2)
 │   ├── filament-optimization-specialist/
 │   └── mobile-app-builder/
 │

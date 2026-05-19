@@ -35,7 +35,7 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 ├── README.md                               # 本文件（Skill Registry 总览）
 ├── skill-index.yaml                        # 【Registry 索引】聚合全部 Skill 元数据
 │
-├── engineering/                            # 🔧 工程研发类（8 个 Skill）
+├── skills/engineering/                            # 🔧 工程研发类（8 个 Skill）
 │   ├── ai-engineer/                        #   AI 工程师（ML/LLM 开发部署）
 │   ├── autonomous-optimization-architect/  #   自主优化架构师
 │   ├── backend-architecture/               #   后端架构设计
@@ -45,7 +45,7 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 │   ├── security-engineer/                  #   安全工程师
 │   └── senior-developer/                   #   高级开发工程师
 │
-├── design/                                 # 🎨 设计创意类（7 个 Skill）
+├── skills/design/                                 # 🎨 设计创意类（7 个 Skill）
 │   ├── brand-guardian/                     #   品牌守护者
 │   ├── image-prompt-engineer/              #   图像提示工程师
 │   ├── inclusive-visuals-specialist/       #   包容性视觉专家
@@ -54,7 +54,7 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 │   ├── ux-research/                        #   UX 研究
 │   └── visual-storyteller/                 #   视觉叙事师
 │
-├── manufacturing/                          # 🏭 制造业类（1 个 ⭐ 旗舰）
+├── skills/manufacturing/                          # 🏭 制造业类（1 个 ⭐ 旗舰）
 │   └── manufacturing-ai-efficiency-pro/      #   制造业 AI 提效分析（V2.0）
 │       └── references/                     #     制造业专用参考资料
 │           ├── apqc_standards.md
@@ -63,11 +63,11 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 │           ├── standards_and_maturity_framework.md
 │           └── tencent_t34_model.md
 │
-├── commercial/                             # 🛒 商业运营类（2 个）
+├── skills/commercial/                             # 🛒 商业运营类（2 个）
 │   ├── fast-moving-consumer-goods-ecommerce-operator/   # 快消电商运营
 │   └── fast-moving-consumer-goods-supply-chain/         # 快消供应链
 │
-├── content/                                # 📱 内容宣发类（3 个）
+├── skills/content/                                # 📱 内容宣发类（3 个）
 │   ├── content-monetization-pipeline/      #   内容变现分发管线（V1.0）
 │   ├── ppt-master/                         #   📊 PPT Master — AI 原生 PPTX（V2.7）
 │   │   ├── SKILL.md
@@ -85,14 +85,14 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 │       ├── references/
 │       └── scripts/                          #     capture/pipeline/render/voice.py
 │
-├── creative/                               # ✨ 创意增强类（1 个）
+├── skills/creative/                               # ✨ 创意增强类（1 个）
 │   └── whimsy-injector/                    #   趣味注入师
 │
-├── product/                                # 📦 产品应用类（2 个）
+├── skills/product/                                # 📦 产品应用类（2 个）
 │   ├── filament-optimization-specialist/   #   耗材优化专家（3D 打印）
 │   └── mobile-app-builder/               #   移动应用构建
 │
-├── operations/                             # ⚙️ 运维管理类（1 个）
+├── skills/operations/                             # ⚙️ 运维管理类（1 个）
 │   └── skillops-manager/                   #   SkillOps 管理器（V1.0）
 │       ├── SKILL.md
 │       ├── README.md
