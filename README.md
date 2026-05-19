@@ -113,11 +113,9 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 │   ├── visual-storyteller-source.md
 │   └── whimsy-injector-source.md
 │
-└── scripts/                                # 仓库级脚本
+└── .scripts/                               # 仓库级脚本 (hidden)
     ├── batch_generate_skill_yaml.py        #   批量生成 YAML 脚本
-    ├── skillctl_validate.py                #   Skill 校验脚本
-    ├── stage1-normalization-log.md         #   阶段 1 规范化日志
-    └── stage2-reorganization-log.md        #   阶段 2 重组日志
+    └── skillctl_validate.py                #   Skill 校验脚本
 ```
 
 ---

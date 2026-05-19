@@ -1,0 +1,60 @@
+---
+skill_id: "embedded-firmware-engineer"
+name: "嵌入式固件工程师"
+version: "1.0.0"
+status: "testing"
+
+owner: "LinkmasterLing"
+risk_level: "medium"
+created_at: "2026-05-18"
+updated_at: "2026-05-19"
+
+description: >
+  嵌入式固件开发工程师。将嵌入式系统问题拆解为可验证、可追溯、可落地的人机协同工作流。
+  覆盖固件架构、驱动开发、实时系统、低功耗优化等场景。
+
+category: "engineering"
+type: "prompt"
+
+trigger:
+  keywords:
+    - "嵌入式"
+    - "固件开发"
+    - "RTOS"
+    - "驱动开发"
+    - "MCU"
+    - "低功耗"
+  intent:
+    - "embedded_development"
+    - "firmware_engineering"
+    - "rtos_configuration"
+  min_confidence: 0.75
+
+input_schema:
+  required:
+    - "task_description"
+  optional:
+    - "target_platform"
+    - "constraints"
+
+output_schema:
+  type: "markdown"
+  additional_files:
+    - "checklist.md"
+
+dependencies:
+  models:
+    - "kimi-coding/k2.6"
+
+eval:
+  suite_id: "embedded-firmware-engineer-eval-v1"
+  min_score: 80
+  format_pass_rate: 0.95
+  regression_pass_rate: 0.90
+
+release:
+  strategy: "canary"
+  canary_steps: [10, 50, 100]
+  rollback_version: "0.0.0"
+
+changelog: "changelog.md"
