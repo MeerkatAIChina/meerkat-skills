@@ -104,18 +104,6 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 │   ├── skill-yaml-spec.md                  #   Skill YAML 元数据规范 v1.0
 │   └── skillops-architecture.md            #   SkillOps 架构设计
 │
-├── references/                             # 各 Skill 原始来源参考资料
-│   ├── backend-architecture-source.md
-│   ├── brand-guardian-source.md
-│   ├── frontend-development-source.md
-│   ├── image-prompt-engineer-source.md
-│   ├── inclusive-visuals-specialist-source.md
-│   ├── ui-design-source.md
-│   ├── ux-architect-source.md
-│   ├── ux-research-source.md
-│   ├── visual-storyteller-source.md
-│   └── whimsy-injector-source.md
-│
 └── .scripts/                               # 仓库级脚本 (hidden)
     ├── batch_generate_skill_yaml.py        #   批量生成 YAML 脚本
     └── skillctl_validate.py                #   Skill 校验脚本
@@ -123,7 +111,7 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 
 ---
 
-## Skill 清单（25 个）
+## Skill 清单（26 个）
 
 ### 🔧 工程研发类（8 个）
 
@@ -189,10 +177,6 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 | Skill | 定位 | 版本 |
 |-------|------|------|
 | `skillops-manager` | Skill 创建、校验、评测、发布、治理全生命周期 | **V1.0** |
-
----
-
-## 旗舰 Skill 详解：`manufacturing-ai-efficiency-pro`
 
 ---
 
@@ -334,7 +318,7 @@ PR 提交 → 结构合规检查（目录/章节/字段）→ 内容深度评审
 将 `SKILL.md` 内容作为系统提示词或参考文档提供给 AI：
 
 ```
-请基于 manufacturing-ai-efficiency-pro/SKILL.md 的规范，
+请基于 skills/manufacturing/manufacturing-ai-efficiency-pro/SKILL.md 的规范，
 分析以下制造业场景的 AI 提效空间：
 [粘贴场景描述]
 ```
@@ -346,7 +330,7 @@ PR 提交 → 结构合规检查（目录/章节/字段）→ 内容深度评审
 git clone https://github.com/MeerkatAIChina/manufacturing-ai-efficiency-Skill.git
 
 # 复制所需 Skill 到 skills 目录
-cp manufacturing-ai-efficiency-Skill/manufacturing-ai-efficiency-pro/SKILL.md \
+cp manufacturing-ai-efficiency-Skill/skills/manufacturing/manufacturing-ai-efficiency-pro/SKILL.md \
    ~/.openclaw/workspace/skills/
 ```
 
@@ -354,7 +338,7 @@ cp manufacturing-ai-efficiency-Skill/manufacturing-ai-efficiency-pro/SKILL.md \
 
 ```python
 # 读取 Skill 定义
-with open("manufacturing-ai-efficiency-pro/SKILL.md", "r") as f:
+with open("skills/manufacturing/manufacturing-ai-efficiency-pro/SKILL.md", "r") as f:
     skill_definition = f.read()
 
 # 将 Skill 注入 AI 会话
@@ -382,11 +366,11 @@ response = ai.chat(
 ### 新增 Skill
 
 1. 创建 `feature/<skill-name>` 分支
-2. 新建目录 `<skill-name>/`
+2. 新建目录 `skills/<category>/<skill-name>/`
 3. 按**Skill 目录结构规范**编写 `SKILL.md`
 4. 如有需要，添加 `references/`、`examples/`、`scripts/`
 5. 在 Skill 目录下添加 `references/*-source.md`（追溯原始来源）
-6. 更新本 README 的 Skill 清单
+6. 更新本 README 的 Skill 清单 + `skill-index.yaml`
 7. 提交 PR 到 `ling` 分支
 
 ### 改进现有 Skill
@@ -420,7 +404,7 @@ response = ai.chat(
 
 - **Skill 规范参考**：[OpenClaw AgentSkills 文档](https://docs.openclaw.ai)
 - **原始来源**：[agency-agents](https://github.com/msitarzewski/agency-agents)（部分 Skill 基于此改编）
-- **旗舰 Skill 详细文档**：见 `manufacturing-ai-efficiency-pro/SKILL.md`
+- **旗舰 Skill 详细文档**：见 `skills/manufacturing/manufacturing-ai-efficiency-pro/SKILL.md`
 
 ---
 
