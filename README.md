@@ -1,13 +1,24 @@
 # MeerkatAI Skill Registry
 
 > 统一的 Skill 发版仓库，支持多领域 AI Agent 能力标准化复用与持续迭代。
+> A unified Skill release repository for standardized, reusable, and continuously iterative AI Agent capabilities across multiple domains.
 >
-> 📋 **[Registry 索引与使用指南 → SKILL-REGISTRY.md](SKILL-REGISTRY.md)**
+> 📋 **[Registry 索引与使用指南 / Registry Index → SKILL-REGISTRY.md](SKILL-REGISTRY.md)**
 > （26 skills, 8 categories, 完整目录树与变更历史）
 
 ---
 
-## 项目定位
+## 目录 | Table of Contents
+
+- [中文版本 | Chinese](#中文)
+- [English Version](#english)
+
+---
+
+<a id="中文"></a>
+## 中文
+
+### 项目定位
 
 本仓库是 **MeerkatAI 的 Skill Registry（技能注册表）**，用于：
 
@@ -16,7 +27,7 @@
 - **多场景覆盖**：制造业、研发工程、设计创意、商业运营等领域
 - **统一规范**：所有 Skill 遵循一致的结构、质量标准与输出格式
 
-### 与普通 Agent Prompt 的区别
+#### 与普通 Agent Prompt 的区别
 
 | | 普通 Prompt | MeerkatAI Skill |
 |---|---|---|
@@ -28,24 +39,25 @@
 
 ---
 
-## 仓库结构
+### 仓库结构
 
 ```
 manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 ├── README.md                               # 本文件（Skill Registry 总览）
 ├── skill-index.yaml                        # 【Registry 索引】聚合全部 Skill 元数据
 │
-├── skills/engineering/                            # 🔧 工程研发类（8 个 Skill）
+├── skills/engineering/                     # 🔧 工程研发类（9 个 Skill）
 │   ├── ai-engineer/                        #   AI 工程师（ML/LLM 开发部署）
 │   ├── autonomous-optimization-architect/  #   自主优化架构师
 │   ├── backend-architecture/               #   后端架构设计
 │   ├── devops-automator/                   #   DevOps 自动化
+│   ├── embedded-firmware-engineer/         #   嵌入式固件工程师
 │   ├── frontend-development/               #   前端开发
 │   ├── rapid-prototyper/                   #   快速原型开发
 │   ├── security-engineer/                  #   安全工程师
 │   └── senior-developer/                   #   高级开发工程师
 │
-├── skills/design/                                 # 🎨 设计创意类（7 个 Skill）
+├── skills/design/                          # 🎨 设计创意类（7 个 Skill）
 │   ├── brand-guardian/                     #   品牌守护者
 │   ├── image-prompt-engineer/              #   图像提示工程师
 │   ├── inclusive-visuals-specialist/       #   包容性视觉专家
@@ -54,25 +66,20 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 │   ├── ux-research/                        #   UX 研究
 │   └── visual-storyteller/                 #   视觉叙事师
 │
-├── skills/manufacturing/                          # 🏭 制造业类（1 个 ⭐ 旗舰）
+├── skills/manufacturing/                   # 🏭 制造业类（1 个 ⭐ 旗舰）
 │   └── manufacturing-ai-efficiency-pro/      #   制造业 AI 提效分析（V2.0）
 │       └── references/                     #     制造业专用参考资料
-│           ├── apqc_standards.md
-│           ├── ie_analysis_toolkit.md
-│           ├── manufacturing_value_chain.md
-│           ├── standards_and_maturity_framework.md
-│           └── tencent_t34_model.md
 │
-├── skills/commercial/                             # 🛒 商业运营类（2 个）
+├── skills/commercial/                      # 🛒 商业运营类（2 个）
 │   ├── fast-moving-consumer-goods-ecommerce-operator/   # 快消电商运营
 │   └── fast-moving-consumer-goods-supply-chain/         # 快消供应链
 │
-├── skills/content/                                # 📱 内容宣发类（3 个）
+├── skills/content/                         # 📱 内容宣发类（3 个）
 │   ├── content-monetization-pipeline/      #   内容变现分发管线（V1.0）
 │   ├── ppt-master/                         #   📊 PPT Master — AI 原生 PPTX（V2.7）
 │   │   ├── SKILL.md
-│   │   ├── README.md
 │   │   ├── skill.yaml
+│   │   ├── README.md
 │   │   ├── references/
 │   │   ├── scripts/                        #     50+ Python 脚本
 │   │   ├── templates/                        #     布局 + 图标 + 图表
@@ -85,14 +92,14 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 │       ├── references/
 │       └── scripts/                          #     capture/pipeline/render/voice.py
 │
-├── skills/creative/                               # ✨ 创意增强类（1 个）
+├── skills/creative/                        # ✨ 创意增强类（1 个）
 │   └── whimsy-injector/                    #   趣味注入师
 │
-├── skills/product/                                # 📦 产品应用类（2 个）
+├── skills/product/                         # 📦 产品应用类（2 个）
 │   ├── filament-optimization-specialist/   #   耗材优化专家（3D 打印）
 │   └── mobile-app-builder/               #   移动应用构建
 │
-├── skills/operations/                             # ⚙️ 运维管理类（1 个）
+├── skills/operations/                      # ⚙️ 运维管理类（1 个）
 │   └── skillops-manager/                   #   SkillOps 管理器（V1.0）
 │       ├── SKILL.md
 │       ├── README.md
@@ -111,9 +118,9 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 
 ---
 
-## Skill 清单（26 个）
+### Skill 清单（26 个）
 
-### 🔧 工程研发类（8 个）
+#### 🔧 工程研发类（9 个）
 
 | Skill | 定位 | 来源 |
 |-------|------|------|
@@ -121,12 +128,13 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 | `autonomous-optimization-architect` | 系统性能与成本自主优化架构 | agency-agents |
 | `backend-architecture` | 后端架构设计与系统架构 | agency-agents |
 | `devops-automator` | DevOps 流程自动化与 CI/CD | agency-agents |
+| `embedded-firmware-engineer` | 嵌入式固件开发、RTOS、驱动 | agency-agents |
 | `frontend-development` | 前端开发与技术实现 | agency-agents |
 | `rapid-prototyper` | 3 天内出 MVP 的快速原型开发 | agency-agents |
 | `security-engineer` | 安全审计、漏洞修复与防护策略 | agency-agents |
 | `senior-developer` | 高级开发工程师全栈技术决策 | agency-agents |
 
-### 🎨 设计创意类（7 个）
+#### 🎨 设计创意类（7 个）
 
 | Skill | 定位 | 来源 |
 |-------|------|------|
@@ -138,20 +146,20 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 | `ux-research` | 用户研究与需求洞察 | agency-agents |
 | `visual-storyteller` | 视觉叙事与品牌故事 | agency-agents |
 
-### 🏭 制造业类（1 个 ⭐ 旗舰）
+#### 🏭 制造业类（1 个 ⭐ 旗舰）
 
 | Skill | 定位 | 版本 |
 |-------|------|------|
 | `manufacturing-ai-efficiency-pro` | 制造业流程拆解→AI 提效扫描→人机协同方案 | **V2.0** |
 
-### 🛒 商业运营类（2 个）
+#### 🛒 商业运营类（2 个）
 
 | Skill | 定位 | 来源 |
 |-------|------|------|
 | `fast-moving-consumer-goods-ecommerce-operator` | 快消品电商运营 | agency-agents |
 | `fast-moving-consumer-goods-supply-chain` | 快消品供应链管理 | agency-agents |
 
-### 📱 内容宣发类（3 个）
+#### 📱 内容宣发类（3 个）
 
 | Skill | 定位 | 版本 |
 |-------|------|------|
@@ -159,20 +167,20 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 | `ppt-master` | AI 原生可编辑 PPTX 生成（SVG→DrawingML） | **V2.7** |
 | `product-promo-video-maker` | 产品页分析→网页渲染→录屏→语音合成→视频合成 | **V1.1** |
 
-### ✨ 创意增强类（1 个）
+#### ✨ 创意增强类（1 个）
 
 | Skill | 定位 | 来源 |
 |-------|------|------|
 | `whimsy-injector` | 趣味性创意注入与优化 | agency-agents |
 
-### 📦 产品应用类（2 个）
+#### 📦 产品应用类（2 个）
 
 | Skill | 定位 | 来源 |
 |-------|------|------|
 | `filament-optimization-specialist` | 3D 打印耗材优化与参数调优 | agency-agents |
 | `mobile-app-builder` | 移动应用全栈构建 | agency-agents |
 
-### ⚙️ 运维管理类（1 个）
+#### ⚙️ 运维管理类（1 个）
 
 | Skill | 定位 | 版本 |
 |-------|------|------|
@@ -180,11 +188,11 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 
 ---
 
-## 旗舰 Skill 详解：`manufacturing-ai-efficiency-pro`
+### 旗舰 Skill 详解：`manufacturing-ai-efficiency-pro`
 
 > 本仓库中**最完整、最复杂**的 Skill，代表了 MeerkatAI Skill 规范的最高水准。
 
-### 核心能力
+#### 核心能力
 
 将制造业问题拆解为**可验证、可追溯、可落地**的人机协同工作流：
 
@@ -192,7 +200,7 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 - **AI 可行性判断**：逐动作判定 Level A（AI 自闭环）/ B（人机协同）/ C（人主导）
 - **落地方案输出**：3-5 张机会卡，每张含数据前提、系统改造点、收益、Go/No-Go 阈值
 
-### 九步执行链路
+#### 九步执行链路
 
 ```
 1. 输入锚定 → 2. 三维框架锚定（APQC+价值链+5M1E）
@@ -205,7 +213,7 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 → 9. 闭环迭代（路线图 1-6月/6-12月/12-24月）
 ```
 
-### 质量门禁体系
+#### 质量门禁体系
 
 | 门禁类型 | 说明 |
 |---------|------|
@@ -215,105 +223,11 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 | **数据准备度分级** | D0→D3，不匹配则建议先补基础 |
 | **24 项自检清单** | 输出前强制检查 |
 
-### 三层流程图规范
-
-- **L1 总览图**：管理视角，8-15 节点，研产供销服全链
-- **L2 分图**：执行视角，6-12 节点/子流程，含 APQC+5M1E+Owner
-- **L3 详图**：动作级，6-10 节点/子流程，含 AI 等级+数据流向+Go/No-Go
-
-### 文件规模
-
-- `SKILL.md`：~49KB（最完整的 Skill 定义）
-- `references/`：5 份制造业专用参考框架
-- 附带 `scripts/validate_process.py` 输出校验脚本
-
 ---
 
-## Skill 目录结构规范
+### 使用方法
 
-每个 Skill 目录必须遵循以下结构：
-
-```
-<skill-name>/
-├── SKILL.md                    # 【必须】Skill 核心定义文件
-│   ├── 简介 / 项目定位
-│   ├── 适用场景 / 不适用场景
-│   ├── 核心分析框架
-│   ├── Skill 工作方式（步骤链路）
-│   ├── 主链路执行框架
-│   ├── 输出结果格式
-│   ├── 质量检查清单
-│   └── 附录：原始 Skill 内容（保留来源追溯）
-│
-├── references/                 # 【可选】原始来源追溯、专用参考资料
-│   └── *.md
-│
-├── examples/                   # 【可选】输入/输出示例
-│   ├── input_example.md
-│   └── output_example.md
-│
-└── scripts/                    # 【可选】校验/工具脚本
-    └── validate_process.py
-```
-
-### SKILL.md 标准章节
-
-| 章节 | 说明 | 优先级 |
-|------|------|--------|
-| 简介 | 一句话说明 Skill 用途 | 必须 |
-| 项目定位 | 定位类型 + 原始来源 + 适配说明 | 必须 |
-| 适用/不适用场景 | 边界清晰的触发条件 | 必须 |
-| 核心分析框架 | 拆解方法论（对象化/证据链/量化/人机协同） | 必须 |
-| Skill 工作方式 | 执行步骤（通常 6-8 步） | 必须 |
-| 主链路执行框架 | 场景拆解→AI 判断→落地方案 | 必须 |
-| 输出结果格式 | 交付物结构 | 必须 |
-| 质量检查清单 | 自检标准（通常 10 项） | 必须 |
-| 附录 | 原始来源追溯（YAML frontmatter + 原始内容） | 必须 |
-
----
-
-## Skill 管道工作流（发版流程）
-
-本仓库支持标准化的 Skill 发版与迭代流程：
-
-### 1. Skill 开发阶段
-
-```
-开发者本地 → 按规范编写 SKILL.md → 自测质量清单 → 提交到 feature 分支
-```
-
-### 2. Skill 评审阶段
-
-```
-PR 提交 → 结构合规检查（目录/章节/字段）→ 内容深度评审 → references 完整性检查
-```
-
-### 3. Skill 发版阶段
-
-```
-合并到 main 分支 → 打版本标签（v1.0, v2.0...）→ 更新 Registry 索引（本 README）
-```
-
-### 4. Skill 使用阶段
-
-```
-用户/Agent 读取 SKILL.md → 按规范执行 → 输出交付物 → 运行校验脚本
-```
-
-### 分支策略
-
-| 分支 | 用途 |
-|------|------|
-| `main` | 稳定发版分支，只接受已评审的 Skill |
-| `ling` | 开发/集成分支，聚合待发版 Skill |
-| `feature/<skill-name>` | 单个 Skill 的独立开发分支 |
-| `jdyt` | 特定项目分支 |
-
----
-
-## 使用方法
-
-### 方式一：直接在 AI 工具中使用
+#### 方式一：直接在 AI 工具中使用
 
 将 `SKILL.md` 内容作为系统提示词或参考文档提供给 AI：
 
@@ -323,7 +237,7 @@ PR 提交 → 结构合规检查（目录/章节/字段）→ 内容深度评审
 [粘贴场景描述]
 ```
 
-### 方式二：在 OpenClaw/Trae 中注册
+#### 方式二：在 OpenClaw/Trae 中注册
 
 ```bash
 # 克隆仓库
@@ -334,7 +248,7 @@ cp manufacturing-ai-efficiency-Skill/skills/manufacturing/manufacturing-ai-effic
    ~/.openclaw/workspace/skills/
 ```
 
-### 方式三：编程式调用
+#### 方式三：编程式调用
 
 ```python
 # 读取 Skill 定义
@@ -350,30 +264,17 @@ response = ai.chat(
 
 ---
 
-## 当前版本状态
+### 贡献指南
 
-| Skill | 版本 | 状态 | 备注 |
-|-------|------|------|------|
-| `manufacturing-ai-efficiency-pro` | **V2.0** | ✅ 稳定 | 旗舰 Skill，三层流程图 + 评分闸门 |
-| `content-monetization-pipeline` | **V1.0** | ✅ 新增 | 内容资产→多平台分发→变现结算全链路 |
-| `product-promo-video-maker` | **V1.1** | ✅ 新增 | 产品宣发视频全自动生成 |
-| 其他 21 个 Skill | V1.0 | ✅ 可用 | 基于 agency-agents 标准化包装 |
-
----
-
-## 贡献指南
-
-### 新增 Skill
+#### 新增 Skill
 
 1. 创建 `feature/<skill-name>` 分支
 2. 新建目录 `skills/<category>/<skill-name>/`
-3. 按**Skill 目录结构规范**编写 `SKILL.md`
-4. 如有需要，添加 `references/`、`examples/`、`scripts/`
-5. 在 Skill 目录下添加 `references/*-source.md`（追溯原始来源）
-6. 更新本 README 的 Skill 清单 + `skill-index.yaml`
-7. 提交 PR 到 `ling` 分支
+3. 按规范填写 `SKILL.md` + `skill.yaml` + `README.md` + `changelog.md`
+4. 更新本 README 的 Skill 清单 + `skill-index.yaml`
+5. 提交 PR 到 `ling` 分支
 
-### 改进现有 Skill
+#### 改进现有 Skill
 
 1. 创建 `feature/<skill-name>-improvement` 分支
 2. 修改对应 `SKILL.md`
@@ -381,16 +282,9 @@ response = ai.chat(
 4. 在 `SKILL.md` 末尾添加 **Development History** 章节
 5. 提交 PR，说明改进原因和影响
 
-### 质量要求
-
-- 所有新增/修改必须通过**24 项自检清单**（参考 `manufacturing-ai-efficiency-pro`）
-- 必须保留原始来源追溯（YAML frontmatter + 附录）
-- 禁止空话、强制量化、强制证据链
-- 目录和文件名使用小写 + 连字符格式
-
 ---
 
-## 许可证
+### 许可证
 
 本项目采用 **MIT License** 开源许可证。
 
@@ -400,16 +294,286 @@ response = ai.chat(
 
 ---
 
-## 相关资源
-
-- **Skill 规范参考**：[OpenClaw AgentSkills 文档](https://docs.openclaw.ai)
-- **原始来源**：[agency-agents](https://github.com/msitarzewski/agency-agents)（部分 Skill 基于此改编）
-- **旗舰 Skill 详细文档**：见 `skills/manufacturing/manufacturing-ai-efficiency-pro/SKILL.md`
+**Made with ❤️ for AI Agent Skill Standardization**
 
 ---
 
-**Made with ❤️ for AI Agent Skill Standardization**
-�� `manufacturing-ai-efficiency-pro/SKILL.md`
+<a id="english"></a>
+## English
+
+### Project Positioning
+
+This repository is the **MeerkatAI Skill Registry** for:
+
+- **Skill Standardized Releases**: Packaging Agent capabilities from various domains into reusable Skill specifications
+- **Skill Pipeline Workflow**: Supporting version management, dependency tracking, and continuous iteration
+- **Multi-Domain Coverage**: Manufacturing, R&D engineering, design & creativity, commercial operations, and more
+- **Unified Standards**: All Skills follow consistent structure, quality standards, and output formats
+
+#### Difference from Ordinary Agent Prompts
+
+| Dimension | Ordinary Prompt | MeerkatAI Skill |
+|---|---|---|
+| **Structure** | Loose natural language | Unified chapter specification (Intro→Framework→Pipeline→Output→QC) |
+| **Depth** | Stays at recommendation level | Drills down to action level with quantitative metrics and evidence chains |
+| **Actionable** | Abstract conclusions | Execution actions + responsible roles + system landing points + acceptance thresholds |
+| **Reusable** | One-time conversation | Versionable, distributable, pipeline-integrable |
+| **Quality Gates** | None | Input completeness score + compliance gates + 24-item self-checklist |
+
+---
+
+### Repository Structure
+
+```
+manufacturing-ai-efficiency-Skill/          # Registry Root
+├── README.md                               # This file (Registry Overview)
+├── skill-index.yaml                        # [Registry Index] Aggregated metadata for all Skills
+│
+├── skills/engineering/                     # 🔧 Engineering (9 Skills)
+│   ├── ai-engineer/                        #   AI Engineer (ML/LLM dev & deployment)
+│   ├── autonomous-optimization-architect/
+│   ├── backend-architecture/               #   Backend Architecture Design
+│   ├── devops-automator/                   #   DevOps Automation
+│   ├── embedded-firmware-engineer/         #   Embedded Firmware Engineer
+│   ├── frontend-development/               #   Frontend Development
+│   ├── rapid-prototyper/                   #   Rapid Prototyping (MVP in 3 days)
+│   ├── security-engineer/                  #   Security Engineering
+│   └── senior-developer/                   #   Senior Full-Stack Developer
+│
+├── skills/design/                          # 🎨 Design & Creativity (7 Skills)
+│   ├── brand-guardian/                     #   Brand Consistency Guardian
+│   ├── image-prompt-engineer/              #   Image Prompt Engineering
+│   ├── inclusive-visuals-specialist/       #   Inclusive Visual Design
+│   ├── ui-design/                          #   UI Design
+│   ├── ux-architect/                       #   UX Architecture
+│   ├── ux-research/                        #   UX Research
+│   └── visual-storyteller/                 #   Visual Storytelling
+│
+├── skills/manufacturing/                   # 🏭 Manufacturing (1 ⭐ Flagship)
+│   └── manufacturing-ai-efficiency-pro/      #   Manufacturing AI Efficiency (V2.0)
+│       └── references/                     #     APQC / 5M1E / T34 frameworks
+│
+├── skills/commercial/                      # 🛒 Commercial Operations (2)
+│   ├── fast-moving-consumer-goods-ecommerce-operator/
+│   └── fast-moving-consumer-goods-supply-chain/
+│
+├── skills/content/                         # 📱 Content & Marketing (3)
+│   ├── content-monetization-pipeline/      #   V1.0, hybrid
+│   ├── ppt-master/                         #   V2.7, production, flagship
+│   │   ├── SKILL.md
+│   │   ├── skill.yaml
+│   │   ├── README.md
+│   │   ├── references/
+│   │   ├── scripts/                        #     50+ Python scripts
+│   │   ├── templates/                      #     layouts + icons + charts
+│   │   └── workflows/
+│   └── product-promo-video-maker/          #   V1.1
+│       ├── SKILL.md
+│       ├── README.md
+│       ├── config.template.json
+│       ├── assets/                         #     templates & themes
+│       ├── references/
+│       └── scripts/                        #     capture/pipeline/render/voice.py
+│
+├── skills/creative/                        # ✨ Creative Enhancement (1)
+│   └── whimsy-injector/                    #   Whimsy & Fun Injector
+│
+├── skills/product/                         # 📦 Product Application (2)
+│   ├── filament-optimization-specialist/   #   3D Printing Filament Optimization
+│   └── mobile-app-builder/                 #   Mobile App Builder
+│
+├── skills/operations/                      # ⚙️ Operations (1)
+│   └── skillops-manager/                   #   V1.0, production
+│       ├── SKILL.md
+│       ├── README.md
+│       ├── skill.yaml
+│       └── scripts/
+│           └── skillctl.py                   #     Skill Lifecycle Management CLI
+│
+├── docs/                                   # Specification Documents
+│   ├── skill-yaml-spec.md                  #   Skill YAML Metadata Spec v1.0
+│   └── skillops-architecture.md            #   SkillOps CI/CD Architecture
+│
+└── .scripts/                               # Repository-level scripts (hidden)
+    ├── batch_generate_skill_yaml.py        #   Batch YAML generation script
+    └── skillctl_validate.py                #   Skill validation script
+```
+
+---
+
+### Skill Catalog (26 Skills)
+
+#### 🔧 Engineering (9)
+
+| Skill | Positioning | Source |
+|-------|-------------|--------|
+| `ai-engineer` | ML model development, LLM integration, MLOps, production deployment | agency-agents |
+| `autonomous-optimization-architect` | System performance & cost autonomous optimization | agency-agents |
+| `backend-architecture` | Backend architecture design & system architecture | agency-agents |
+| `devops-automator` | DevOps process automation & CI/CD | agency-agents |
+| `embedded-firmware-engineer` | Embedded firmware, RTOS, driver development | agency-agents |
+| `frontend-development` | Frontend development & technical implementation | agency-agents |
+| `rapid-prototyper` | Rapid MVP prototyping within 3 days | agency-agents |
+| `security-engineer` | Security audit, vulnerability repair & protection | agency-agents |
+| `senior-developer` | Senior full-stack technical decisions | agency-agents |
+
+#### 🎨 Design & Creativity (7)
+
+| Skill | Positioning | Source |
+|-------|-------------|--------|
+| `brand-guardian` | Brand consistency guard & optimization | agency-agents |
+| `image-prompt-engineer` | Image prompt engineering optimization | agency-agents |
+| `inclusive-visuals-specialist` | Inclusive & accessible visual design | agency-agents |
+| `ui-design` | UI interface design & component specifications | agency-agents |
+| `ux-architect` | UX architecture & experience optimization | agency-agents |
+| `ux-research` | User research & requirement insights | agency-agents |
+| `visual-storyteller` | Visual storytelling & brand narrative | agency-agents |
+
+#### 🏭 Manufacturing (1 ⭐ Flagship)
+
+| Skill | Positioning | Version |
+|-------|-------------|---------|
+| `manufacturing-ai-efficiency-pro` | Manufacturing process breakdown → AI efficiency scan → human-AI collaboration | **V2.0** |
+
+#### 🛒 Commercial Operations (2)
+
+| Skill | Positioning | Source |
+|-------|-------------|--------|
+| `fast-moving-consumer-goods-ecommerce-operator` | FMCG e-commerce operations | agency-agents |
+| `fast-moving-consumer-goods-supply-chain` | FMCG supply chain management | agency-agents |
+
+#### 📱 Content & Marketing (3)
+
+| Skill | Positioning | Version |
+|-------|-------------|---------|
+| `content-monetization-pipeline` | Content assets → multi-platform distribution → monetization | **V1.0** |
+| `ppt-master` | AI-native editable PPTX generation (SVG→DrawingML) | **V2.7** |
+| `product-promo-video-maker` | Product page analysis → web rendering → screen recording → voice synthesis → video | **V1.1** |
+
+#### ✨ Creative Enhancement (1)
+
+| Skill | Positioning | Source |
+|-------|-------------|--------|
+| `whimsy-injector` | Whimsy & fun creative injection & optimization | agency-agents |
+
+#### 📦 Product Application (2)
+
+| Skill | Positioning | Source |
+|-------|-------------|--------|
+| `filament-optimization-specialist` | 3D printing filament optimization & parameter tuning | agency-agents |
+| `mobile-app-builder` | Mobile app full-stack building | agency-agents |
+
+#### ⚙️ Operations (1)
+
+| Skill | Positioning | Version |
+|-------|-------------|---------|
+| `skillops-manager` | Skill create/validate/eval/release/governance lifecycle | **V1.0** |
+
+---
+
+### Flagship Skill Deep-Dive: `manufacturing-ai-efficiency-pro`
+
+> The **most complete and complex** Skill in this repository, representing the highest standard of MeerkatAI Skill specifications.
+
+#### Core Capabilities
+
+Break down manufacturing problems into **verifiable, traceable, and actionable** human-AI collaboration workflows:
+
+- **Scenario Breakdown**: Value chain layer (R&D/Production/Sales/Service) → subprocess layer → **action-level minimum units**
+- **AI Feasibility Assessment**: Action-by-action classification Level A (AI autonomous) / B (human-AI collaboration) / C (human-led)
+- **Deliverable Output**: 3-5 opportunity cards, each with data prerequisites, system transformation points, ROI, and Go/No-Go thresholds
+
+#### 9-Step Execution Pipeline
+
+```
+1. Input Anchoring → 2. 3D Framework Anchoring (APQC+Value Chain+5M1E)
+→ 3. L1 Process Breakdown (3-7 subprocesses)
+→ 4. L2 Minimum Unit Refinement (action-level, 6-10 per subprocess)
+→ 5. AI Efficiency Grading (4-dimension scoring)
+→ 6. Core AI Opportunity Integration (opportunity cards)
+→ 7. Human-AI Responsibility Division (T34 Model)
+→ 8. Industry Knowledge Base Calibration
+→ 9. Closed-Loop Iteration (roadmap 1-6mo / 6-12mo / 12-24mo)
+```
+
+#### Quality Gate System
+
+| Gate Type | Description |
+|-----------|-------------|
+| **Input Completeness Score** | 0-100 points, <60 blocks deep analysis |
+| **Content Granularity Gate** | Pause if pain points/constraints/data objects/roles unclear |
+| **Compliance Gate** | Quality red lines + safety environment + approval responsibility |
+| **Data Readiness Grading** | D0→D3, suggest foundation补齐 if mismatch |
+| **24-Item Self-Checklist** | Mandatory pre-output inspection |
+
+---
+
+### Usage
+
+#### Method 1: Direct Use in AI IDE
+
+Use `SKILL.md` as system prompt or reference document:
+
+```
+Please analyze the following manufacturing scenario for AI efficiency opportunities
+based on the specifications in skills/manufacturing/manufacturing-ai-efficiency-pro/SKILL.md:
+[ paste scenario description ]
+```
+
+#### Method 2: Register in OpenClaw/Trae
+
+```bash
+# Clone repository
+git clone https://github.com/MeerkatAIChina/manufacturing-ai-efficiency-Skill.git
+
+# Copy desired Skill to skills directory
+cp manufacturing-ai-efficiency-Skill/skills/manufacturing/manufacturing-ai-efficiency-pro/SKILL.md \
+   ~/.openclaw/workspace/skills/
+```
+
+#### Method 3: Programmatic Invocation
+
+```python
+# Read Skill definition
+with open("skills/manufacturing/manufacturing-ai-efficiency-pro/SKILL.md", "r") as f:
+    skill_definition = f.read()
+
+# Inject Skill into AI session
+response = ai.chat(
+    system_prompt=skill_definition,
+    user_input=user_scenario
+)
+```
+
+---
+
+### Contribution Guide
+
+#### Adding a New Skill
+
+1. Create `feature/<skill-name>` branch
+2. Create directory `skills/<category>/<skill-name>/`
+3. Write `SKILL.md` + `skill.yaml` + `README.md` + `changelog.md` per spec
+4. Update this README Skill catalog + `skill-index.yaml`
+5. Submit PR to `ling` branch
+
+#### Improving Existing Skills
+
+1. Create `feature/<skill-name>-improvement` branch
+2. Modify corresponding `SKILL.md`
+3. Update version (e.g., V1.0 → V1.1)
+4. Add **Development History** section at end of `SKILL.md`
+5. Submit PR with improvement rationale and impact
+
+---
+
+### License
+
+This project uses the **MIT License**.
+
+- Free to use, copy, modify
+- Available for commercial or non-commercial purposes
+- Distribution copies must retain original license and copyright notice
 
 ---
 
