@@ -1,7 +1,7 @@
 registry: manufacturing-ai-efficiency-Skill
-version: 2026.05.19-v4
+version: 2026.05.19-v5
 updated_at: '2026-05-19'
-total_skills: 26
+total_skills: 27
 skills:
 - skill_id: content-monetization-pipeline
   name: 内容变现分发管线
@@ -263,3 +263,13 @@ skills:
   has_readme: true
   has_changelog: true
   path: skills/product/mobile-app-builder/
+- skill_id: incident-response-commander
+  name: Incident Response Commander Agent
+  version: 1.0.0
+  status: testing
+  category: engineering
+  type: prompt
+  risk_level: low
+  has_readme: true
+  has_changelog: true
+  path: skills/engineering/incident-response-commander/

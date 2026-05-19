@@ -22,6 +22,7 @@
 
 | | 普通 Prompt | MeerkatAI Skill |
 |---|---|---|
+| 2026-05-19 | `incident-response-commander` (Incident Response Commander Agent) 新增 | agency-agents → engineering |
 | **结构化** | 松散的自然语言 | 统一的章节规范（简介→框架→链路→输出→质检） |
 | **深度** | 停留在建议层 | 下钻到动作级，附带量化指标与证据链 |
 | **可落地** | 抽象结论 | 执行动作 + 责任角色 + 系统落点 + 验收阈值 |
@@ -286,4 +287,3 @@ response = ai.chat(
 ---
 
 **Made with ❤️ for AI Agent Skill Standardization**
-
