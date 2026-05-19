@@ -1,6 +1,9 @@
 # MeerkatAI Skill Registry
 
 > 统一的 Skill 发版仓库，支持多领域 AI Agent 能力标准化复用与持续迭代。
+>
+> 📋 **[Registry 索引与使用指南 → SKILL-REGISTRY.md](SKILL-REGISTRY.md)**
+> （26 skills, 8 categories, 完整目录树与变更历史）
 
 ---
 
