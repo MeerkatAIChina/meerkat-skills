@@ -1,0 +1,62 @@
+---
+skill_id: "mobile-app-builder"
+name: "移动应用构建"
+version: "1.0.0"
+status: "testing"
+
+owner: "LinkmasterLing"
+risk_level: "medium"
+created_at: "2026-05-18"
+updated_at: "2026-05-19"
+
+description: >
+  移动应用全栈构建。从需求分析到技术选型，输出可落地的移动应用开发方案。
+
+category: "product"
+type: "hybrid"
+
+trigger:
+  keywords:
+    - "移动应用"
+    - "App开发"
+    - "iOS"
+    - "Android"
+    - "Flutter"
+  intent:
+    - "mobile_app"
+    - "app_development"
+    - "cross_platform"
+  min_confidence: 0.75
+
+input_schema:
+  required:
+    - "source_material"
+  optional:
+    - "format"
+    - "style"
+    - "target_platforms"
+
+output_schema:
+  type: "mixed"
+  additional_files:
+    - "deliverables/"
+    - "report.md"
+
+dependencies:
+  models:
+    - "kimi-coding/k2.6"
+  tools:
+    - "python3"
+
+eval:
+  suite_id: "mobile-app-builder-eval-v1"
+  min_score: 80
+  format_pass_rate: 0.95
+  regression_pass_rate: 0.90
+
+release:
+  strategy: "canary"
+  canary_steps: [10, 50, 100]
+  rollback_version: "1.0.0"
+
+changelog: "changelog.md"

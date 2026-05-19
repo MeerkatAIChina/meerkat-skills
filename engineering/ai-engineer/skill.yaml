@@ -1,0 +1,59 @@
+---
+skill_id: "ai-engineer"
+name: "AI 工程师"
+version: "1.0.0"
+status: "testing"
+
+owner: "LinkmasterLing"
+risk_level: "medium"
+created_at: "2026-05-18"
+updated_at: "2026-05-19"
+
+description: >
+  ML模型开发、LLM集成、MLOps、生产部署。将AI/ML工程问题拆解为可验证、可追溯、可落地的人机协同工作流。
+
+category: "engineering"
+type: "prompt"
+
+trigger:
+  keywords:
+    - "AI工程师"
+    - "机器学习"
+    - "ML模型"
+    - "LLM集成"
+    - "MLOps"
+    - "模型部署"
+  intent:
+    - "ai_engineering"
+    - "ml_development"
+    - "llm_integration"
+  min_confidence: 0.75
+
+input_schema:
+  required:
+    - "task_description"
+  optional:
+    - "context"
+    - "constraints"
+
+output_schema:
+  type: "markdown"
+  additional_files:
+    - "checklist.md"
+
+dependencies:
+  models:
+    - "kimi-coding/k2.6"
+
+eval:
+  suite_id: "ai-engineer-eval-v1"
+  min_score: 80
+  format_pass_rate: 0.95
+  regression_pass_rate: 0.90
+
+release:
+  strategy: "canary"
+  canary_steps: [10, 50, 100]
+  rollback_version: "1.0.0"
+
+changelog: "changelog.md"

@@ -30,118 +30,124 @@
 ```
 manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 ├── README.md                               # 本文件（Skill Registry 总览）
+├── skill-index.yaml                        # 【Registry 索引】聚合全部 Skill 元数据
 │
-├── manufacturing-ai-efficiency-pro/        # ⭐ 制造业 AI 提效分析（V2.0，旗舰 Skill）
-│   ├── SKILL.md                            #   Skill 核心定义（49KB，最完整）
-│   └── references/                         #   制造业专用参考资料
-│       ├── apqc_standards.md
-│       ├── ie_analysis_toolkit.md
-│       ├── manufacturing_value_chain.md
-│       ├── standards_and_maturity_framework.md
-│       └── tencent_t34_model.md
+├── engineering/                            # 🔧 工程研发类（8 个 Skill）
+│   ├── ai-engineer/                        #   AI 工程师（ML/LLM 开发部署）
+│   ├── autonomous-optimization-architect/  #   自主优化架构师
+│   ├── backend-architecture/               #   后端架构设计
+│   ├── devops-automator/                   #   DevOps 自动化
+│   ├── frontend-development/               #   前端开发
+│   ├── rapid-prototyper/                   #   快速原型开发
+│   ├── security-engineer/                  #   安全工程师
+│   └── senior-developer/                   #   高级开发工程师
 │
-├── ai_engineer/                            # AI 工程师（ML/LLM 开发部署）
-│   └── SKILL.md
-├── autonomous_optimization_architect/      # 【新增】自主优化架构师
-│   └── SKILL.md
-├── backend-architecture/                   # 后端架构设计
-│   └── SKILL.md
-├── brand-guardian-optimization/            # 品牌守护者优化
-│   └── SKILL.md
-├── content-monetization-pipeline/        # 【新增】内容变现分发管线
-│   ├── README.md                           #   使用文档（快速开始/命令参考/故障排查）
-│   ├── SKILL.md                            #   Skill 核心定义
-│   └── scripts/                            #   执行脚本
-│       └── video_adapter.py                #     多平台视频格式转换（ffmpeg）
-├── devops_automator/                       # DevOps 自动化
-│   └── SKILL.md
-├── fast-moving-consumer-goods-ecommerce-operator/   # 快消电商运营
-│   └── SKILL.md
-├── fast-moving-consumer-goods-supply-chain/           # 快消供应链
-│   └── SKILL.md
-├── filament_optimization_specialist/       # 【新增】耗材优化专家
-│   └── SKILL.md
-├── frontend-development/                   # 前端开发
-│   └── SKILL.md
-├── image-prompt-engineer-optimization/     # 图像提示工程师优化
-│   └── SKILL.md
-├── inclusive-visuals-specialist-optimization/         # 包容性视觉专家优化
-│   └── SKILL.md
-├── mobile_app_builder/                     # 移动应用构建
-│   └── SKILL.md
-├── rapid_prototyper/                       # 快速原型开发
-│   └── SKILL.md
-├── ui-design/                              # UI 设计
-│   └── SKILL.md
-├── ux-architect-optimization/            # UX 架构师优化
-│   └── SKILL.md
-├── ux-research/                            # UX 研究
-│   └── SKILL.md
-├── visual-storyteller-optimization/      # 视觉叙事者优化
-│   └── SKILL.md
-├── whimsy-injector-optimization/         # 趣味注入者优化
-│   └── SKILL.md
+├── design/                                 # 🎨 设计创意类（7 个 Skill）
+│   ├── brand-guardian/                     #   品牌守护者
+│   ├── image-prompt-engineer/              #   图像提示工程师
+│   ├── inclusive-visuals-specialist/       #   包容性视觉专家
+│   ├── ui-design/                          #   UI 设计
+│   ├── ux-architect/                       #   UX 架构师
+│   ├── ux-research/                        #   UX 研究
+│   └── visual-storyteller/                 #   视觉叙事师
 │
-├── product-promo-video-maker/            # 📹 产品宣发视频生成（V1.1，新增）
-│   ├── SKILL.md                            #   Skill 核心定义
-│   ├── README.md                           #   项目说明
-│   ├── config.template.json                #   配置模板
-│   ├── assets/                             #   模板与主题资源
-│   │   ├── templates/
-│   │   └── themes/
-│   ├── references/                         #   参考文档
-│   │   ├── analysis-frameworks.md
-│   │   ├── pipeline-guide.md
-│   │   ├── subtitle-guide.md
-│   │   ├── template-guide.md
-│   │   └── template-variables.md
-│   └── scripts/                            #   执行脚本
-│       ├── capture.py
-│       ├── pipeline.py
-│       ├── render.py
-│       └── voice.py
+├── manufacturing/                          # 🏭 制造业类（1 个 ⭐ 旗舰）
+│   └── manufacturing-ai-efficiency-pro/      #   制造业 AI 提效分析（V2.0）
+│       └── references/                     #     制造业专用参考资料
+│           ├── apqc_standards.md
+│           ├── ie_analysis_toolkit.md
+│           ├── manufacturing_value_chain.md
+│           ├── standards_and_maturity_framework.md
+│           └── tencent_t34_model.md
 │
-└── references/                             # 各 Skill 原始来源参考资料
-    ├── backend-architecture-source.md
-    ├── brand-guardian-optimization-source.md
-    ├── frontend-development-source.md
-    ├── image-prompt-engineer-optimization-source.md
-    ├── inclusive-visuals-specialist-optimization-source.md
-    ├── ui-design-source.md
-    ├── ux-architect-optimization-source.md
-    ├── ux-research-source.md
-    ├── visual-storyteller-optimization-source.md
-    └── whimsy-injector-optimization-source.md
+├── commercial/                             # 🛒 商业运营类（2 个）
+│   ├── fast-moving-consumer-goods-ecommerce-operator/   # 快消电商运营
+│   └── fast-moving-consumer-goods-supply-chain/         # 快消供应链
+│
+├── content/                                # 📱 内容宣发类（3 个）
+│   ├── content-monetization-pipeline/      #   内容变现分发管线（V1.0）
+│   ├── ppt-master/                         #   📊 PPT Master — AI 原生 PPTX（V2.7）
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   ├── skill.yaml
+│   │   ├── references/
+│   │   ├── scripts/                        #     50+ Python 脚本
+│   │   ├── templates/                        #     布局 + 图标 + 图表
+│   │   └── workflows/
+│   └── product-promo-video-maker/          #   📹 产品宣发视频生成（V1.1）
+│       ├── SKILL.md
+│       ├── README.md
+│       ├── config.template.json
+│       ├── assets/                           #     模板与主题资源
+│       ├── references/
+│       └── scripts/                          #     capture/pipeline/render/voice.py
+│
+├── creative/                               # ✨ 创意增强类（1 个）
+│   └── whimsy-injector/                    #   趣味注入师
+│
+├── product/                                # 📦 产品应用类（2 个）
+│   ├── filament-optimization-specialist/   #   耗材优化专家（3D 打印）
+│   └── mobile-app-builder/               #   移动应用构建
+│
+├── operations/                             # ⚙️ 运维管理类（1 个）
+│   └── skillops-manager/                   #   SkillOps 管理器（V1.0）
+│       ├── SKILL.md
+│       ├── README.md
+│       ├── skill.yaml
+│       └── scripts/
+│           └── skillctl.py                   #     Skill 生命周期管理 CLI
+│
+├── docs/                                   # 规范文档
+│   ├── skill-yaml-spec.md                  #   Skill YAML 元数据规范 v1.0
+│   └── skillops-architecture.md            #   SkillOps 架构设计
+│
+├── references/                             # 各 Skill 原始来源参考资料
+│   ├── backend-architecture-source.md
+│   ├── brand-guardian-source.md
+│   ├── frontend-development-source.md
+│   ├── image-prompt-engineer-source.md
+│   ├── inclusive-visuals-specialist-source.md
+│   ├── ui-design-source.md
+│   ├── ux-architect-source.md
+│   ├── ux-research-source.md
+│   ├── visual-storyteller-source.md
+│   └── whimsy-injector-source.md
+│
+└── scripts/                                # 仓库级脚本
+    ├── batch_generate_skill_yaml.py        #   批量生成 YAML 脚本
+    ├── skillctl_validate.py                #   Skill 校验脚本
+    ├── stage1-normalization-log.md         #   阶段 1 规范化日志
+    └── stage2-reorganization-log.md        #   阶段 2 重组日志
 ```
 
 ---
 
-## Skill 清单（23 个）
+## Skill 清单（25 个）
 
-### 🔧 工程研发类（9 个）
+### 🔧 工程研发类（8 个）
 
 | Skill | 定位 | 来源 |
 |-------|------|------|
-| `ai_engineer` | ML 模型开发、LLM 集成、MLOps、生产部署 | agency-agents |
-| `autonomous_optimization_architect` | 系统性能与成本自主优化架构 | agency-agents |
+| `ai-engineer` | ML 模型开发、LLM 集成、MLOps、生产部署 | agency-agents |
+| `autonomous-optimization-architect` | 系统性能与成本自主优化架构 | agency-agents |
 | `backend-architecture` | 后端架构设计与系统架构 | agency-agents |
-| `devops_automator` | DevOps 流程自动化与 CI/CD | agency-agents |
-| `filament_optimization_specialist` | 3D 打印耗材优化与参数调优 | agency-agents |
+| `devops-automator` | DevOps 流程自动化与 CI/CD | agency-agents |
 | `frontend-development` | 前端开发与技术实现 | agency-agents |
-| `rapid_prototyper` | 3 天内出 MVP 的快速原型开发 | agency-agents |
-| `security_engineer` | 安全审计、漏洞修复与防护策略 | agency-agents |
-| `senior_developer` | 高级开发工程师全栈技术决策 | agency-agents |
+| `rapid-prototyper` | 3 天内出 MVP 的快速原型开发 | agency-agents |
+| `security-engineer` | 安全审计、漏洞修复与防护策略 | agency-agents |
+| `senior-developer` | 高级开发工程师全栈技术决策 | agency-agents |
 
-### 🎨 设计创意类（6 个）
+### 🎨 设计创意类（7 个）
 
 | Skill | 定位 | 来源 |
 |-------|------|------|
+| `brand-guardian` | 品牌一致性守护与优化 | agency-agents |
+| `image-prompt-engineer` | 图像 Prompt 工程优化 | agency-agents |
+| `inclusive-visuals-specialist` | 包容性视觉设计 | agency-agents |
 | `ui-design` | UI 界面设计与组件规范 | agency-agents |
+| `ux-architect` | UX 架构与体验优化 | agency-agents |
 | `ux-research` | 用户研究与需求洞察 | agency-agents |
-| `ux-architect-optimization` | UX 架构与体验优化 | agency-agents |
-| `image-prompt-engineer-optimization` | 图像 Prompt 工程优化 | agency-agents |
-| `inclusive-visuals-specialist-optimization` | 包容性视觉设计 | agency-agents |
-| `visual-storyteller-optimization` | 视觉叙事与品牌故事 | agency-agents |
+| `visual-storyteller` | 视觉叙事与品牌故事 | agency-agents |
 
 ### 🏭 制造业类（1 个 ⭐ 旗舰）
 
@@ -156,25 +162,36 @@ manufacturing-ai-efficiency-Skill/          # Skill Registry 根目录
 | `fast-moving-consumer-goods-ecommerce-operator` | 快消品电商运营 | agency-agents |
 | `fast-moving-consumer-goods-supply-chain` | 快消品供应链管理 | agency-agents |
 
-### 📱 产品应用类（2 个）
-
-| Skill | 定位 | 来源 |
-|-------|------|------|
-| `mobile_app_builder` | 移动应用全栈构建 | agency-agents |
-| `brand-guardian-optimization` | 品牌一致性守护与优化 | agency-agents |
-
-### ✨ 创意增强类（2 个）
-
-| Skill | 定位 | 来源 |
-|-------|------|------|
-| `whimsy-injector-optimization` | 趣味性创意注入与优化 | agency-agents |
-
-### 📹 宣发内容类（2 个 ⭐ 新增）
+### 📱 内容宣发类（3 个）
 
 | Skill | 定位 | 版本 |
 |-------|------|------|
-| `product-promo-video-maker` | 产品页分析→网页渲染→录屏→语音合成→视频合成 | **V1.1** |
 | `content-monetization-pipeline` | 内容资产→多平台分发→变现结算全链路 | **V1.0** |
+| `ppt-master` | AI 原生可编辑 PPTX 生成（SVG→DrawingML） | **V2.7** |
+| `product-promo-video-maker` | 产品页分析→网页渲染→录屏→语音合成→视频合成 | **V1.1** |
+
+### ✨ 创意增强类（1 个）
+
+| Skill | 定位 | 来源 |
+|-------|------|------|
+| `whimsy-injector` | 趣味性创意注入与优化 | agency-agents |
+
+### 📦 产品应用类（2 个）
+
+| Skill | 定位 | 来源 |
+|-------|------|------|
+| `filament-optimization-specialist` | 3D 打印耗材优化与参数调优 | agency-agents |
+| `mobile-app-builder` | 移动应用全栈构建 | agency-agents |
+
+### ⚙️ 运维管理类（1 个）
+
+| Skill | 定位 | 版本 |
+|-------|------|------|
+| `skillops-manager` | Skill 创建、校验、评测、发布、治理全生命周期 | **V1.0** |
+
+---
+
+## 旗舰 Skill 详解：`manufacturing-ai-efficiency-pro`
 
 ---
 

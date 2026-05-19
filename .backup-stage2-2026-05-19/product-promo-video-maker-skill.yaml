@@ -1,0 +1,62 @@
+---
+skill_id: "product-promo-video-maker"
+name: "产品宣发视频生成器"
+version: "1.1.0"
+status: "testing"
+
+owner: "LinkmasterLing"
+risk_level: "medium"
+created_at: "2026-05-18"
+updated_at: "2026-05-19"
+
+description: >
+  从任何产品输入生成完整的产品宣发视频（HTML分析页+录屏+语音合成+字幕）。支持多主题、多平台输出。
+
+category: "content-creation"
+type: "hybrid"
+
+trigger:
+  keywords:
+    - "产品视频"
+    - "宣发视频"
+    - "promo video"
+    - "营销视频"
+    - "视频生成"
+  intent:
+    - "product_video_generation"
+    - "promotional_content_creation"
+    - "marketing_video"
+  min_confidence: 0.75
+
+input_schema:
+  required:
+    - "source_material"
+  optional:
+    - "format"
+    - "style"
+    - "target_platforms"
+
+output_schema:
+  type: "mixed"
+  additional_files:
+    - "deliverables/"
+    - "report.md"
+
+dependencies:
+  models:
+    - "kimi-coding/k2.6"
+  tools:
+    - "python3"
+
+eval:
+  suite_id: "product-promo-video-maker-eval-v1"
+  min_score: 80
+  format_pass_rate: 0.95
+  regression_pass_rate: 0.90
+
+release:
+  strategy: "canary"
+  canary_steps: [10, 50, 100]
+  rollback_version: "1.1.0"
+
+changelog: "changelog.md"

@@ -1,0 +1,58 @@
+---
+skill_id: "filament-optimization-specialist"
+name: "耗材优化专家"
+version: "1.0.0"
+status: "testing"
+
+owner: "LinkmasterLing"
+risk_level: "medium"
+created_at: "2026-05-18"
+updated_at: "2026-05-19"
+
+description: >
+  3D打印耗材优化与参数调优。分析打印质量与耗材成本，输出最优参数配置方案。
+
+category: "product"
+type: "prompt"
+
+trigger:
+  keywords:
+    - "3D打印"
+    - "耗材优化"
+    - "打印参数"
+    - "FDM"
+    - "耗材调优"
+  intent:
+    - "3d_printing"
+    - "filament_optimization"
+    - "print_quality"
+  min_confidence: 0.75
+
+input_schema:
+  required:
+    - "task_description"
+  optional:
+    - "context"
+    - "constraints"
+
+output_schema:
+  type: "markdown"
+  additional_files:
+    - "checklist.md"
+
+dependencies:
+  models:
+    - "kimi-coding/k2.6"
+
+eval:
+  suite_id: "filament-optimization-specialist-eval-v1"
+  min_score: 80
+  format_pass_rate: 0.95
+  regression_pass_rate: 0.90
+
+release:
+  strategy: "canary"
+  canary_steps: [10, 50, 100]
+  rollback_version: "1.0.0"
+
+changelog: "changelog.md"

@@ -1,0 +1,58 @@
+---
+skill_id: "whimsy-injector"
+name: "趣味注入师"
+version: "1.0.0"
+status: "testing"
+
+owner: "LinkmasterLing"
+risk_level: "medium"
+created_at: "2026-05-18"
+updated_at: "2026-05-19"
+
+description: >
+  趣味性创意注入与优化。为产品/内容/体验注入趣味元素，提升用户参与度与情感共鸣。
+
+category: "creative"
+type: "prompt"
+
+trigger:
+  keywords:
+    - "趣味设计"
+    - "创意注入"
+    - "情感设计"
+    - "游戏化"
+    - "趣味性"
+  intent:
+    - "whimsy_design"
+    - "creativity_injection"
+    - "emotional_design"
+  min_confidence: 0.75
+
+input_schema:
+  required:
+    - "task_description"
+  optional:
+    - "context"
+    - "constraints"
+
+output_schema:
+  type: "markdown"
+  additional_files:
+    - "checklist.md"
+
+dependencies:
+  models:
+    - "kimi-coding/k2.6"
+
+eval:
+  suite_id: "whimsy-injector-optimization-eval-v1"
+  min_score: 80
+  format_pass_rate: 0.95
+  regression_pass_rate: 0.90
+
+release:
+  strategy: "canary"
+  canary_steps: [10, 50, 100]
+  rollback_version: "1.0.0"
+
+changelog: "changelog.md"

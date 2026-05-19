@@ -1,0 +1,62 @@
+---
+skill_id: "manufacturing-ai-efficiency-pro"
+name: "制造业 AI 提效分析"
+version: "2.1.0"
+status: "production"
+
+owner: "LinkmasterLing"
+risk_level: "medium"
+created_at: "2026-05-18"
+updated_at: "2026-05-19"
+
+description: >
+  制造业流程拆解→AI提效扫描→人机协同方案。将制造业问题拆解为可验证、可追溯、可落地的三层流程图与机会卡。
+
+category: "manufacturing"
+type: "hybrid"
+
+trigger:
+  keywords:
+    - "制造业"
+    - "AI提效"
+    - "流程优化"
+    - "人机协同"
+    - "APQC"
+  intent:
+    - "manufacturing_optimization"
+    - "ai_efficiency"
+    - "process_analysis"
+  min_confidence: 0.75
+
+input_schema:
+  required:
+    - "source_material"
+  optional:
+    - "format"
+    - "style"
+    - "target_platforms"
+
+output_schema:
+  type: "mixed"
+  additional_files:
+    - "deliverables/"
+    - "report.md"
+
+dependencies:
+  models:
+    - "kimi-coding/k2.6"
+  tools:
+    - "python3"
+
+eval:
+  suite_id: "manufacturing-ai-efficiency-pro-eval-v1"
+  min_score: 80
+  format_pass_rate: 0.95
+  regression_pass_rate: 0.90
+
+release:
+  strategy: "canary"
+  canary_steps: [10, 50, 100]
+  rollback_version: "2.1.0"
+
+changelog: "changelog.md"

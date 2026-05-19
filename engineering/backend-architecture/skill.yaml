@@ -1,0 +1,62 @@
+---
+skill_id: "backend-architecture"
+name: "后端架构设计"
+version: "1.0.0"
+status: "testing"
+
+owner: "LinkmasterLing"
+risk_level: "medium"
+created_at: "2026-05-18"
+updated_at: "2026-05-19"
+
+description: >
+  后端架构设计与系统架构方案。从需求分析到技术选型，输出可落地的架构设计文档。
+
+category: "engineering"
+type: "hybrid"
+
+trigger:
+  keywords:
+    - "后端架构"
+    - "系统架构"
+    - "API设计"
+    - "数据库设计"
+    - "微服务"
+  intent:
+    - "backend_design"
+    - "system_architecture"
+    - "api_design"
+  min_confidence: 0.75
+
+input_schema:
+  required:
+    - "source_material"
+  optional:
+    - "format"
+    - "style"
+    - "target_platforms"
+
+output_schema:
+  type: "mixed"
+  additional_files:
+    - "deliverables/"
+    - "report.md"
+
+dependencies:
+  models:
+    - "kimi-coding/k2.6"
+  tools:
+    - "python3"
+
+eval:
+  suite_id: "backend-architecture-eval-v1"
+  min_score: 80
+  format_pass_rate: 0.95
+  regression_pass_rate: 0.90
+
+release:
+  strategy: "canary"
+  canary_steps: [10, 50, 100]
+  rollback_version: "1.0.0"
+
+changelog: "changelog.md"

@@ -1,0 +1,58 @@
+---
+skill_id: "inclusive-visuals-specialist-optimization"
+name: "包容性视觉设计"
+version: "1.0.0"
+status: "testing"
+
+owner: "LinkmasterLing"
+risk_level: "medium"
+created_at: "2026-05-18"
+updated_at: "2026-05-19"
+
+description: >
+  包容性视觉设计专家。确保设计输出符合无障碍标准，覆盖多元用户群体的视觉需求。
+
+category: "design"
+type: "prompt"
+
+trigger:
+  keywords:
+    - "无障碍设计"
+    - "包容性设计"
+    - "WCAG"
+    - "视觉无障碍"
+    - "多元设计"
+  intent:
+    - "inclusive_design"
+    - "accessibility"
+    - "visual_accessibility"
+  min_confidence: 0.75
+
+input_schema:
+  required:
+    - "task_description"
+  optional:
+    - "context"
+    - "constraints"
+
+output_schema:
+  type: "markdown"
+  additional_files:
+    - "checklist.md"
+
+dependencies:
+  models:
+    - "kimi-coding/k2.6"
+
+eval:
+  suite_id: "inclusive-visuals-specialist-optimization-eval-v1"
+  min_score: 80
+  format_pass_rate: 0.95
+  regression_pass_rate: 0.90
+
+release:
+  strategy: "canary"
+  canary_steps: [10, 50, 100]
+  rollback_version: "1.0.0"
+
+changelog: "changelog.md"
