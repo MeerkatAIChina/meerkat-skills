@@ -22,6 +22,7 @@
 
 | | 普通 Prompt | MeerkatAI Skill |
 |---|---|---|
+| 2026-05-20 | `incident-response-commander` (Incident Response Commander Agent) 新增 | agency-agents → engineering |
 | 2026-05-19 | `incident-response-commander` (Incident Response Commander Agent) 新增 | agency-agents → engineering |
 | 2026-05-19 | `incident-response-commander` (Incident Response Commander Agent) 新增 | agency-agents → engineering |
 | **结构化** | 松散的自然语言 | 统一的章节规范（简介→框架→链路→输出→质检） |
