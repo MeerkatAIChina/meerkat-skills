@@ -1,0 +1,47 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  upload-to-oss:
+    name: Upload to Alibaba Cloud OSS
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Prepare release files
+        run: |
+          mkdir -p release/skills
+          cp -r skills/* release/skills/
+          cp skill-index.yaml release/
+          echo "=== Files to upload ==="
+          find release -type f
+
+      - name: Upload to Alibaba Cloud OSS
+        env:
+          OSS_ACCESS_KEY_ID: ${{ secrets.OSS_ACCESS_KEY_ID }}
+          OSS_ACCESS_KEY_SECRET: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
+          OSS_REGION: ${{ secrets.OSS_REGION }}
+          OSS_ENDPOINT: ${{ secrets.OSS_ENDPOINT }}
+          OSS_BUCKET: meerkatai-skills
+        run: |
+          set -euo pipefail
+          tag="${GITHUB_REF_NAME:?}"
+          OSSUTIL_URL="https://gosspublic.alicdn.com/ossutil/v2/2.3.0/ossutil-2.3.0-linux-amd64.zip"
+          curl -fsSL -o /tmp/ossutil.zip "$OSSUTIL_URL"
+          unzip -oj /tmp/ossutil.zip -d /tmp/ossutil
+          chmod +x /tmp/ossutil/ossutil
+
+          # Upload skills directory
+          /tmp/ossutil/ossutil cp -r -f -e "$OSS_ENDPOINT" release/skills/ "oss://${OSS_BUCKET}/skills/${tag}/"
+
+          # Upload skill-index.yaml
+          /tmp/ossutil/ossutil cp -f -e "$OSS_ENDPOINT" release/skill-index.yaml "oss://${OSS_BUCKET}/skill-index-${tag}.yaml"
+
+          echo "=== OSS 下载地址 ==="
+          echo "Skills directory: https://${OSS_BUCKET}.${OSS_ENDPOINT}/skills/${tag}/"
+          echo "Skill index: https://${OSS_BUCKET}.${OSS_ENDPOINT}/skill-index-${tag}.yaml"
