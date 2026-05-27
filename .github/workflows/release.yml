@@ -36,12 +36,12 @@ jobs:
           unzip -oj /tmp/ossutil.zip -d /tmp/ossutil
           chmod +x /tmp/ossutil/ossutil
 
-          # Upload skills directory
-          /tmp/ossutil/ossutil cp -r -f -e "$OSS_ENDPOINT" release/skills/ "oss://${OSS_BUCKET}/skills/${tag}/"
+          # Upload skills directory (no version tag in path)
+          /tmp/ossutil/ossutil cp -r -f -e "$OSS_ENDPOINT" release/skills/ "oss://${OSS_BUCKET}/skills/"
 
-          # Upload skill-index.yaml
+          # Upload skill-index.yaml (with version tag)
           /tmp/ossutil/ossutil cp -f -e "$OSS_ENDPOINT" release/skill-index.yaml "oss://${OSS_BUCKET}/skill-index-${tag}.yaml"
 
           echo "=== OSS 下载地址 ==="
-          echo "Skills directory: https://${OSS_BUCKET}.${OSS_ENDPOINT}/skills/${tag}/"
+          echo "Skills directory: https://${OSS_BUCKET}.${OSS_ENDPOINT}/skills/"
           echo "Skill index: https://${OSS_BUCKET}.${OSS_ENDPOINT}/skill-index-${tag}.yaml"
