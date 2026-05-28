@@ -1,10 +1,10 @@
 # 🐱 猫鼬AI — 营销行业 AI Agent 技能库
 
-[![Skills](https://img.shields.io/badge/skills-119-blue)](./skills/)
+[![Skills](https://img.shields.io/badge/skills-123-blue)](./skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Claude%20Code%20%7C%20Hermes%20%7C%20OpenClaw%20%7C%20Codex-purple)](./skills/)
 
-> 🚀 **面向快消品、消费品、营销、咨询行业的 AI Agent Skill 开源集合。119 个即装即用的营销技能——从广告投放到 SEO、从内容策略到数据分析、从客户研究到销售赋能，全链路覆盖。**
+> 🚀 **面向快消品、消费品、营销、咨询行业的 AI Agent Skill 开源集合。123 个即装即用的营销技能——从广告投放到 SEO、从内容策略到数据分析、从客户研究到销售赋能，全链路覆盖。**
 
 ---
 
@@ -48,7 +48,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 
 ---
 
-## 📊 技能全景（119 个 Skill / 14 大类）
+## 📊 技能全景（123 个 Skill / 14 大类）
 
 ### 📢 广告投放（11 个）
 > 从单平台投放审计到跨平台预算分配，覆盖 Google / Meta / LinkedIn / Microsoft / TikTok 全渠道
@@ -120,7 +120,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `voice-extractor` | 写作声音提取——从样本中捕捉写作 DNA，训练 AI 模仿你的风格 | [→](./skills/voice-extractor/) |
 | `release-notes` | 发布说明生成——Git 提交→用户能看懂的 Changelog，自动分类+版本号建议 | [→](./skills/release-notes/) |
 
-### 📱 社交媒体（9 个）
+### 📱 社交媒体（10 个）
 > LinkedIn / Twitter / Instagram / TikTok / Reddit 全平台内容创作和策略
 
 | Skill | 一句话说明 | 直达 |
@@ -134,6 +134,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `tweet-draft-reviewer` | Tweet 草稿审查——8 条声音规则评分，低于 7 分自动重写 | [→](./skills/tweet-draft-reviewer/) |
 | `community-marketing` | 社区营销——从零启动到规模化运营的完整方法论 | [→](./skills/community-marketing/) |
 | `reddit-insights` | Reddit 情报挖掘——从子版块提取真实用户讨论和趋势 | [→](./skills/reddit-insights/) |
+| `meme-generation` | Meme 表情包生成——100+ 模板+AI 自定义图片，10 秒出图的社交传播利器 | [→](./skills/meme-generation/) |
 
 ### 📧 邮件与自动化（9 个）
 > 冷邮件、序列设计、Newsletter、Klaviyo/Braze 营销自动化全链路
@@ -222,8 +223,8 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `meeting-insights-analyzer` | 会议洞察分析——从转录文本诊断冲突回避/说话占比/填充词/倾听质量 | [→](./skills/meeting-insights-analyzer/) |
 | `one-three-one-rule` | 1-3-1 决策框架——1个问题→3个选项→1个推荐→完成标准→执行计划，终结「你觉得呢」 | [→](./skills/one-three-one-rule/) |
 
-### 🛒 平台与多媒体（8 个）
-> Shopify、ASO、视频/图片内容创作、YouTube 情报、前端设计、Web 测试
+### 🛒 平台与多媒体（10 个）
+> Shopify、ASO、视频/图片内容创作、YouTube 情报、前端设计、Web 测试、品牌设计系统、HTML 视频制作
 
 | Skill | 一句话说明 | 直达 |
 |-------|-----------|------|
@@ -235,14 +236,17 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `youtube-summarizer` | YouTube 摘要——自动获取字幕→结构化摘要→多平台推送 | [→](./skills/youtube-summarizer/) |
 | `frontend-design` | 前端设计引擎——审美方向→字体搭配→配色→动画→代码，打造有记忆点的营销页面 | [→](./skills/frontend-design/) |
 | `webapp-testing` | Web 应用测试——Playwright 自动化测试落地页/注册流程/表单，上线前消灭 Bug | [→](./skills/webapp-testing/) |
+| `popular-web-designs` | 54 套顶级品牌设计系统——Stripe/Linear/Apple/Airbnb 等即用 HTML/CSS 模板 | [→](./skills/popular-web-designs/) |
+| `hyperframes` | HTML 转营销视频——GSAP 动画+TTS 配音+字幕同步+着色器转场，代码即视频 | [→](./skills/hyperframes/) |
 
-### 🔎 情报与研究（2 个）
-> 快速研究工具——30 天全网扫描、RSS 情报聚合
+### 🔎 情报与研究（3 个）
+> 快速研究工具——30 天全网扫描、RSS 情报聚合、竞品自动监控
 
 | Skill | 一句话说明 | 直达 |
 |-------|-----------|------|
 | `last30days` | 30 天全网扫描——Reddit+X+Web 同步、7 分钟替代 2 小时手动研究 | [→](./skills/last30days/) |
 | `research-digest` | 研究文摘——RSS+Web 多源情报合成、关键发现+数据点+专家视角 | [→](./skills/research-digest/) |
+| `watchers` | 竞品情报监控——RSS/JSON API/GitHub 自动轮询+水位去重+cron 集成 | [→](./skills/watchers/) |
 
 ### 🧑‍💻 开发者营销与技术资产（3 个）
 > 面向开源项目运营、开发者社区营销和技术资产治理——从 GitHub README 优化到依赖安全审计
