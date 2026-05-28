@@ -22,6 +22,7 @@
 
 | | 普通 Prompt | MeerkatAI Skill |
 |---|---|---|
+| 2026-05-28 | `incident-response-commander` (Incident Response Commander Agent) 新增 | agency-agents → engineering |
 | 2026-05-27 | `incident-response-commander` (Incident Response Commander Agent) 新增 | agency-agents → engineering |
 | 2026-05-26 | `incident-response-commander` (Incident Response Commander Agent) 新增 | agency-agents → engineering |
 | 2026-05-25 | `incident-response-commander` (Incident Response Commander Agent) 新增 | agency-agents → engineering |
