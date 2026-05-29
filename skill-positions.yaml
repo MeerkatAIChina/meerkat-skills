@@ -1,0 +1,261 @@
+updated_at: '2026-05-29'
+total_skills: 27
+skills:
+- skill_id: fast-moving-consumer-goods-ecommerce-operator
+  name: 快消品电商运营
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  - references/fmcg_ecommerce_value_chain.md
+  path: skills/commercial/fast-moving-consumer-goods-ecommerce-operator/
+- skill_id: fast-moving-consumer-goods-supply-chain
+  name: 快消品供应链优化
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  - references/fmcg_value_chain.md
+  path: skills/commercial/fast-moving-consumer-goods-supply-chain/
+- skill_id: content-monetization-pipeline
+  name: 内容变现分发管线
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  - scripts/video_adapter.py
+  path: skills/content/content-monetization-pipeline/
+- skill_id: ppt-master
+  name: PPT Master — AI 原生可编辑 PPTX 生成
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  path: skills/content/ppt-master/
+- skill_id: product-promo-video-maker
+  name: 产品宣发视频生成器
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - config.template.json
+  - skill.yaml
+  - references/analysis-frameworks.md
+  - references/pipeline-guide.md
+  - references/subtitle-guide.md
+  - references/template-guide.md
+  - references/template-variables.md
+  - scripts/capture.py
+  - scripts/pipeline.py
+  - scripts/render.py
+  - scripts/voice.py
+  - assets/templates/base.html
+  - assets/templates/scripts.js
+  - assets/templates/styles.css
+  - assets/themes/dark-industrial.css
+  - assets/themes/robot-theme.css
+  - assets/templates/sections/brand.html
+  - assets/templates/sections/emotion.html
+  - assets/templates/sections/flowchart.html
+  - assets/templates/sections/framework.html
+  - assets/templates/sections/hero.html
+  - assets/templates/sections/opportunities.html
+  - assets/templates/sections/painpoint.html
+  - assets/templates/sections/valuechain.html
+  path: skills/content/product-promo-video-maker/
+- skill_id: whimsy-injector
+  name: 趣味注入师
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  - references/whimsy-injector-source.md
+  path: skills/creative/whimsy-injector/
+- skill_id: brand-guardian
+  name: 品牌守护者
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  - references/brand-guardian-source.md
+  path: skills/design/brand-guardian/
+- skill_id: image-prompt-engineer
+  name: 图像提示工程师
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  - references/image-prompt-engineer-source.md
+  path: skills/design/image-prompt-engineer/
+- skill_id: inclusive-visuals-specialist
+  name: 包容性视觉设计
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  - references/inclusive-visuals-specialist-source.md
+  path: skills/design/inclusive-visuals-specialist/
+- skill_id: ui-design
+  name: UI 设计
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  - references/ui-design-source.md
+  path: skills/design/ui-design/
+- skill_id: ux-architect
+  name: UX 架构师
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  - references/ux-architect-source.md
+  path: skills/design/ux-architect/
+- skill_id: ux-research
+  name: UX 研究
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  - references/ux-research-source.md
+  path: skills/design/ux-research/
+- skill_id: visual-storyteller
+  name: 视觉叙事师
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  - references/visual-storyteller-source.md
+  path: skills/design/visual-storyteller/
+- skill_id: ai-engineer
+  name: AI 工程师
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  path: skills/engineering/ai-engineer/
+- skill_id: autonomous-optimization-architect
+  name: 自主优化架构师
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  path: skills/engineering/autonomous-optimization-architect/
+- skill_id: backend-architecture
+  name: 后端架构设计
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  - references/backend-architecture-source.md
+  path: skills/engineering/backend-architecture/
+- skill_id: devops-automator
+  name: DevOps 自动化
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  path: skills/engineering/devops-automator/
+- skill_id: embedded-firmware-engineer
+  name: 嵌入式固件工程师
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  path: skills/engineering/embedded-firmware-engineer/
+- skill_id: frontend-development
+  name: 前端开发
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  - references/frontend-development-source.md
+  path: skills/engineering/frontend-development/
+- skill_id: incident-response-commander
+  name: Incident Response Commander Agent
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  path: skills/engineering/incident-response-commander/
+- skill_id: rapid-prototyper
+  name: 快速原型开发
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  path: skills/engineering/rapid-prototyper/
+- skill_id: security-engineer
+  name: 安全工程师
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  path: skills/engineering/security-engineer/
+- skill_id: senior-developer
+  name: 高级开发工程师
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  path: skills/engineering/senior-developer/
+- skill_id: manufacturing-ai-efficiency-pro
+  name: 制造业 AI 提效分析
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  - references/apqc_standards.md
+  - references/ie_analysis_toolkit.md
+  - references/manufacturing_value_chain.md
+  - references/standards_and_maturity_framework.md
+  - references/tencent_t34_model.md
+  path: skills/manufacturing/manufacturing-ai-efficiency-pro/
+- skill_id: skillops-manager
+  name: SkillOps 管理器
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  - scripts/skillctl.py
+  path: skills/operations/skillops-manager/
+- skill_id: filament-optimization-specialist
+  name: 耗材优化专家
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  path: skills/product/filament-optimization-specialist/
+- skill_id: mobile-app-builder
+  name: 移动应用构建
+  files:
+  - README.md
+  - SKILL.md
+  - changelog.md
+  - skill.yaml
+  path: skills/product/mobile-app-builder/
