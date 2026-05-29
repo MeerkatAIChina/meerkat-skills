@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate skill_positions.yaml — a lightweight skill tracking manifest.
+"""Generate skill-positions.yaml — a lightweight skill tracking manifest.
 
 Usage:
     python generate_skill_positions.py                  # full regeneration
@@ -15,7 +15,7 @@ import sys
 import yaml
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-POSITIONS_FILE = os.path.join(REPO_ROOT, 'skill_positions.yaml')
+POSITIONS_FILE = os.path.join(REPO_ROOT, 'skill-positions.yaml')
 SKILLS_DIR = os.path.join(REPO_ROOT, 'skills')
 
 
@@ -53,7 +53,7 @@ def discover_skills() -> list[str]:
 
 
 def build_entry(skill_path: str) -> dict | None:
-    """Build a single skill_positions entry from a skill directory."""
+    """Build a single skill-positions entry from a skill directory."""
     full = os.path.join(REPO_ROOT, skill_path.rstrip('/'))
     yaml_file = os.path.join(full, 'skill.yaml')
 
@@ -79,7 +79,7 @@ def build_entry(skill_path: str) -> dict | None:
 
 
 def load_existing() -> dict:
-    """Load existing skill_positions.yaml, or return empty skeleton."""
+    """Load existing skill-positions.yaml, or return empty skeleton."""
     if not os.path.isfile(POSITIONS_FILE):
         return {'skills': {}}
     try:
@@ -93,7 +93,7 @@ def load_existing() -> dict:
 
 
 def write_output(skills: list[dict]):
-    """Write skill_positions.yaml with ordered keys."""
+    """Write skill-positions.yaml with ordered keys."""
     data = {
         'updated_at': datetime.date.today().isoformat(),
         'total_skills': len(skills),
@@ -185,7 +185,7 @@ def cmd_skill(skill_id: str):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Generate skill_positions.yaml')
+    parser = argparse.ArgumentParser(description='Generate skill-positions.yaml')
     group = parser.add_mutually_exclusive_group()
     group.add_argument('--incremental', action='store_true', help='Append only new skills')
     group.add_argument('--skill-id', type=str, metavar='ID', help='Update or add a single skill by skill_id')

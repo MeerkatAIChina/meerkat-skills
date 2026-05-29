@@ -17,9 +17,16 @@ jobs:
         run: |
           mkdir -p release/skills
           cp -r skills/* release/skills/
-          cp skill-index.yaml release/
           echo "=== Files to upload ==="
           find release -type f
+
+      - name: Generate skill-positions.yaml
+        run: |
+          pip install pyyaml
+          python .scripts/generate_skill_positions.py
+          cp skill-positions.yaml release/
+          echo "=== Generated skill-positions.yaml ==="
+          cat release/skill-positions.yaml
 
       - name: Upload to Alibaba Cloud OSS
         env:
@@ -36,12 +43,12 @@ jobs:
           unzip -oj /tmp/ossutil.zip -d /tmp/ossutil
           chmod +x /tmp/ossutil/ossutil
 
-          # Upload skills directory (no version tag in path)
-          /tmp/ossutil/ossutil cp -r -f -e "$OSS_ENDPOINT" release/skills/ "oss://${OSS_BUCKET}/skills/"
+          # Sync skills directory (deletes orphan files on OSS)
+          /tmp/ossutil/ossutil sync -f -e "$OSS_ENDPOINT" release/skills/ "oss://${OSS_BUCKET}/skills/" --delete
 
-          # Upload skill-index.yaml (no version tag)
-          /tmp/ossutil/ossutil cp -f -e "$OSS_ENDPOINT" release/skill-index.yaml "oss://${OSS_BUCKET}/skill-index.yaml"
+          # Upload skill-positions.yaml
+          /tmp/ossutil/ossutil cp -f -e "$OSS_ENDPOINT" release/skill-positions.yaml "oss://${OSS_BUCKET}/skill-positions.yaml"
 
           echo "=== OSS 下载地址 ==="
           echo "Skills directory: https://${OSS_BUCKET}.${OSS_ENDPOINT}/skills/"
-          echo "Skill index: https://${OSS_BUCKET}.${OSS_ENDPOINT}/skill-index.yaml"
+          echo "Skill positions: https://${OSS_BUCKET}.${OSS_ENDPOINT}/skill-positions.yaml"

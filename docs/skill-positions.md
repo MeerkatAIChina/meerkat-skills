@@ -4,23 +4,23 @@
 
 ---
 
-## skill_positions.yaml
+## skill-positions.yaml
 
 ### 文件位置
 
 ```
-<repo-root>/skill_positions.yaml
+<repo-root>/skill-positions.yaml
 ```
 
 ### 用途
 
-`skill_positions.yaml` 是一个 YAML 格式的技能清单，记录 `skills/` 目录下所有 skill 的简要信息，方便外部工具快速定位和发现可用的 skills。
+`skill-positions.yaml` 是一个 YAML 格式的技能清单，记录 `skills/` 目录下所有 skill 的简要信息，方便外部工具快速定位和发现可用的 skills。
 
 它独立于 `skill-index.yaml`，两者用途不同、字段不同、互不依赖。
 
 | 文件 | 用途 |
 |---|---|
-| `skill_positions.yaml` | 轻量定位索引，仅 4 个字段 |
+| `skill-positions.yaml` | 轻量定位索引，仅 4 个字段 |
 | `skill-index.yaml` | 完整注册索引，包含版本、状态、分类等元数据 |
 
 ### 结构
@@ -89,7 +89,7 @@ python .scripts/generate_skill_positions.py --skill-id <skill_id>
 1. 遍历 `skills/` 目录，识别所有包含 `SKILL.md` + `skill.yaml` 的子目录为有效 skill
 2. 从 `skill.yaml` 中提取 `skill_id` 和 `name`
 3. 递归扫描 skill 目录，生成 `files` 列表（顶层文件优先，同层按字母排序）
-4. 写入 `skill_positions.yaml`
+4. 写入 `skill-positions.yaml`
 
 ### skill 识别规则
 
