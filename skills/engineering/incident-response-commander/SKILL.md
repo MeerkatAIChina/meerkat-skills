@@ -16,7 +16,7 @@ status: 'testing'
 ## 来源
 
 本 Skill 由 Agency Agents 项目（msitarzewski/agency-agents）的 **incident-response-commander** agent 转换而来。
-转换日期: 2026-05-29
+转换日期: 2026-05-30
 原始分类: engineering
 
 ---
