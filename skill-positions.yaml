@@ -1,8 +1,11 @@
-updated_at: '2026-05-29'
+updated_at: '2026-05-31'
 total_skills: 27
 skills:
 - skill_id: fast-moving-consumer-goods-ecommerce-operator
   name: 快消品电商运营
+  description: '快消品电商运营策略与执行。从选品到投放，拆解电商运营全流程，输出可执行的运营方案。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -12,6 +15,9 @@ skills:
   path: skills/commercial/fast-moving-consumer-goods-ecommerce-operator/
 - skill_id: fast-moving-consumer-goods-supply-chain
   name: 快消品供应链优化
+  description: '快消品供应链管理与优化。从采购到配送，识别供应链瓶颈，设计降本增效方案。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -21,6 +27,9 @@ skills:
   path: skills/commercial/fast-moving-consumer-goods-supply-chain/
 - skill_id: content-monetization-pipeline
   name: 内容变现分发管线
+  description: '将已生产的内容资产（视频/图文）转化为可分发、可追踪、可变现的全链路方案。支持多平台格式转换、发布排期、ROI追踪。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -30,6 +39,9 @@ skills:
   path: skills/content/content-monetization-pipeline/
 - skill_id: ppt-master
   name: PPT Master — AI 原生可编辑 PPTX 生成
+  description: 'AI驱动的多格式SVG内容生成系统，将PDF/DOCX/URL/Markdown等源文档转换为原生可编辑的PowerPoint（PPTX）。支持多角色协作、实时预览、模板复刻、动画、配音导出MP4等完整工作流。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -38,6 +50,9 @@ skills:
   path: skills/content/ppt-master/
 - skill_id: product-promo-video-maker
   name: 产品宣发视频生成器
+  description: '从任何产品输入生成完整的产品宣发视频（HTML分析页+录屏+语音合成+字幕）。支持多主题、多平台输出。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -69,6 +84,9 @@ skills:
   path: skills/content/product-promo-video-maker/
 - skill_id: whimsy-injector
   name: 趣味注入师
+  description: '趣味性创意注入与优化。为产品/内容/体验注入趣味元素，提升用户参与度与情感共鸣。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -78,6 +96,9 @@ skills:
   path: skills/creative/whimsy-injector/
 - skill_id: brand-guardian
   name: 品牌守护者
+  description: '品牌一致性守护与优化。审查输出物是否符合品牌规范，提供优化建议。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -87,6 +108,9 @@ skills:
   path: skills/design/brand-guardian/
 - skill_id: image-prompt-engineer
   name: 图像提示工程师
+  description: '图像Prompt工程优化。将创意意图转化为高质量AI生图Prompt，优化输出质量与一致性。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -96,6 +120,9 @@ skills:
   path: skills/design/image-prompt-engineer/
 - skill_id: inclusive-visuals-specialist
   name: 包容性视觉设计
+  description: '包容性视觉设计专家。确保设计输出符合无障碍标准，覆盖多元用户群体的视觉需求。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -105,6 +132,9 @@ skills:
   path: skills/design/inclusive-visuals-specialist/
 - skill_id: ui-design
   name: UI 设计
+  description: 'UI界面设计与组件规范。将用户需求转化为可执行的UI设计方案，输出设计规范与组件定义。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -114,6 +144,9 @@ skills:
   path: skills/design/ui-design/
 - skill_id: ux-architect
   name: UX 架构师
+  description: 'UX架构与体验优化。从用户旅程到信息架构，输出可落地的UX设计方案与优化策略。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -123,6 +156,9 @@ skills:
   path: skills/design/ux-architect/
 - skill_id: ux-research
   name: UX 研究
+  description: '用户研究与需求洞察。将模糊的用户需求转化为可验证的研究假设与洞察报告。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -132,6 +168,9 @@ skills:
   path: skills/design/ux-research/
 - skill_id: visual-storyteller
   name: 视觉叙事师
+  description: '视觉叙事与品牌故事。将品牌理念转化为视觉叙事方案，输出可执行的设计策略与素材规范。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -141,6 +180,9 @@ skills:
   path: skills/design/visual-storyteller/
 - skill_id: ai-engineer
   name: AI 工程师
+  description: 'ML模型开发、LLM集成、MLOps、生产部署。将AI/ML工程问题拆解为可验证、可追溯、可落地的人机协同工作流。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -149,6 +191,9 @@ skills:
   path: skills/engineering/ai-engineer/
 - skill_id: autonomous-optimization-architect
   name: 自主优化架构师
+  description: '系统性能与成本自主优化架构。识别系统瓶颈，设计自动化优化方案，量化收益与风险。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -157,6 +202,9 @@ skills:
   path: skills/engineering/autonomous-optimization-architect/
 - skill_id: backend-architecture
   name: 后端架构设计
+  description: '后端架构设计与系统架构方案。从需求分析到技术选型，输出可落地的架构设计文档。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -166,6 +214,9 @@ skills:
   path: skills/engineering/backend-architecture/
 - skill_id: devops-automator
   name: DevOps 自动化
+  description: 'DevOps流程自动化与CI/CD。将运维工作拆解为自动化脚本，设计持续交付流水线。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -174,6 +225,9 @@ skills:
   path: skills/engineering/devops-automator/
 - skill_id: embedded-firmware-engineer
   name: 嵌入式固件工程师
+  description: '嵌入式固件开发工程师。将嵌入式系统问题拆解为可验证、可追溯、可落地的人机协同工作流。 覆盖固件架构、驱动开发、实时系统、低功耗优化等场景。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -182,6 +236,9 @@ skills:
   path: skills/engineering/embedded-firmware-engineer/
 - skill_id: frontend-development
   name: 前端开发
+  description: '前端开发与技术实现。从UI设计到代码落地，输出可执行的前端开发方案与组件规范。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -191,6 +248,7 @@ skills:
   path: skills/engineering/frontend-development/
 - skill_id: incident-response-commander
   name: Incident Response Commander Agent
+  description: Incident Response Commander Agent Skill — 由 agency-agents 转换
   files:
   - README.md
   - SKILL.md
@@ -199,6 +257,9 @@ skills:
   path: skills/engineering/incident-response-commander/
 - skill_id: rapid-prototyper
   name: 快速原型开发
+  description: '3天内出MVP的快速原型开发。从概念验证到可用原型，输出最短路径的技术方案与代码骨架。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -207,6 +268,9 @@ skills:
   path: skills/engineering/rapid-prototyper/
 - skill_id: security-engineer
   name: 安全工程师
+  description: '安全审计、漏洞修复与防护策略。将安全问题拆解为可验证的检测项与修复方案，量化风险等级。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -215,6 +279,9 @@ skills:
   path: skills/engineering/security-engineer/
 - skill_id: senior-developer
   name: 高级开发工程师
+  description: '高级开发工程师全栈技术决策。从架构选型到代码审查，输出技术方案与最佳实践建议。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -223,6 +290,9 @@ skills:
   path: skills/engineering/senior-developer/
 - skill_id: manufacturing-ai-efficiency-pro
   name: 制造业 AI 提效分析
+  description: '制造业流程拆解→AI提效扫描→人机协同方案。将制造业问题拆解为可验证、可追溯、可落地的三层流程图与机会卡。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -236,6 +306,9 @@ skills:
   path: skills/manufacturing/manufacturing-ai-efficiency-pro/
 - skill_id: skillops-manager
   name: SkillOps 管理器
+  description: 'MeerkatAI Skill Registry的元管理层Skill，负责Skill的创建、校验、评测、发布和治理。它是SkillOps能力生产线的入口。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -245,6 +318,9 @@ skills:
   path: skills/operations/skillops-manager/
 - skill_id: filament-optimization-specialist
   name: 耗材优化专家
+  description: '3D打印耗材优化与参数调优。分析打印质量与耗材成本，输出最优参数配置方案。
+
+    '
   files:
   - README.md
   - SKILL.md
@@ -253,6 +329,9 @@ skills:
   path: skills/product/filament-optimization-specialist/
 - skill_id: mobile-app-builder
   name: 移动应用构建
+  description: '移动应用全栈构建。从需求分析到技术选型，输出可落地的移动应用开发方案。
+
+    '
   files:
   - README.md
   - SKILL.md
