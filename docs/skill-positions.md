@@ -20,7 +20,7 @@
 
 | 文件 | 用途 |
 |---|---|
-| `skill-positions.yaml` | 轻量定位索引，仅 4 个字段 |
+| `skill-positions.yaml` | 轻量定位索引，仅 5 个字段 |
 | `skill-index.yaml` | 完整注册索引，包含版本、状态、分类等元数据 |
 
 ### 结构
