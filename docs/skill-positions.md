@@ -89,7 +89,7 @@ python .scripts/generate_skill_positions.py --skill-id <skill_id>
 ### 工作流程
 
 1. 遍历 `skills/` 目录，识别所有包含 `SKILL.md` + `skill.yaml` 的子目录为有效 skill
-2. 从 `skill.yaml` 中提取 `skill_id` 和 `name`
+2. 从 `skill.yaml` 中提取 `skill_id`、`name` 和 `description`
 3. 递归扫描 skill 目录，生成 `files` 列表（顶层文件优先，同层按字母排序）
 4. 写入 `skill-positions.yaml`
 
