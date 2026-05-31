@@ -31,6 +31,7 @@ total_skills: 27
 skills:
   - skill_id: product-promo-video-maker
     name: 产品宣发视频生成器
+    description: 一键生成产品宣发视频，支持脚本撰写、素材匹配、语音合成与视频剪辑
     files:
       - README.md
       - SKILL.md
@@ -48,12 +49,13 @@ skills:
 | `total_skills` | int | 收录的 skill 总数 |
 | `skills` | list | skill 条目列表 |
 
-每个 skill 条目包含 4 个字段：
+每个 skill 条目包含 5 个字段：
 
 | 字段 | 类型 | 来源 | 说明 |
 |---|---|---|---|
 | `skill_id` | string | `skill.yaml` 中的 `skill_id` | skill 唯一标识 |
 | `name` | string | `skill.yaml` 中的 `name` | skill 显示名称 |
+| `description` | string | `skill.yaml` 中的 `description` | skill 简要描述 |
 | `files` | list | 扫描目录生成 | skill 目录下所有文件（深度优先排列） |
 | `path` | string | 扫描目录生成 | skill 目录相对于仓库根目录的路径 |
 
