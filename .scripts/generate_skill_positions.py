@@ -73,7 +73,7 @@ def build_entry(skill_path: str) -> dict | None:
     return {
         'skill_id': skill_id,
         'name': name,
-        'description': meta.get('description', ''),
+        'description': meta.get('description', '').strip(),
         'files': collect_files(full),
         'path': skill_path,
     }
