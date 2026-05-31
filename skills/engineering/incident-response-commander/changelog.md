@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0 (2026-05-30)
+## 1.0.0 (2026-05-31)
 
 - 初始版本，由 agency-agents 转换
 - 原始 agent: incident-response-commander
