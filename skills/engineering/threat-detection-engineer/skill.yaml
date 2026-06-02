@@ -1,16 +1,16 @@
-skill_id: incident-response-commander
-name: Incident Response Commander Agent
+skill_id: threat-detection-engineer
+name: Threat Detection Engineer Agent
 version: 1.0.0
 status: testing
 owner: LinkmasterLing
 risk_level: low
 created_at: '2026-06-02'
 updated_at: '2026-06-02'
-description: Incident Response Commander Agent Skill — 由 agency-agents 转换
+description: Threat Detection Engineer Agent Skill — 由 agency-agents 转换
 category: engineering
 type: prompt
 trigger:
   keywords:
-  - incident response commander
+  - threat detection engineer
   min_confidence: 0.75
 changelog: changelog.md

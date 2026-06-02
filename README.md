@@ -22,6 +22,11 @@
 
 | | 普通 Prompt | MeerkatAI Skill |
 |---|---|---|
+| 2026-06-02 | `threat-detection-engineer` (Threat Detection Engineer Agent) 新增 | agency-agents → engineering |
+| 2026-06-02 | `technical-writer` (Technical Writer Agent) 新增 | agency-agents → engineering |
+| 2026-06-02 | `codebase-onboarding-engineer` (Codebase Onboarding Engineer Agent) 新增 | agency-agents → engineering |
+| 2026-06-02 | `solidity-smart-contract-engineer` (Solidity Smart Contract Engineer) 新增 | agency-agents → engineering |
+| 2026-06-02 | `incident-response-commander` (Incident Response Commander Agent) 新增 | agency-agents → engineering |
 | 2026-06-01 | `incident-response-commander` (Incident Response Commander Agent) 新增 | agency-agents → engineering |
 | 2026-05-31 | `incident-response-commander` (Incident Response Commander Agent) 新增 | agency-agents → engineering |
 | 2026-05-30 | `incident-response-commander` (Incident Response Commander Agent) 新增 | agency-agents → engineering |

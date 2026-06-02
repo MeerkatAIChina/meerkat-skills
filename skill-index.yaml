@@ -1,7 +1,7 @@
 registry: manufacturing-ai-efficiency-Skill
-version: 2026.05.19-v5
-updated_at: '2026-05-19'
-total_skills: 27
+version: 2026.05.19-v9
+updated_at: '2026-06-02'
+total_skills: 31
 skills:
 - skill_id: content-monetization-pipeline
   name: 内容变现分发管线
@@ -273,3 +273,43 @@ skills:
   has_readme: true
   has_changelog: true
   path: skills/engineering/incident-response-commander/
+- skill_id: solidity-smart-contract-engineer
+  name: Solidity Smart Contract Engineer
+  version: 1.0.0
+  status: testing
+  category: engineering
+  type: prompt
+  risk_level: low
+  has_readme: true
+  has_changelog: true
+  path: skills/engineering/solidity-smart-contract-engineer/
+- skill_id: codebase-onboarding-engineer
+  name: Codebase Onboarding Engineer Agent
+  version: 1.0.0
+  status: testing
+  category: engineering
+  type: prompt
+  risk_level: low
+  has_readme: true
+  has_changelog: true
+  path: skills/engineering/codebase-onboarding-engineer/
+- skill_id: technical-writer
+  name: Technical Writer Agent
+  version: 1.0.0
+  status: testing
+  category: engineering
+  type: prompt
+  risk_level: low
+  has_readme: true
+  has_changelog: true
+  path: skills/engineering/technical-writer/
+- skill_id: threat-detection-engineer
+  name: Threat Detection Engineer Agent
+  version: 1.0.0
+  status: testing
+  category: engineering
+  type: prompt
+  risk_level: low
+  has_readme: true
+  has_changelog: true
+  path: skills/engineering/threat-detection-engineer/
