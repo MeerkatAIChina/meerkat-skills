@@ -1,10 +1,10 @@
 # 🐱 猫鼬AI — 营销行业 AI Agent 技能库
 
-[![Skills](https://img.shields.io/badge/skills-123-blue)](./skills/)
+[![Skills](https://img.shields.io/badge/skills-128-blue)](./skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Claude%20Code%20%7C%20Hermes%20%7C%20OpenClaw%20%7C%20Codex-purple)](./skills/)
 
-> 🚀 **面向快消品、消费品、营销、咨询行业的 AI Agent Skill 开源集合。123 个即装即用的营销技能——从广告投放到 SEO、从内容策略到数据分析、从客户研究到销售赋能，全链路覆盖。**
+> 🚀 **面向快消品、消费品、营销、咨询行业的 AI Agent Skill 开源集合。128 个即装即用的营销技能——从广告投放到 SEO、从内容策略到数据分析、从客户研究到销售赋能，全链路覆盖。**
 
 ---
 
@@ -48,7 +48,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 
 ---
 
-## 📊 技能全景（123 个 Skill / 14 大类）
+## 📊 技能全景（128 个 Skill / 14 大类）
 
 ### 📢 广告投放（11 个）
 > 从单平台投放审计到跨平台预算分配，覆盖 Google / Meta / LinkedIn / Microsoft / TikTok 全渠道
@@ -120,7 +120,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `voice-extractor` | 写作声音提取——从样本中捕捉写作 DNA，训练 AI 模仿你的风格 | [→](./skills/voice-extractor/) |
 | `release-notes` | 发布说明生成——Git 提交→用户能看懂的 Changelog，自动分类+版本号建议 | [→](./skills/release-notes/) |
 
-### 📱 社交媒体（10 个）
+### 📱 社交媒体（11 个）
 > LinkedIn / Twitter / Instagram / TikTok / Reddit 全平台内容创作和策略
 
 | Skill | 一句话说明 | 直达 |
@@ -135,9 +135,10 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `community-marketing` | 社区营销——从零启动到规模化运营的完整方法论 | [→](./skills/community-marketing/) |
 | `reddit-insights` | Reddit 情报挖掘——从子版块提取真实用户讨论和趋势 | [→](./skills/reddit-insights/) |
 | `meme-generation` | Meme 表情包生成——100+ 模板+AI 自定义图片，10 秒出图的社交传播利器 | [→](./skills/meme-generation/) |
+| `influencer-marketing` | 网红与创作者营销——选人审核/报价谈判/创作者Brief/披露合规/ROI衡量全流程 | [→](./skills/influencer-marketing/) |
 
-### 📧 邮件与自动化（9 个）
-> 冷邮件、序列设计、Newsletter、Klaviyo/Braze 营销自动化全链路
+### 📧 邮件与自动化（10 个）
+> 冷邮件、序列设计、Newsletter、SMS、Klaviyo/Braze 营销自动化全链路
 
 | Skill | 一句话说明 | 直达 |
 |-------|-----------|------|
@@ -150,8 +151,9 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `klaviyo-analyst` | Klaviyo 营销分析——Flow/Segment/Campaign 审计、可投递性 | [→](./skills/klaviyo-analyst/) |
 | `klaviyo-developer` | Klaviyo 技术集成——API/SDK/Webhook/OAuth/目录同步 | [→](./skills/klaviyo-developer/) |
 | `braze` | Braze 客户互动平台——Canvas 审计、多渠道协同、数据架构 | [→](./skills/braze/) |
+| `sms` | SMS/MMS 短信营销——弃购挽回/售后/唤醒序列+TCPA/10DLC/GDPR 合规体系 | [→](./skills/sms/) |
 
-### 🎯 市场策略（19 个）
+### 🎯 市场策略（22 个）
 > 定位、定价、竞品分析、客户研究、品牌策略、营销创意、获客工具——市场营销的「战略层」
 
 | Skill | 一句话说明 | 直达 |
@@ -173,6 +175,9 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `launch-strategy` | 发布策略——产品发布/功能公告/Product Hunt/GTM 全流程 | [→](./skills/launch-strategy/) |
 | `marketing-ideas` | 营销创意引擎——139条已验证增长策略，按阶段/预算/时间线筛选 | [→](./skills/marketing-ideas/) |
 | `free-tool-strategy` | 免费工具获客策略——Engineering as Marketing 全流程：构思→评估→获客→SEO | [→](./skills/free-tool-strategy/) |
+| `marketing-plan` | fCMO 级 12 个月营销计划——AARRR 结构 13 章节+17 节现状审计+Notion 即贴文档 | [→](./skills/marketing-plan/) |
+| `offers` | Offer 设计引擎——价值方程/赠品堆叠/保障设计/稀缺紧迫，让卖的东西本身更能打 | [→](./skills/offers/) |
+| `public-relations` | 公关与免费媒体——记者Pitch/新闻劫持/HARO响应/Press Kit 搭建 | [→](./skills/public-relations/) |
 
 ### 📊 数据分析（8 个）
 > Google Analytics / GTM / Looker Studio / UTM / 数据可视化 / RevOps
