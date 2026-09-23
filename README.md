@@ -1,10 +1,10 @@
 # 🐱 猫鼬AI — 营销行业 AI Agent 技能库
 
-[![Skills](https://img.shields.io/badge/skills-128-blue)](./skills/)
+[![Skills](https://img.shields.io/badge/skills-133-blue)](./skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Claude%20Code%20%7C%20Hermes%20%7C%20OpenClaw%20%7C%20Codex-purple)](./skills/)
 
-> 🚀 **面向快消品、消费品、营销、咨询行业的 AI Agent Skill 开源集合。128 个即装即用的营销技能——从广告投放到 SEO、从内容策略到数据分析、从客户研究到销售赋能，全链路覆盖。**
+> 🚀 **面向快消品、消费品、营销、咨询行业的 AI Agent Skill 开源集合。133 个即装即用的营销技能——从广告投放到 SEO、从内容策略到数据分析、从客户研究到销售赋能，全链路覆盖。**
 
 ---
 
@@ -48,7 +48,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 
 ---
 
-## 📊 技能全景（128 个 Skill / 14 大类）
+## 📊 技能全景（133 个 Skill / 15 大类）
 
 ### 📢 广告投放（11 个）
 > 从单平台投放审计到跨平台预算分配，覆盖 Google / Meta / LinkedIn / Microsoft / TikTok 全渠道
@@ -137,6 +137,13 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `meme-generation` | Meme 表情包生成——100+ 模板+AI 自定义图片，10 秒出图的社交传播利器 | [→](./skills/meme-generation/) |
 | `influencer-marketing` | 网红与创作者营销——选人审核/报价谈判/创作者Brief/披露合规/ROI衡量全流程 | [→](./skills/influencer-marketing/) |
 
+### 🎪 活动与线下营销（1 个）
+> 展会、Webinar、发布会、晚宴、演讲——先选对活动，再打赢会前与会后
+
+| Skill | 一句话说明 | 直达 |
+|-------|-----------|------|
+| `events` | 活动营销——主办/赞助参展/演讲/参会四种角色，Webinar 漏斗+赞助 ROI+24-48 小时跟进纪律 | [→](./skills/events/) |
+
 ### 📧 邮件与自动化（10 个）
 > 冷邮件、序列设计、Newsletter、SMS、Klaviyo/Braze 营销自动化全链路
 
@@ -153,7 +160,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `braze` | Braze 客户互动平台——Canvas 审计、多渠道协同、数据架构 | [→](./skills/braze/) |
 | `sms` | SMS/MMS 短信营销——弃购挽回/售后/唤醒序列+TCPA/10DLC/GDPR 合规体系 | [→](./skills/sms/) |
 
-### 🎯 市场策略（22 个）
+### 🎯 市场策略（24 个）
 > 定位、定价、竞品分析、客户研究、品牌策略、营销创意、获客工具——市场营销的「战略层」
 
 | Skill | 一句话说明 | 直达 |
@@ -178,6 +185,8 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `marketing-plan` | fCMO 级 12 个月营销计划——AARRR 结构 13 章节+17 节现状审计+Notion 即贴文档 | [→](./skills/marketing-plan/) |
 | `offers` | Offer 设计引擎——价值方程/赠品堆叠/保障设计/稀缺紧迫，让卖的东西本身更能打 | [→](./skills/offers/) |
 | `public-relations` | 公关与免费媒体——记者Pitch/新闻劫持/HARO响应/Press Kit 搭建 | [→](./skills/public-relations/) |
+| `marketing-council` | 营销智囊团——12 位殿堂级大师用各自公开框架为你的方案挑刺，输出「分歧地图」+主席综合建议 | [→](./skills/marketing-council/) |
+| `marketing-loops` | 营销循环引擎——把一次性动作变成有触发条件/自检/停止线的常驻循环，43 个现成循环目录 | [→](./skills/marketing-loops/) |
 
 ### 📊 数据分析（8 个）
 > Google Analytics / GTM / Looker Studio / UTM / 数据可视化 / RevOps
@@ -193,7 +202,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `revops` | RevOps 收入运营——线索生命周期/线索评分/市场到销售交接 | [→](./skills/revops/) |
 | `daily-briefing-builder` | 每日简报生成——从知识库拉取今日优先事项和待发内容 | [→](./skills/daily-briefing-builder/) |
 
-### 💰 销售赋能（9 个）
+### 💰 销售赋能（10 个）
 > 案例研究、客户证言、Lead Magnet、推荐裂变、联合营销、线索研究、会前准备
 
 | Skill | 一句话说明 | 直达 |
@@ -203,6 +212,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `testimonial-collector` | 客户证言收集——系统化收集/评分/格式化客户好评 | [→](./skills/testimonial-collector/) |
 | `lead-magnets` | 引流磁石——邮件获取的 Lead Magnet 规划/设计/优化 | [→](./skills/lead-magnets/) |
 | `lead-research-assistant` | 销售线索研究——AI 匹配潜在客户、打分排序、决策人定位、接触策略 | [→](./skills/lead-research-assistant/) |
+| `prospecting` | 潜客挖掘——ICP→候选池→资格验证→打分排序，四分支（SaaS/B2B/本地商户/需求信号）输出可溯源名单 | [→](./skills/prospecting/) |
 | `referral-program` | 推荐裂变引擎——推荐计划/联盟营销/口碑策略 | [→](./skills/referral-program/) |
 | `co-marketing` | 联合营销——找合作伙伴/策划联合 Campaign/资源互换 | [→](./skills/co-marketing/) |
 | `directory-submissions` | 目录提交——创业/SaaS/AI/MCP/No-Code 目录的 Backlink 获取 | [→](./skills/directory-submissions/) |
@@ -244,7 +254,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `popular-web-designs` | 54 套顶级品牌设计系统——Stripe/Linear/Apple/Airbnb 等即用 HTML/CSS 模板 | [→](./skills/popular-web-designs/) |
 | `hyperframes` | HTML 转营销视频——GSAP 动画+TTS 配音+字幕同步+着色器转场，代码即视频 | [→](./skills/hyperframes/) |
 
-### 🔎 情报与研究（3 个）
+### 🔎 情报与研究（4 个）
 > 快速研究工具——30 天全网扫描、RSS 情报聚合、竞品自动监控
 
 | Skill | 一句话说明 | 直达 |
@@ -252,6 +262,7 @@ cp -r manufacturing-ai-efficiency-Skill/skills/copywriting ~/.codex/skills/
 | `last30days` | 30 天全网扫描——Reddit+X+Web 同步、7 分钟替代 2 小时手动研究 | [→](./skills/last30days/) |
 | `research-digest` | 研究文摘——RSS+Web 多源情报合成、关键发现+数据点+专家视角 | [→](./skills/research-digest/) |
 | `watchers` | 竞品情报监控——RSS/JSON API/GitHub 自动轮询+水位去重+cron 集成 | [→](./skills/watchers/) |
+| `competitor-news-monitor` | 竞品新闻雷达——分层信源+按事件去重+重要度打分，只报实质性变化，无新闻即静默 | [→](./skills/competitor-news-monitor/) |
 
 ### 🧑‍💻 开发者营销与技术资产（3 个）
 > 面向开源项目运营、开发者社区营销和技术资产治理——从 GitHub README 优化到依赖安全审计
